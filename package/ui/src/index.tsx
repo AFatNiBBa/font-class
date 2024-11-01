@@ -16,22 +16,15 @@ export { anim, generic };
  */
 export function createIcon(name: string, hasSecondary: boolean, fontUrl: string) {
     const id = `${name}-${createUniqueId()}`;
-
-    // Style
-    document.head.insertAdjacentHTML("beforeend", `
-        <style>
-            @font-face {
-                font-family: "${id}";
-                src: url("${fontUrl}") format("woff2");
-            }
-
-            .${id} { font-family: "${id}"; }
-        </style>
-    `);
-
-    // Component
-    return (props: ComponentProps<"span">) => {
+    const ruleFamily = `font-family: "${id}";`, ruleSrc = `src: url("${fontUrl}") format("woff2");`;
+    const blockFace = `@font-face { ${ruleFamily} ${ruleSrc} }`, blockClass = `.${id} { ${ruleFamily} }`;
+    document.head.insertAdjacentHTML("beforeend", `<style> ${blockFace} ${blockClass} </style>`);
+    Icon.id = id;
+    return Icon;
+    
+    /** Component that creates an {@link HTMLSpanElement} that renders the chosen icon */
+    function Icon(props: ComponentProps<"span">) {
         const [ mine, other ] = splitProps(props, [ "class" ]);
         return <span class={`${id} ${internal.icon} ${hasSecondary ? internal.duotone : ""} ${mine.class ?? ""}`} {...other} />
-    };
+    }
 }

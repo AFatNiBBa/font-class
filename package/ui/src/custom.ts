@@ -2,6 +2,8 @@
 import type anim from "./style/anim.module.scss";
 import type generic from "./style/generic.module.scss";
 
+import { Property } from "csstype";
+
 /** The prefix of the customization CSS variables */
 export const CSS_VARIABLE_PREFIX = "--solid-fa6-pro-";
 
@@ -20,80 +22,80 @@ export function custom<T extends IconOpts>(obj: T) {
 export interface IconOpts {
 
     /** Custom override of the color for secondary part of icons */
-    primaryColor?: string;
+    primaryColor?: Property.Color;
 
     /** Custom override of the opacity for secondary part of icons */
-    primaryOpacity?: number | string;
+    primaryOpacity?: Property.Opacity;
 
     /** Custom override of the color for secondary part of icons */
-    secondaryColor?: string;
+    secondaryColor?: Property.Color;
 
     /** Custom override of the opacity for secondary part of icons */
-    secondaryOpacity?: number | string;
+    secondaryOpacity?: Property.Opacity;
 
     /** Custom angle for the {@link generic.rotateBy} class */
-    rotateAngle?: number | string;
+    rotateAngle?: Property.Rotate;
 
     /** Custom override of the {@link CSSStyleDeclaration.animationDelay} property of icons */
-    animationDelay?: number | string;
+    animationDelay?: Property.AnimationDelay;
 
     /** Custom override of the {@link CSSStyleDeclaration.animationDirection} property of icons */
-    animationDirection?: string;
+    animationDirection?: Property.AnimationDirection;
 
     /** Custom override of the {@link CSSStyleDeclaration.animationDuration} property of icons */
-    animationDuration?: number | string;
+    animationDuration?: Property.AnimationDuration;
 
     /** Custom override of the {@link CSSStyleDeclaration.animationIterationCount} property of icons */
-    animationIterationCount?: number | string;
+    animationIterationCount?: Property.AnimationIterationCount;
 
     /** Custom override of the {@link CSSStyleDeclaration.animationTimingFunction} property of icons */
-    animationTimingFunction?: string;
+    animationTimingFunction?: Property.AnimationTimingFunction;
 
     /** Custom override of the scale for the {@link anim.beat} animation */
-    beatScale?: number | string;
+    beatScale?: Property.Scale;
     
     /** Custom override of the opacity for the {@link anim.fade} animation */
-    fadeOpacity?: number | string;
+    fadeOpacity?: Property.Opacity;
     
     /** Custom override of the scale for the {@link anim.beat} animation */
-    beatFadeScale?: number | string;
+    beatFadeScale?: Property.Scale;
     
     /** Custom override of the opacity for the {@link anim.beat} animation */
-    beatFadeOpacity?: number | string;
+    beatFadeOpacity?: Property.Opacity;
     
     /** Custom override of the horizontal start scale for the {@link anim.bounce} animation */
-    bounceStartScaleX?: number | string;
+    bounceStartScaleX?: Property.Scale;
     
     /** Custom override of the vertical start scale for the {@link anim.bounce} animation */
-    bounceStartScaleY?: number | string;
+    bounceStartScaleY?: Property.Scale;
     
     /** Custom override of the horizontal jump scale for the {@link anim.bounce} animation */
-    bounceJumpScaleX?: number | string;
+    bounceJumpScaleX?: Property.Scale;
     
     /** Custom override of the vertical jump scale for the {@link anim.bounce} animation */
-    bounceJumpScaleY?: number | string;
+    bounceJumpScaleY?: Property.Scale;
     
     /** Custom override of the jump height for the {@link anim.bounce} animation */
-    bounceJumpHeight?: number | string;
+    bounceJumpHeight?: Property.Translate;
     
     /** Custom override of the horizontal land scale for the {@link anim.bounce} animation */
-    bounceLandScaleX?: number | string;
+    bounceLandScaleX?: Property.Scale;
     
     /** Custom override of the vertical land scale for the {@link anim.bounce} animation */
-    bounceLandScaleY?: number | string;
+    bounceLandScaleY?: Property.Scale;
     
     /** Custom override of the rebound for the {@link anim.bounce} animation */
-    bounceRebound?: number | string;
+    bounceRebound?: Property.Translate;
     
     /** Custom override of the X component of the rotation axis vector for the {@link anim.flip} animation */
-    flipX?: number | string;
+    flipX?: Property.Translate;
     
     /** Custom override of the Y component of the rotation axis vector for the {@link anim.flip} animation */
-    flipY?: number | string;
+    flipY?: Property.Translate;
     
     /** Custom override of the Z component of the rotation axis vector for the {@link anim.flip} animation */
-    flipZ?: number | string;
+    flipZ?: Property.Translate;
     
     /** Custom override of the rotation angle for the {@link anim.flip} animation */
-    flipAngle?: number | string;
+    flipAngle?: Property.Rotate;
 }
