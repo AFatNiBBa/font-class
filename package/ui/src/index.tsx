@@ -4,6 +4,7 @@ import generic from "./style/generic.module.scss";
 import internal from "./style/internal.module.scss";
 
 import { ComponentProps, createUniqueId, splitProps } from "solid-js";
+import { isServer } from "solid-js/web";
 
 export * from "./custom";
 export { anim, generic };
@@ -18,7 +19,7 @@ export function createIcon(name: string, hasSecondary: boolean, fontUrl: string)
     const id = `${name}-${createUniqueId()}`;
     const ruleFamily = `font-family: "${id}";`, ruleSrc = `src: url("${fontUrl}") format("woff2");`;
     const blockFace = `@font-face { ${ruleFamily} ${ruleSrc} }`, blockClass = `.${id} { ${ruleFamily} }`;
-    document.head.insertAdjacentHTML("beforeend", `<style> ${blockFace} ${blockClass} </style>`);
+    if (!isServer) document.head.insertAdjacentHTML("beforeend", `<style> ${blockFace} ${blockClass} </style>`);
     Icon.id = id;
     return Icon;
     
