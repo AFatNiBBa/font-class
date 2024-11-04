@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/greater-than?s=sharp-solid greater-than}
  * @preview ![greater-than](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/greater-than.svg)
  */
-const GreaterThan = createIcon("greater-than", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABSwAAAGxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbHQLBgABNgIkAwgEIAWDLQczG3cEyJ4FdsP1ESbF0DJPPgy5G+Lh/9fS+/5MAHiSlAAVIfs6UvW1QKoOjdlTW129yaz6VbXv2R4C8fc3zzuPAnxGoY1pSwMZ0/c6TyCxLu+8BLLAvlBCnLWzW6iHfiR9yicZlo8MkxPyuJc9V0F6k+BFfmn80+M5SU0GIJoBsHLXtq2+l6IU8aeM+GMzAmIlKAQyZOgXYIlMoF+uQC4XlKJcdv/AggCiEl+ZQI4MQxgHyEESed5VV9GQ76S7a7OOzo4jMTbEmDgc7RFxLI5GjLxrO8mjlStXnnprvEnGK4GV1mm+HT+wDggEXy5pqmnJ/+q6BP5+iz4Zj9OolkCQTSlPsT8eQzwWkJHiphEFsUDSJQGeWu+lAKEWAZJKtQJk+jQLkKs1WYAKg+YKUKnWNpnIa4R2Bxok9a5AZp4HkGv3Hios8cOo1B7ZEWEMzHzQEtdJbO1WMXPajGJRMUxU1upUWC4upuUJN31jIg6ddMlF151w3BnXBXHVVvuGC9Zp+FoIFWaaZobCIsVyfr+/0wlXXXPGJRfTmsWK/foEN/X+idASJp0llCQi1b8IaeqVAwAAAA==");
+const GreaterThan = createIcon("greater-than", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3QAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFwLBgABNgIkAwgEIAUGBzMbuALInge2MfPBRyjioUzLsviLEA9fe9+du29TanOtqK4zUb0KF1r1aBQeIVH4GPMHy8SB/smsqlInQWlU++4GB+4JRRKIBeEE20L7QranTDIT0NJ3Q443xVcVpO8JvqVp/NXjK0lNASCaAbB5sLPtdylKEU/liCdbCIhNMCxQoEC/ACsKgX7ZMLIsKEW5zB84TABRaZUJZBRoQy8ggyRyrquraMj7zmqLjqsJ45ftcXM9+rP55xH3fNh8+CFgzS+1BwSC5X/nlxdNK/+r6xL48+vnhvExjWoJBMVkedJpfATeUAAAUjwajY8IJHWSjVZKgHmQJBGp/mUwdRMA");
 
 export default GreaterThan;

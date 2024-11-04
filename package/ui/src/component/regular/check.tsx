@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/check?s=regular check}
  * @preview ![check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/check.svg)
  */
-const Check = createIcon("check", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABSQAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbG0LBgABNgIkAwgEIAWDLQcsG2kEyC4ObDptgS9ehEhJG6Rd3JmFL1fGCMqx3EvyxHXIChULjUJWs7CVdSwFGtOprR8/Nt9hHqEdJNcqmkya6bStrZQtz6tYoq0SIqFO609mSJb+qn3PlxAl7fN/uef3/OgAv9HhmYyNS7fN53u0OYHEetmYFAeSBZYoZu7qPqYWrbwWUpak/PH4uUKJ95ic9JoAHuOXxj8szoGkkgFEHwBwfFGtYLunPdGPEIgflEBAHAOYQcjImEBgj1RggswMKIrgl4Rw/4EMBBBV8u4ECjLGwTyAApIoZaSVd8q5Vt68vDAP6GqpQZfjt9WpSTjS9uBhqxG8tXY7pVKn8/AAxb19f4r///J1IBB0J7+yGNN/Km0Cfx/985NiID4kD6AugSBviNCLrYETjo2g7a24hw0BEJJRwsantj2BQGgiQFLVFCAbZ0KgaFpHoGJKBIGqphNSURrCmH4GSdsVyHadgWLMI6jY8+lUjYX0edCHS//OErI1lNnFAa+fk9zNKXPiJK+meFi0n1LPgYMYWVs5NjQwdVwhhyr+iaWsBWf8EAvw8mNJPF3d7m8YOnRkam0Vtknh9ardqT3tgCIhqJsiSSJS5ZIBAAAA");
+const Check = createIcon("check", false, "data:font/woff2;base64,d09GMgABAAAAAAFYAAoAAAAAA3QAAAEPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGMLBgABNgIkAwgEIAUGBywbuALILgps9xRLmAmDlu3FNtiYt6A4R6h0gu/3e91z330BVogqKpp1JgpYknBfqICMBhsWKhMVx63Qf2o7lQTJDPnV0PYAITP/fSL/u2t1cny78QPMIYOANMigRQlbMYKNMXQ0o/cqyHEeK0mnCU46ND7rckBSFgCiDQDza0uLHqtRjXj7H/FmAQExDwYFChToFWBKIdArG0SWBdX4Lz9wkACixhYnkFGgHf2ADJLIuaWxbM6rjWXD/mnnzsX46lnP9djK2vXwXdvdl9uz+3Vqa5ubj49pbq5UvtUMBIKPv67Wqa91jQl8ejibEE/pDnUSCIqJ/xO24xH+ZwSgkKJi+KJA0iIxavAmISUilV8AAAA=");
 
 export default Check;

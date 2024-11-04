@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/box?s=sharp-light box}
  * @preview ![box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/box.svg)
  */
-const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABVgAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBKQsGAAE2AiQDCAQgBYMtByobowTIngXu3iVkRMIIE+GUt2vx8P1c77kv2Z3+ZIucqQJmRci+jkChIldFaMSf2k5l9TYziynkqn3Pj5D4+b8c37vnRwvk8534oYyNa+pY4LuxnycQaNTLN5X2PAssTdCydnbLG4TfJD7ySYZJP2wWJ8jjfqRGupvgZvzQ+KunGyR5BiA6AGDW6uXLvG+N1ojfTcRvSxAQs0ElkCFDHwGmygT6yFXI5YLWaDbpP7AigKjjVyaQo47xmAXIQZLneUvZ0rGstc1XlbVifVmUoojVK9OTUzQii3J1URYRZaxc1WjbWBEpRNk2IotVA152ePkvu1hx+TyoWzw1ePO9y68IriBefXFmBJ13u16eif0zbuqgUj2pdNA8DALB+0/bt7n91P9tygT+vHu+X7M13qeXaCOBIBvazIZ4D0QO4CelOGVAvEcgGS7H79pwS4BQIEBSVwiQ6a2DALnCEAFq+hknQF1huUzkLUIXGytIGo6CzHgXQa6Lt6Bmqm95XZfIjEe4euHtljpfwvN2VaOGj6wmV9NaEe2B85tTqmVt4Ck3MQhH7XLYISfstMNeJwR6zLLqpIPma8g8X1QZZbiRKpNV29394VV2Oua4vQ47FLaZojofDXRKnz8IZsK0o8VJ8oewv+3wGQA=");
+const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA4AAAAD6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcG0LBgABNgIkAwgEIAUGByobwALIhoevuX/P3ewndMwFXbZAJFuF5L/u1KNnlfEx4k0tgY5OTsQ/Px8MPm8LLpIFmqAFHsOVcjjkPhhyvIhlTaTnqcJah8ZXA56R5AJA9AJg+9GDu5WNaERU9TuishMBsQOMCxQoMCzAJoXAsGwcWRY0oq79A8cJIJqtI4GMZgxiApBBkpHmjqaufCRV7Sc7tJ9PncXF9uhY6jyUuorJt71vv09UVyqHHt499/L6mEeIvjx3d++2rWvry/VAIJi6+nDubM+m/60dCXz5/PM3BetGlOktWiUQFMv1slNRQpQC2IkpbpiMEoGkX8ZqswTYCCbJpS4uXLsFAAAA");
 
 export default Box;

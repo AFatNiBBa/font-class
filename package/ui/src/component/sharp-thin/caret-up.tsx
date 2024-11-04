@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/caret-up?s=sharp-thin caret-up}
  * @preview ![caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/caret-up.svg)
  */
-const CaretUp = createIcon("caret-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTAAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEBCwYAATYCJAMIBCAFgy0HLxuABMieA+6uYgFc22DIixcFBJF8fPIyxvPUfr9zdxeVJFrNkoeskUwkNEJ7DUlUhlQphaH+IZK//8/+vB8c62/vLJkVTEIz2tpaWnVcYzPv1b7vAF3wf/9zzef3/BrwGx1aFJY29fM7qlw8n8CAK3AiAx/YgCY+AZu10ykMot/06VO+T4YJw+YJLW30CJT3AnT1TdOjOUFRKwAyDQCu7sslvKLw7w/yrQACuQKwhkFFxRIGnOIES3hroGnCDx//AwkCZBD0wgIaGjbALoAGitJ4nUknGPiaTlDr9Uq9yiDjDMOpChgZMzB4VLOcp7/+1g0wfXbPYQcN0bqXj85ha8z+nhmkfw8gCKOPzx5MyX95jAX8+l77DeWSPYNhBYS61d/SyQEgl2AAACUHWHIJCIoFLHo47gUDYhQeikGjUC0yQzNqEwasCLHGB9c4aQpiXhegGPcE1YkjNPMuMODUOxw0n/pQ+GPm/2kpaYmktpHP7aU4TXMsnD2b1xNkVq2H1LPhKgaWFnb6esZ2gt4oJXtzaQ1N+SDi4+ZF4mi5ejxf07exNba0KJsk0H7T6qBP22CwiPFApiikyHfQ27n2Kw==");
+const CaretUp = createIcon("caret-up", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2gAAAD5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFwLBgABNgIkAwgEIAUGBy8btALIHoexe2TJLOrlyyCKoxEqnYfv117Pffs2QKTDmh0rwpKQbXTJr66qBVKs6mPMn9pMZfVv5gez9wkDB+0BN/UmxbRLJ9eIb2FriMBhKMhx4YmS9CZBddO4N+w1SVEAiC4AbJ4c7PtTi1rEXf0bcWcXAbEJpgQKFBgTYEUhMCabQpYFtajX94FTBBANLEogI6MHI4AMkpRzWbaW7fm4tWw5OTnSdnKoPWY+dH34N210vqueV8+Hp6qvb6vFDUAg+Dqw9U0r/5taE/j7+/d1MDbSBzRJIChm67Mu4xZiQwAAUtyaiQ0EkhaJaIMEWIaSRKSmDp7OPQs=");
 
 export default CaretUp;

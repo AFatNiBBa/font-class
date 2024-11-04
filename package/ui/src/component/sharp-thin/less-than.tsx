@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/less-than?s=sharp-thin less-than}
  * @preview ![less-than](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/less-than.svg)
  */
-const LessThan = createIcon("less-than", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABSQAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaG8LBgABNgIkAwgEIAWDLQcwG28EyJ4D7moYq/tx+Mg5mBnjN6xYFUM8fI6h7ycpICkixboSLZAmEr6ONmF2VbbG7CZX/2Vt76O+/kdyrXftEpLEpIm1dJXRabTESGSCuQN0wf/9cfPPO48CfEahjWlLA2lzNOd5Aol1eedjAWVh9kXx6zbZY5FUvhESJBEdl3h8zVDiWZea9JnAa3tp/KDHnSRnANEMANg6KEp4RcT3/0l8YxsExBZgGCEjox+BVUqBfirDoCiCvzz9BzIEEJVkyQQKMvrABIACkiilzVjRUPbLBrUXh52mi0QHHQXFcXSCRmXb12fk3P3L5Jkd8wzmdU2r8hff0AoQCH6//f/TaCr8qusS+Of3B3dWEw9JRrUEgjz1n1KNs2rV8YAAaCnuuI0vCSRtFOSp9d4ECLUIkFSqFSDrY0OgqDWJQIVBSQQq1dqhFKVGaFebkNS7hGzFAYp2D6iw6q1Vao8cH5R3qe9ZvKgRYYijoQjneOsZtMsJ7ub5WPTsU8aLSfQtzG31dI1sFbYmmTszooUKfohFhUSwHL4OX8cretY2RhbmtU8ev1c99na5F4qC4C5wJYlINWEnBMMNAAA=");
+const LessThan = createIcon("less-than", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2QAAAD0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAUGBzAbrgLIjsO44TuyxVL+R6jkPPy3X3rf/AkQ27BmnRPFKOOgBL66QnZ9UdXHiIJFVb3BrJPjM8eWpIm1JZpLkJcHmrjlNgYqDof04jcKW0GOR85VkN4mvOnR+KXHa5KiABDNAFjeWlv19Xt8j7gvvyfurSAglsGwQIEC/QLMKQT6ZcPIsuB7lMv+gcMEEJVmMoGMAk3oAmSQRM5VdRUNeTPZ2qtjJ3F6NlpqLv0ZuXT7+PpjrbV1o6Q+EAi+vRtrO2qa+19dl8DPL/9+7V41cZdKqJZAUIyXx+3Hc9Wq404AAFLcGD0skF4xSiWoWXCJSDUWnnAAAA==");
 
 export default LessThan;

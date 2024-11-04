@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/seal?s=sharp-duotone-solid seal}
  * @preview ![seal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/seal.svg)
  */
-const Seal = createIcon("seal", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABUwAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIERCwgAATYCJAMKBCAFgy0HRBunBMgehXGzc4QoUyaLOzsKX0WNh/+/93Ofc+9/06qVRr0kHXQaxjp1oHisgX4eCvBQgP4KNkv4+f+/ufuBzKHS3iHtldmaVtK2R7MZm6HYbGZT4Pe/fxr/NF4q4DMq2h7a+ASfM16BAtem1XvmZ3oGdruzWUir5dVISHJczHF5oMaP8lGH/JbAJ/4fwPhN9iENFAAxDgAeXY+G+PWil3Hb3hC3BiAgHgMWMRQUzGLgLl5glmARVFXQy7alF227CAFEgz9bQIOCVXAMoIJE1Lo01BmpV7wz+OxqMh2zwRAXcWnRELpGga5uBpe7492/S57SveuMh50dyhveAwLBq5t/PRm7+79/KMHP7//F/Y7apeyiX4KgbLQbZgmSAABkfKAkECiWcPBu2GcBwiACqTEIxQwJqkHr0DEvum8MOseLOiBMmwukYa+hOPKGatoXOu76+43pKBrDnDfzYUusSqxco13bpZy6scQqAUXzgqbNlZevabCLlbOTh6WFrUdB3Ayjp6NqhJe+iHhsLpKj5exanKJ/c7dt8+tLCrTfVb3G3Ro4nEi6Z6MoREYZfpyqpXiymPEXDAA=");
+const Seal = createIcon("seal", true, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA4AAAAD1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGsLBgABNgIkAwgEIAUGBzUbyQLIHoex82RJN5qQHw6H0hNU+731zNsQSEIZ1kCOFLBGnYpQ6KIj7NdRx+VjxIEjefolsylhfb27wQFADrGHGPASPcGCC9qlyHmMJcWT8Y2roMTHKk3ka8JLlsYf/e5JbRWA6AXA+tHerm/f83vGe/1GvNtBQGyAMYEKFYYEWFIJDCnGUBTB96xr/cDRWgDRrJMJCir0YQpQQIpSejuausqhsP3ycL/d/oGOg6OOODqMiUZv49+4C7Zut6BvbtgHAsGvzZ/1LP1v7Ujw88PfztXfUjbQKkFQTdfTzhNABJ6YcWciIZB6pbJ5oEVDSiK7z3LmcQ==");
 
 export default Seal;

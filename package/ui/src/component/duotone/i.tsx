@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/i?s=duotone i}
  * @preview ![i](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/i.svg)
  */
-const I = createIcon("i", true, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABXgAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBKQsIAAE2AiQDCgQgBYMtBz4buQTIhof/XzPvmz/J7pZxWgUIiggcEKp6AlVVhzEip5ZAZ/qbf955tEAegDcmdh7IAp/zPIFEpk3wAglo/mH6Dey/bYhgoxBPQ0LCJKKxqvFaII/56bQS2YOsgmv8P4DxVUenyTQkANECAJOXLJjlXTWqWVRqb4iKmQiIKaAQSEjoIsA4SaCLXIFcLqhmtRrVqNUKAogy3j6BMhLGYAIgBxkiz4c0LjXNFzcuNVpxsU3Ebcfb3mncOLJoFJahV5rGpfb34kS7u40aRYrGZkDPRy0efe9R2VzR/WGz85xvVgnC15qEUAZFauutcRwIBPXPKyPWNB/3v75xBr68/flX+R3VqjEpe4R6GQhSv1o/K+MwxCQBAMjisJ4xCQSSITKy1ybuChAaIUCmrJEASWctBMg10leAkm6GC1DWyAJJ5A1CG6sayDSxDyQjHAG5Nl6DknHeK2VtIr0e5uyZz1viDAtNryoGDxhUjCmGBmUfBJWLY4tpqdfhFOgNvTbbY7eDNtlom4MG2W+WfsguMyJ4ui8qDDbAIIUximX7XlyMyn4HbPP59TJjFfvlXg7H8b3hwAwwhNQmicgiNWzrfweFxsrfNAAA");
+const I = createIcon("i", true, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA7QAAAEKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBEwsGAAE2AiQDCAQgBQYHMhvuAsiO0yWyITBHFA/f7/e/tfc9X0zTdzSKN0jmlVB+RkQT/WUSiem3hDdUhsSQb0aZvevkTI5296OkXlucBxZQiglY3mAcE9vpzApKXKse6iC/ZY03Xhp/zHhI6qkAxDAAjl86d9avdrYz6uYHUTuDgDgBlgUqVJgX4JBKYF6xjKII2tk0+oFLjQCiUwcTFFTYi4OAAlKUstbXMVAu9nX0Xns+/tHdiU99fdk7d+DF1Je4N/m5t7fqQ7raGm79XamrLX0ffPp0MLp97DZNtw8CwenTB9waOvS/uy/B75//4yts2nEsW+iWIKi2mi3XYxfimAAAZOxajWMIpDWp6JTofkFKIvvubP8AAA==");
 
 export default I;

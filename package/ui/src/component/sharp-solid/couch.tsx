@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/couch?s=sharp-solid couch}
  * @preview ![couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/couch.svg)
  */
-const Couch = createIcon("couch", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBNAsGAAE2AiQDCAQgBYMtBywbsATIHoex22RJNTRD+bgS8fC1Vr7fM7N1NxuGDhEpYHJAPo5UTsfGRa0LoJBbsamTUZjMqjxV+z7/l9Mbz8cG+Xyua9Hgxev5Hd1uzOcJ9Dzv8k15noVZotju3ByToH3SiEjyO3a8zlDG7+KJivQywdP0ofHTUE9IOgsA0QcAa/bu3KHVjnbEp/+IT7YhINaALFCgwAgBlisERihllEpBO/7/p//ATADRwK9MoESJ1VgPKEGSynLguGbVs9zTrOqDQrMpRM8AUYoRvdTNOgVJA0vgi6hrXPB7BI/UY1/3uXuMM6x61QVQHnXMA8dkOXfRWg2O2msZ86zO8WqZ0/LzQCD4/uVmR3sv/9XRTODH293wuP/t9CCNDgkExfT/0x1KD4CEAaQp7hhrviiQLJbwu/bwTIBQI0DSUAtQGK6PAKXaNAEqoywQoKG2UyHKTmGAwwKSHq6DwkJ3QWmAN6Cy3LukYUAUKqQqgPqBy9rYohv25TkzZ+eleVopmlbIfntZ3nYn37FTU/CkM6664pbTTjnvVsPcsCO/7bKNK2yDH8rmmGm2bKl83N4f3+O0G24676orcZdl8v1gsjvrxVPwMAkw9/GhVIpUnbx6++Q5AAAA");
+const Couch = createIcon("couch", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA3wAAAEHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbG0LBgABNgIkAwgEIAUGBywbwgLIngfGLfNWmugQKkp4LxwjVDoP3+/NnXv/27SfTW86XScUzaBKqwp0mkejQCMkan2M2cG2omoCAoE2s+ov2AQxq/WAm2i3YtqlkyvidYhRQwQOQ0GJ39WBBvkq4eVN44NJB6TuCkAMAOD4uVMntdrRjjj8P3HoBALiOFgQqFBhRoAtlcCMYgFFEbTj//99IAKIDjYkKCiYwSKggJSldPXWjWY5Wzd6Lqk1o47HWUdTXfXojaW3A31aFEdfv8mOPnrXF1rm+k5rBwgE94+vfLvWv/Wrq07w/t2XT2rh/3buZOiSIKiW/y+7nDuQOwIAkPHCUkIgjUiiHRKwCVIU2bj17Pmt+wAA");
 
 export default Couch;

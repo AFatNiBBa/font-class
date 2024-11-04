@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tick?s=sharp-thin tick}
  * @preview ![tick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tick.svg)
  */
-const Tick = createIcon("tick", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIELCwYAATYCJAMIBCAFgy0HKxuGBMiOw7jhO7LFUgrxJeLha++7c/dt2vuh9qX36nB4XJO41hwqjmZMBptBon8zJ9a+n7p53nkU4BuFNpZNDWRMK5rzPIHEFgeeLwss0wSs3dm2EKK90lKW5Li0HI8NcoxwQQvpZYKn9aHRY5gnJFUFIPoCYO3h/Tt1dUd3xJ/miD+2IyDWgiJQocJIAVaoBEbKCrIs6I5m0/8DCwFEKz5QAhkZUzAfkEGScu41oNHSKx9qtNTHDx462IjDEVGHw426IcSBqONQ8Fpj3Nu+b/+NdYnZeye8ctxg5LbKGatO7+yLTmtM/mRO2mmNvvoCgaDj9utO91nxv72RwN/v74mfUSHmpbdol0BQzWjOcCIeKUrMEwCAFI+M06UIJEWCd+30TIBQI0DSqhagMkJfAbLadAFajLZQgFa1/SqRO4SBTnaQdLoLKos8BtlA30CLFX4orQZGZS3EXROftdhNEto4VubOmlOWlamvkQaA5f7yssxPeRRyU2HRJbfd8sBFF1z1QCD37NQfummTBm/0omKuWeYolinb0eP0IRfdc99Vt90qQ5Yr5+UpHunVU0FKGHUeT5KIlN8CAAAA");
+const Tick = createIcon("tick", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2gAAAD5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGELBgABNgIkAwgEIAUGBysbtQLIHoex22RJex/NcCzi4b/90vvmTwD4B1GzIiiTrYtQ9dUVdoWsik+N2FOLqnqTuZYqv0Jf3eBUEw/MAuEg3BJZcEEbNuAsGD7DDTlGfFBH+pbga5fGL0O+kBQFgOgEwMHj++duq1GNuKtN3DlFQByAUqBAgVEBthUCo7ISWRZUo1bjB5YEEPUcTSAjoxdjgAySlHN9fUtdW36UqPn5w5bH0fzYg+ZHMVXprPyZ9In165n6gd03nzuu5t8oXAGB4MdhSzq2/ze2JPDz+79fa5bEVqqgUQJBsVJb8SJulMrYEoAnprgx5VYpkLRKhHoJ0C2SJCLljwA=");
 
 export default Tick;

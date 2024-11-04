@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/octagon?s=sharp-duotone-solid octagon}
  * @preview ![octagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/octagon.svg)
  */
-const Octagon = createIcon("octagon", true, "data:font/woff2;base64,d09GMgABAAAAAAH0AAoAAAAABTQAAAGpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGoLCAABNgIkAwoEIAWDLQdKG4YEyI7DuOE7ssVS/uPha618v3t2AkCdUwFidacCDC7ufByp82sTVuOCKkJtRbKKnmD++5vn//xTgM8otD00kAU+53kCiXV5cYkklFDgGVjqNv9iEIdVZAgeEUM5PkR3qOJ7HtQhvUh4gv8Axi8zDJKMyABiPAB2Ht4/oOlFL8W39hXxTT8CYhcoAhkZswXYIgvMVimoVIJealt60baFAKKGazOokTEDBVCBhKiqCaM6Y6pDeOfICHE4RsXBEAdiZBzq647v/pl/yZmmaYaGNNJ5EAgevX7df3rclv/DRyXw48O/n/Q7apskdTFcAkFe0i5xIoFEAABSPNKXgEA2QaJ3He2pAGEkAiS1kQJks4wXoDLSYgE65lorQG2k/bKoRgiTnRyQjHYXsnUeQ2Wyl9CxxUevNjny82Ccy3zOEvcx2rtUVi5bUTaVZaSzHqfKdHPZNhc8ypWFsumS22554KILrnpAxD0D4UM37bPwXg8qVlpmhWKTcpw+rx9y0T33XXXbrTpns3LfXeCR3b5QnKSRrnIgy0SKPO72+QdnL9++tTTMtAnMxxMAAAA=");
+const Octagon = createIcon("octagon", true, "data:font/woff2;base64,d09GMgABAAAAAAEoAAoAAAAAA2gAAADgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFULBgABNgIkAwgEIAUGBzgbtgLIhqB+7bNn9h0Q6mMNAZ0oRkdQ/nzARZ3/Oipcfn3sr0hW0esGZ4BJcRFkoS5gwwacBcNnMqHEx+pAB/kua7xqafwy44DUUwGIYQAcO3fqpG/tbGfUzXuidgIBcRwsC1SoMC/ArkpgXrGMogja2TT8wKVGANHJZIKCCsOYBBSQopTuvo6BcjZqb8S5vjNO9662hlt/Vuq7tevfDg/xgUDw9sXL79eGdv939yX48eHfz52h5lvKFrolCKq1Zs3lBEkAADKeW00IpG7JaacE7BCmJHLkwa2nN+49uL/+MwA=");
 
 export default Octagon;

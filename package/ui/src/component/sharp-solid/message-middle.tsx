@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/message-middle?s=sharp-solid message-middle}
  * @preview ![message-middle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-middle.svg)
  */
-const MessageMiddle = createIcon("message-middle", false, "data:font/woff2;base64,d09GMgABAAAAAAH0AAoAAAAABRwAAAGsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGMLBgABNgIkAwgEIAWDLQc1G2gEyJ4FTpkVH/GhVogT0TZ1dDjn+ZV7FEG1bD2z+4SQPa9IKmsUWb7QGIXEJfeaVB5hMeYKi0afFWvb+8csxBuSa4VGMklujUZL4tGbNjNh7ftsD4GYOvU856EAvlHQ9tCALMC9ziMQ4NXh01qRWsFqWgGrddMtPaXcluRFL2mY3g9bF6hxFUOHfBXgsX1o/Fm2Ig0XAMQUADi7SyXxaqKJ+LcjfpyDgDgDsIVQULCGwCFRYI3EFqiqoIm2Tf+BDAHEAPjKBBUFi2AdQAUpqkSvlmol2fyYqqpWqUXSkUBqylDOuG5tDS4291joo+/LRU+eBwSCgffzQ08f+x9SC4Df79N/Re0r5RsYkiAo3barnIAkAAAZCxgTAmlS4ruOeRIgjCBAGjAiQLHKgEA1YhuBjg1+BAaMuCKKqkSYU5kgjbkHxYElqOZcQMehtzVgLkpkEH4lPmaxCQ3F59jtcHGEt6FBOhsr4ygfq6aFlMw4i4ahgZm6mraZQiaS7lxfwoLjvoi5ObiwCL5OXo9n1U1MtQ0N6pQofm+aLOxmMwwBUXd4UhKpixfBHoQ=");
+const MessageMiddle = createIcon("message-middle", false, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA2gAAADnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFILBgABNgIkAwgEIAUGBzUbsALIjsQ4RvGLKEbxUL/f69l9N0Cow5p1uIjCk4+vrosuOSLHRvyp7URWvzJ7d4wTkFEHsQ2vYdQFbNgYA0czfCcSlPhYnWgin+YfPKlp/DPmhNRWAYheAOxcPr/vWyMaEb/r18RvuwiIHTArUKHCpADrKoFJxSyKImhEXecDZwkgmhmUoKBCDwYBBaQopaWjqatc6mhqv99RdWfHxflnvc/O5v7443jm1anTV8e3gUDw/fFx5+2e9f+tHQn+fniGFdbfUj5DqwRBtVAvuJEgCQBAxgPzCYHUKlltloA1UkoiuzfF4lEAAA==");
 
 export default MessageMiddle;

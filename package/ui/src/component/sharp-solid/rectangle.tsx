@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/rectangle?s=sharp-solid rectangle}
  * @preview ![rectangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rectangle.svg)
  */
-const Rectangle = createIcon("rectangle", false, "data:font/woff2;base64,d09GMgABAAAAAAHkAAoAAAAABQgAAAGcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAWDLQcwG1QEyB6FceNTLsRkESK+ZuzYSa3i+f+/N/e5701qoe4ZSqMOXIUjXK2BftKIZEXD4bFkTK8Itu5bxaQBFSkgcEDSEWxzrGyzDtAF/zd187zzKEvfKLSxaWkgC3zO8wQCHsuXJpIFFkWegGXeMmZRqvsmE02Sf9Pj2wo9d9YOHOqL+Qfeyk3zR2EHlNkGgKwAgOuHRBwfUfidHCHfoiCQawD7GGho2MYAZ1iCbWz7oOvCDy//QIIAmQLOLNDRsAo2AHRQ0tkCEUfCTsejQpZMKmMypAyWapAPL+Vf7c8KYBR5ZfNpdMrLzv5nREzAr/+v+g2VGgAzCoQ2noxlChQBAFRmUBUEZVbBVRe8gwFiDgFlypyAZoscA3RzDjDAyC4HBpgy5wZLugCxIdtBWfAImlNz0G3Yg5Ezn9qUjbQnQTqU/JDFBTTkbyKL0Uxemloa5WU8VX20LKpnIaKhRdT09UxUVTRNFDISN6e6Ahbs9yBiYWRGvGjbfZxOqxoZa+rr5To+dF5Vm9npGlKYgHlIqCtoK8GoWp4Ue/VOFQ==");
+const Rectangle = createIcon("rectangle", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA1gAAADqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKREoLBgABNgIkAwgEIAUGBzAbowLIHgdOmb141CMMN5oOcfJHOEKl8/D9fu3c+98aXsWrWPZMxyuhaBZtZELdEPFOKTtUhkjeZiasfa8ne+0P+cm6maGYxDFOgAfUgTfcRroWsGPUEIHDUFDitUqNfE54umn8GnZLalUAYggAW7smfHWiE/HdHfFtGwGxBaYEKlQYE2BVJTCmmEJRBJ3odveBUwQQdfolKKjQh0FAASlKKb21/rLTW+upBnNgpj3U/pvWXLoEBILHxVn64Op/szfBz8v/2mDKNpoSBNVcd85RgiQAABkXZhICqSmJ1iVgBaRoZOvkOD9utgAAAAA=");
 
 export default Rectangle;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/loveseat?s=sharp-solid loveseat}
  * @preview ![loveseat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/loveseat.svg)
  */
-const Loveseat = createIcon("loveseat", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABVwAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBNAsGAAE2AiQDCAQgBYMtBy8bswTIjsO44TuyxVKG+BLx8LVWvt8zR7Mb5A4RKWByQJ5A5fTZuLBDY7ZiUyejt5kJa9/P/+X0xvOxQb7RoeypB7Ke39HtxnyeQGJdnud5FlimCVjWzn/DG/D9JiEiybDdsHpAGZ+KtJDeJXiiHxr/DPGYpKMAEL0BsHrPju2+N6IR8ac54o+tCIjVIAsUKDBcgGUKgeFKGaVS0IhmU/4DMwFEK3tlAiVKrMI6QAmSVJYDxtZaepS7ay3VAaFWE6JHkFjrEXVVrUoh0sQS+SKqCheSethCNaard1f3aKdZ+b6ToLzoKI7Kcu50//sqUtt0lXm6Kquf8/NAIOjoePTsSK9l/9trCfz9+G76GWk2ktSFdgkExbTmNAcTSAQAIMVtYxIEkkUSe9e61wKECgGSVpUAhWF6C1CqTBWgxUjzBWhV2aEQZYfQ3yEHkrproLDAHVDq7wNoscyPvFX/KCCkAkD9wGVt6NH11/LsGbPykrxsFQ0Vcjhfmo+jSbf92mS+67QrLrvplJPOudkx122vbrlkww5b74uy2WaYJVsiXw+Pt3c75bobzrnicrpkqfw+m+T2fvdkThMTnKORJCK1w0tGPgAA");
+const Loveseat = createIcon("loveseat", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA4AAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbG0LBgABNgIkAwgEIAUGBy8bxQLInge2a7SlzuJktMjT0IvHESqdh/9fS+9784OTDZOOikZWUGCjqtFXV3X1Cln2MWZPbU9k9SRzLWEDAO39LrN3D7jotymmXTq5Il6HouEaInAYCkp8r9JDfkn4fNP4Z84n0kAFIEYBsP/45tqfbnQj7puJe5cIiH2wKlChwqIAWyqBRcUqiiLoRtPsA1cJIHrZkKCgYBFrgAJSltI/VPe0yqO6Z/C5WivqeJN1tNTVoKFY74x2HtZg92u7d97V/r1Z3Vt948273gGBoL3dk9cjW//76wR/v31QC5tuyg76JQiqjWbDiwRJAAAy3lpPCKRJSbRXAjahlET2O6MAAA==");
 
 export default Loveseat;

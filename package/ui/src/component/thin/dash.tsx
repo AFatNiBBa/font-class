@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/dash?s=thin dash}
  * @preview ![dash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dash.svg)
  */
-const Dash = createIcon("dash", false, "data:font/woff2;base64,d09GMgABAAAAAAHoAAoAAAAABRAAAAGgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWFwLBgABNgIkAwgEIAWDLQcrG1cEyI7EOIZyWYRmchNRNWw9e/eJnD2oqMjCRqNRCpeERWmMoLAIDUQw5u7nBrRnCZcsmiyJSaMRooW+imnDQ1/H7Y+bf955FOAzCm1sWhrImEBznieQWJeHUyQLLKDEv4B985btsVHKfZOJJsm/6fFthZ49epmpT8MleK0PzR9JFqG0BkAWAMDtc2MDx3GJi1z+b0C+qYNA7gAHBA0NOwRcMAp2mBxA14Uf+f+X/0CFABmCKwt0NKzCBkAHJd3kdprdppa01SGrCW5ZDi+FXLISicZ8sdvky/5Lji2dD3QO+TsgCAv/11cd3otXm9MA/O7ef+lvqNQXGCsQ2tF/Bq0FigAAKvNECwRlVsFdZ7whIKYQUIamBDTbfAR0Uw4JGNhTSMDQlHtG6XZiRVuHMuMFmnML0K1Yg4ELJ/rQSozPggoq9SmLr7RIxZTmZuVomU4DjY40kYfluiylzGshlRbpN2HcrD69hswabFqDNWdMpYdWeJHKlSWHKqPb8eN8iz7TZgyZMF7GlNPzWop5vz6VVAPgHhPrCnxl6u2aGQQ=");
+const Dash = createIcon("dash", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2QAAADqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFYLBgABNgIkAwgEIAUGBysbqgLIjtRG94xdRkgyy8P3+6Xn3v8ChDoqOmwzUUAl1iRUPYGwK2TZBozYqSXQmyG1+m5wAhxpQBxFEWQLLb6AXYoRTA4jdk6CEu9c10S+yTM8eml8NeYhqaoARC8A1ve3t3yuRz3irBFxZhMBsQFmBSpUmBRgSSUwqZhFUQT1aDT2A2cJIJqVTFBQoR9DgAJSlNLe0dRV9jjt8Wqk68XQ88HOl/O13tp3ZzfPfG6+/OtyM3tAIPh6fMelnqX/rR0Jvrz9uTeYsoZWCYJqobHgfIIkAAAZD8wnBFK71GizBCwCaRxZrl+5exsAAAA=");
 
 export default Dash;

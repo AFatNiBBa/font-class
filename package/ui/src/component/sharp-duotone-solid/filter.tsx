@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/filter?s=sharp-duotone-solid filter}
  * @preview ![filter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/filter.svg)
  */
-const Filter = createIcon("filter", true, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGoLCAABNgIkAwoEIAWDLQdIG4QEyC4KbGPY6CGKRz06xnI0ivIx9FHPeP75ez/XPvf+N6UVnaE0SgetOMCpQPFYAw2HAjwUkCmYcPj5H9t8H+hQaf9IonNNI03S1lyaWGy7Dm3JDNHeKDFgqtIM+H3q1POchwL4RkHbQwOyzmNznkcggGOXe14rUIVqWgOrbhMl6AhGb5hESUjHE3acPaHnT/tsQv0o4Av+BzD/qL6UmQYgywDg2ZtugOg615XL8Re51AGBPAccIzQ07CPwkCjYJzkGXReuaxy5zjgeQ4AM8NoGBjTsgGMAHRTS+8rcZKG/xoPZN5HXSZYiL2X69P4EwqPYG16pgqfwpsjjAoAgvBnauwv54f/puQK3v/8r/Y7GSv3EtAKhnY/nhgWKAAAqn2gFBM0KAX/qvK8CYhYBZTAroNmjINDNOkNg4lAKgcGsF0TpM2LdSECZ9xY0D9xAt+4HJh76W4P1tPAgLpf4nMW2NdQaY12f87z0NfLGsdIv8LbKNecMusXUztbZxNjCWSFHgXux0bbgli9iMS4fy2N39MgOlHV0spjT/iEFfN7UXe1qgwxBRb1jo2mk0hYDR3TCTFR6+jkBAAAA");
+const Filter = createIcon("filter", true, "data:font/woff2;base64,d09GMgABAAAAAAEsAAoAAAAAA2gAAADjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFULBgABNgIkAwgEIAUGBzcbtQLIhof/X/vfPmfuN0niCp4hmScIjZB+JxPqyyR89QkdiZ7I4wYHADkEKgEG4ZbIggvaHmNKGYaMb1yGEu+rc23km6zxOkvjl1HnpK4KQAwC4Nq9Wzd9+ZbfMurmLVG7gYC4DmYEKlSYEOCiSmBCMYOiCL5l0+gHTjcCiHadTFBQYRBDgAJSlNLZ09ZX7jrpvhd3Y8Btc63B1p/Z+kXt8/Tzz1+vuorGFyAQLL08Xnk2cPF/Z0+CH+/+/cRi8yVlC50SBNVGs+FxgiSAnpjxylxCIHVKYPtAe4KURA4ey82fAQAA");
 
 export default Filter;

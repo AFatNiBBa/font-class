@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/slash-back?s=thin slash-back}
  * @preview ![slash-back](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/slash-back.svg)
  */
-const SlashBack = createIcon("slash-back", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABSAAAAGyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYF8LBgABNgIkAwgEIAWDLQcxG2AEyC4G7MblImAUNjN6sTbHaZgRi1jGYO0/gvox9nv3HqKWIGnCQ/RIKJ6SSSuERAkMVb74D/fzzzJ0djfq1EiKLpvNRwH+dCDfmnz0ozvgH1x3MtcKla///5xLF89HA/xGQ4vC0oGsATt4AhOL40qCw7MTxTNvuUeNUvbNTDRJ9J89fu2hRlkHj3xLgJv+ofENlQOpFABENwBg9ySdwt2d5eV/4gMJEBB7gGksFBSMY4ENHIFxXNOgqoJPlf8DCQKIRvA7E1QUDIAxABWkqFyZhCfj5srj4vLjQNdp6DLYc+7XMN3Mr1oPzvvhguWG0D49D0Ag+N/uO552BV+bJWzA125f6cL+i5JBswRBWfpfUomdgRzFetcTO5rYwTcBUofEj7R7FiC0IkBq1CpQjFFC1WoRGkxy7dGo1QGOqCKEflUCqd01FOv2UPW7QoMN90aj/ihxwXqV/ZYlhTUemiOb2Up+WvoG52q69gO0LWt3lNNhEz1zMxtdHUMbRa6k7K2psEWE/BCxMbMifnQcPS/ndK2sDc3N2pQAuq9r7exqHTQ2ply2IyWR4vVZcz0whQsAAA==");
+const SlashBack = createIcon("slash-back", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA3QAAAEGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFkLBgABNgIkAwgEIAUGBzEbswLIrgd4wxj1WwYJQbo5bPBMl86ridQg+zOUmoe3NfL92Tkg1McaWAFQAR3H1xM40zR+jWhqm3YAuO7/5LFTbYD/+oD5XlvSZWaXqipEv3z9dXL6M+cQoAcUJK2tRRAmbHncMdEa0QJynLuvgvQzlXi/pfFPj3ckRQEgmgGwdLy/6XeasonSOgJiGQwLFCjQL8CsQqBfNowsC/54/oHDBBCVPplARoFWdAMySCLn2rqKhnzUWu35lw6+dtXpt9Gb/698WCp+HTRpbU99IBCMNZ28vW7y6roE/s4kmy2nUS2BoBhrzEUEdAsAQIrXRmMRF0FSK7lWUpohMxGp9sXz2xePx2MBAAAA");
 
 export default SlashBack;

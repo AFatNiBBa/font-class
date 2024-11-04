@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/comma?s=sharp-thin comma}
  * @preview ![comma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comma.svg)
  */
-const Comma = createIcon("comma", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABSgAAAG4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcIEBCwYAATYCJAMIBCAFgy0HLBt9BMiO1Eb5RVYSwfdrZb8/f7cuM2GYEJECJhd3PsDCro0LO0Bht2KvIqO3at+nbp53HgX4RqGNhUsXL9A9zhMIeEwOvOs8CyzTBKzdaSt2iPYJLWVJjms5PuWAHKOc1SC9Tj/xMD80eozQTVIUAKI/ANYf2LPb53a0I350ED/sRECsB7VAgQKjBVilEBgtq5FlQTs6nfAPrAkgmvjKBDIyJmAuIIMk5Vz1qxp98v6qUR7Ye2BvGQeiCvubOjiqijDcKye0+rf+jf95/qfHew92+97Rxn+yx8oTOyb9cefO1X/aiYfW6a8/EAj+3Dr3/kS/Vf+7qgT+vt1TPqOy8zkWpBa6JBAUszqzHI37SmNjgQAApLhvgs9KgWSkBO/a2wsBQokASVMpQGGU/gJkpZkCNIy1WICm0h6FyL2EwY51kPR2CxSWeACywd6AhlW+aE2Do7gohJmJd1rsFglt7qrnz5lXr6injkraHovNlfUyN+0+JabDpvNuuO6uc8665K5Abttt3nPNFg3e7EW1+eaYp7ZCve0/Lu93zm13XHLD9dRmpfq8NM19PX86iAmjLmBJEpEany0AAAAA");
+const Comma = createIcon("comma", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA2gAAAEBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF8LBgABNgIkAwgEIAUGBywbtALIHoex22RJF81QxHhHI1Q6wfvLdN7fvy6tQ6PDrrT3NICjiJtbgQH0glvjFdBTqBUYvMmM814vZk45kyzDwDylCBM5+LeLwyMEG2PgcEp3V8gx7pmS9CrBfUvjwag7kqIAED0AWD893Pa9EY2IH9Ub4odNBMQ6mBEoUGBCgCWFwIRsBlkWNKKq/IEzBBBNdjSBjIx+TAAySFLOZVN72ZlP2su206O20/aTo4H205ir99T/zcrLo7O7idlvh7fdC390e78HBIKNFx2vb7uX/re0J/D34w/MtFXfo5bqaJFAUCxWi67iuTZTURMAgCTnfNcWTNoloEkiayxJRCqPCA==");
 
 export default Comma;

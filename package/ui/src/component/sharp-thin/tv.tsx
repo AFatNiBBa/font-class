@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tv?s=sharp-thin tv}
  * @preview ![tv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tv.svg)
  */
-const Tv = createIcon("tv", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABYQAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSAsGAAE2AiQDCAQgBYMtBykbwQTIhofv1/w693XnQ2DSQ9zDjA7IryO1fy2iGrdoRGotgaKMnKq9XCrgs6au52HjBXn4/258AotfW+afJjTacDZR3O7cpuYQ+SSN2pIcj3a8zpDHP86qkF5L3+Ol8qHxo8Gek2QZgCgAsOrAnm1etKIV8V37E+I7WxAQq0ApkCHDMAGWygSGyZXI5YJWtNv8H1gSQHSob5FAjk5swHZADpJKnnf37e7uXas08v21SvVOylKvyKJ5vVqrihSi1ozIIqJ6U6g1IqrnG/VGinpkAwQdbRwe/Wbx5s+jvj//vRvv9SDrpB4nTzQLpx6F4mbTmr/Ovq7PC11fvd4ieqmlbBeRUqH4rUDPA4HgvzFvDDzRXPp3Vy2BH7789Ud4XPtFepzeRJcEgmxqe6qj6TEwMwAzxX2jjS8KJCtUhFete1mAUEWApENVgMxQhQC5qikCVIwwT4AOVXtkIu8W+jk2iKTuFpGZ7wGR6+cjomKpr4wO/SJzJsEVhK9c6noJr1tXzpo+s1xcqrku+geXlpeU29rE+7E3CU8674br7jrnrEvuCvy2bfY916y3sHV+qDTLdDOVFiuPq9fj+51z2x2X3HA9r7JEeV+f6L49eRJuJgFmPwOQjEjp7n0=");
+const Tv = createIcon("tv", false, "data:font/woff2;base64,d09GMgABAAAAAAFYAAoAAAAAA5AAAAEQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQByCwYAATYCJAMIBCAFBgcpG8QCyI7CcW+KRjRTaw7wDqXm4Z+1b/e9mb9iWtezZ0nieSt41k4mQfZO+h0LdQ7VJKlOTtsSaR56QSSRxfc8S0JPJyfAF/sOZt8OGHiShZqABTtgLcOg2owCZfwWauSDPNzf0Phg2D1SUQCILgBsHe3tqldRRbz638Qr2wiILTAlUKDAmACrCoExpSmUSkEV/z8/UAggGliSoEQjxjALKEGqlbC11l4e1mi5lh3FQHYWl7XHRXu2nWox87gLn6ZfX5xLLx55/Z9b9ckvXfWudw+rqapzcdMmEAi+bu5Y5+ov4gTvX3754Ff4f/JWAk0SBMXcf3WetyBvCQBAxk0zeQuB1KfG1QYJWAHSFJnXbwI=");
 
 export default Tv;

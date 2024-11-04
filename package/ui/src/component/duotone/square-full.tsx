@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/square-full?s=duotone square-full}
  * @preview ![square-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-full.svg)
  */
-const SquareFull = createIcon("square-full", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABTAAAAGtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFYLCAABNgIkAwoEIAWDLQdSG3oEyB6FTdludIx5Mmnih0OYIkdIMsvD/9/7ts+59720aqVpQpXSQSsGuAPFYw30cyjA023sr9HBbs//mNv7266Lt39L4ojmLbGEJGgujUZshLIGOORAD0IHCgBCaf39zfN/HgX4jELbQwNZ4HOeJ5DA9kjjzjPNwKpDRzfHsiBWeZBfjjwUcSH+ghrfyoOGfM0P4FH/Axg/Ob6koQIgJgHA0cW4Qt2PfsaH7o34YAQC4hiwjFBQMI/ALlFgnmQZVFXQz66jH123DAFESx9WQIuCKTALoIJE1Do00ozV85FmuEyMT9QYj2a1R28rH/ygBgAIBP/z/cvlxO6fwZEEP97/C76jril7GJQgKOvdunmCJAAAGffcBALFkIS7jnoSIAwjQGoNC1DMkRGohq0h0FjURqA17IQo6pAwa7EgjbqCYscHqlk/aOz6u63ZKENBt5T+kiWUo2KO8yTjAR9DzvSZlPGQrw3vreTjFGsXZ08rSzvP8LsqeDkpM6zwIpZLZNgAl5OjMMu9e9jtufqUIX7veN55sw9bYIQbFopCZJQZYonx9CgxvSpG5JgEAAAA");
+const SquareFull = createIcon("square-full", true, "data:font/woff2;base64,d09GMgABAAAAAAEsAAoAAAAAA2QAAADiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKREoLBgABNgIkAwgEIAUGBzwbrwLIHofp9mCWmODnEMVD/bL1uucTUtRkTdagQjYaofBohF2NIpcfI7awFOrq9GSGyVeZvYMTDtyToQSCkSeBXRQPHrJNEO2lCYVAibfqUQf5nDWeMhq/ZjySeioAMQyAo6uzU9/tbGfUzQtRO0FAHINlgQoV5gXYVQnMK5ZRFEE7m8Y/cKkRQHSiP0FBhX4MAQpIUUrp6xgol30dvdVQGVxtDbf+Vmq1bwCBYGoiD+3+7+5L8PP6nxo03ylb6JYgqNaaNfcJkgAAZDxYTQhkBYFDOiVgB5aSyIn1tf4w6yMDAAAA");
 
 export default SquareFull;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/octagon?s=sharp-regular octagon}
  * @preview ![octagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/octagon.svg)
  */
-const Octagon = createIcon("octagon", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABTwAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBEwsGAAE2AiQDCAQgBYMtBy4bkQTIngPu7BANlTlEfs5zsRgWrVbzLJ7//8uvfW696pQtJAwUE3AUbqDGxrEE2oADOiJ/jUYaLr/Yb71FJdJ2SG5ZNIlbI0EJlP4jcHdNkxkTMj9Va6e/+eedRwE+gji0PawLZIFEc54nkFiX5wllgWU6/v/g/K2d3fJCdKv0KZ+kXfphs0HLM+mpbwV8qifNLyZ3St8BIAsA4P6lWMDXKKPkf5j8kAOB3APYQujQYQ2BK2LBGokt0DRhlGGQ/0CGABkDf0OBhoZdcA6ggVJNYlxU91pJRd2ryuopdZVCFZqiEslTo1qqqlMmeaQpqlDMHwv92TZBmP/r43bDV8kS3KB+AQr7AUF4f+s8uvqr/wq1CPDz+79/4l00fJX6wIQCodsf9rUKFAEAVC4wFwRlhwiPOuOzgJhCQBkzJaCzyoBAM2UPgd6GIAJjpjwQS1MiVrQ7KDNeQefEFTQrBNC78u2MWUnnMeR7kx+2uKSGEnPsdXk4xtNQo5wAz+M4L2uWSyhZsYqJrY2TsZG5k0IOCv7ZWtKCEy7EvFw8WAxvJ4/LFWMHR3NbmzIljs/bFhe72QpThJgHhLqCYMm3w1N/ut0AAAAA");
+const Octagon = createIcon("octagon", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA3gAAAD/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGwLBgABNgIkAwgEIAUGBy4bwwLIHoVxMz3SRXOUj8Iu4uH7/dJz738bYEkow5p1Jgqh6ACFSX11VfxW1pU96cqd2k5l9U9mTMh8rw1xg0OLJIc8MAx4X2hbcQEbNsZGkC8cv4ISHyMN8m3Cmy2Nv4a8JjUqADEAgK3D3R3fWtGK+F5PfLeNgNgCkwIVKowKsKoSGFVMoiiCVtR1f+AkAUQbhyUoKBjELKCAlKV0dHQ3estBd6Nrv/swDrr2HBx279vrOphuDjT/5QHv+7+5AYvvbm+/9YFA8PP3r+qyf/V/R3eCPx/IGaq/pWyiQ4KgmqvnnCVIAgCQ8cp0QiANSKrtsBWThMj2x3dfXD98/AgAAA==");
 
 export default Octagon;

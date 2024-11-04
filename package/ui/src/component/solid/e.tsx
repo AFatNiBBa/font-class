@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/e?s=solid e}
  * @preview ![e](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/e.svg)
  */
-const E = createIcon("e", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABWQAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBLwsGAAE2AiQDCAQgBYMtBygbpwTIjsM4hvwSSxniJeLh+7nec1/yKfuLnBKRAibHpEgR2bqqOjZip7ZTSW6Tufb9729y13kU4CNJcSxMF8hYYHOeJ5BYl0dbKAss0y9gWTu7+hiE3yR94pOsFv2wWSGPDdlldaTH6QfupZfGL11cJmnKAERrAMxes2K5T9WoRnyvRXy3FAExG5QCGTJ0F2CaTKC7XIlcLqhGreb+gSUBRD1GaQnkyDADcwA5SCLPJ1TqWuSrK3XFhpeDIt52FuLx4Hf9K3Gr08O40PFBUUSE2Nznfev3v3vbzcwnT9vQpnjqqaJNm6dVLa9fb5ndqvOeAnsaGt8HgeD+8lu7t7Sa9qexksDPj/9XUFGtGrPSezRKIMiG1YbZGKchZgkAQIrT+sQsBJIJEn5qswcChAIBknqFAJluWguQKwwVoE5P4wWoV1ghE3mT0N6mBkmzY5CZ4Azk2vsAdab5bNRrH5n9sK/Pft+SFkh8/lQ5esSocko5DVTOJOgwnFouy4NO+8JgLNrtiMNO2mWnfU4K8rjl9imHLNCI+T5UGm2EUUpTlNvx/fxquxx3wj5HHI5jpirP64Oc1usHg78g9Rg/JImUFLsAAAAA");
+const E = createIcon("e", false, "data:font/woff2;base64,d09GMgABAAAAAAFcAAoAAAAAA6wAAAEQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBFQsGAAE2AiQDCAQgBQYHKBvmAsiOwziG/BJLOYt4+H6N37lv3zdR1DNDEq8QimW1ZsksRBL9U8IOVZO1TebaLzc4sii0mQYZBhyIhn2S1V7A9hyWJJccrr0ryHG6uK6G9Cx9xaMMje8GXCdpKABEOwAOHD98yJcyyoi1amLNQQTEATAuUKDAsAC7FQLDsnFkWVBGVekHjhNA1OoGE8gosAFbABkkkfNCU01LPtZU03j6zfyH/vRs4eNM072+J3Gl93FjY1xi8lP7p58TzrHv+YuOjsb9jQsvytbbt1tp5eUXwIvLZR8IBDt+/Dpf2+4/9U0JfPv8+7/PUFXG/vQJ9RIIiuVq2Zm4BLFfAABSXDIZ+xFIFiRlrUTcSJPPI8VZAAAA");
 
 export default E;

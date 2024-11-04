@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/horizontal-rule?s=sharp-thin horizontal-rule}
  * @preview ![horizontal-rule](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/horizontal-rule.svg)
  */
-const HorizontalRule = createIcon("horizontal-rule", false, "data:font/woff2;base64,d09GMgABAAAAAAHwAAoAAAAABRAAAAGnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAWDLQc2G1oEyB4HTpm9GNHoJSQ3vMPRH2I8/P9hed/7f2qxLQ13qVIH3k2CAS4NByzWQAcwHNsRmBPdE1xK83vm9m8eV9fuLakhWTRZgubSaMRGKDSAiRyYtJAivfL//ub5P//0AR9HENqYtjSQBT7neQJhYF2+CbIwCylwTt3GHzSIsipyBIeIoRwfogvU+A0y+S1X4FO7aTwyvEmlAIgxALh9MRzgu451xMP/EQ96ICBuAbsIBQWbCFwQBTZJdkFVBev4/z/9A3chgGjClySoKJiAOYAKUtTa6TUG9Xmv0Y1edyS6w9hfjpe/9lau/NvtxZj2cQxAIHg66MfL0cVTu5fg5/c/6slc5BJtCYJy9P/INBeg1ADsjPdM8qBA6ki4at9nAUIXAVJTV4Big45A1XWIQMO2HIGmrjuiqB1hbjYg9b2C4twLqrkPNFz4WU3zKE+Ccyj3IUtuWtQY4jiIuMZLT+e9zJRunbdV65kztsxi6eTobmFu427I1cB9OGgy3PAiFgtEWA0fh8/TEwtXNxsnx9qnju+blicvt8UQgPbYSEoiR8Gi+LEGAA==");
+const HorizontalRule = createIcon("horizontal-rule", false, "data:font/woff2;base64,d09GMgABAAAAAAEsAAoAAAAAA1wAAADlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKQEoLBgABNgIkAwgEIAUGBzYbqQLIngeZm0p7U+QwlTq5Uj8GL0Q8fL9fO/f+t+tIFc949syQxEsmaycTKiGSiFbKDlUTSYust+cAVZnll1mtYxy4D0gTbLiNdC1gw8YYOJrhG5GgxDdq5E2O65rGqyFXpKoCEIMA2Njf3nLfi17E8//Es00ExAaYFKhQYVSAZZXAqGISRRH04v8/HzhJAFFnvwQFFboYABSQopTSqfWVvU6tHQP6p28He5+6PZwNCgSCu0kaWP5qdhK83H2+ssE8y9CUIKhm/mec5BnkmQAAZJyaThFITcloXQKWSFISOTAqZj8B");
 
 export default HorizontalRule;

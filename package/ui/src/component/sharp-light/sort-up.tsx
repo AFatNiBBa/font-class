@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/sort-up?s=sharp-light sort-up}
  * @preview ![sort-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sort-up.svg)
  */
-const SortUp = createIcon("sort-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABSwAAAG5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcIEACwYAATYCJAMIBCAFgy0HLht+BMieBe7ehmgRiYTNsXH66/H898vaua//pg5Ljo5RJEW2yJSFzRYh1xGEHSEReoyYwlJIdNs/c7s/yVuI95ZMEMtbW0ISNJdGo3RCh1BonrXq7xnyFf/3N8//+acP+Iw+Wm1ctEAWSDTneQKJdXlEywJLKPAELHUbK38QZU1EjuARMZQjhuYGLa+yoFO/aoW9ctP8dcKV0joA2Q8A7j9rF3ius05WM7LyEATyAHCeoEOH0wTcogpO05wHTRPWmWf5BxICZBN3XqCh4TJYAGigVGvDgWFjak+Hjf7ZNE7J0zwO/dAnybM8iUh/cbl/+c9q/HduRvn2UVXlPByYbnt4yX5EgCA8e38v49b/7aHAn99fv6HcqyW2FQjdYl7o5yuQewQAUPnKyj0QlNMUvOrou4DoEVA29QI6p5gENL0rBGw4q0LApt4jqrQdcdigQxl9gM5NF2gOe8CGW17OpsPpLgoXZu6blpxblM0xCWM2OQ01PvZMGre4rNhnLTlYxdjG2tHI0MzRkL3CP1nJPZx5ECVCMWridvK43DOydzCzsc5TWnjetp39Zge6gtSrAqVIbb0eIzhtAQAA");
+const SortUp = createIcon("sort-up", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA2gAAAD6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFwLBgABNgIkAwgEIAUGBy4bswLIngV2w/URNloQi5bxbBf9YYRK56F+LXvd8ydEDliHddimogBPWGDLnkDYFfLUOTZi6yyBnmSufUgYuM/6MnPKkQbgmUUYCEfw+QUPkhC/CrmGDByGgRLnMa8mXyc8/NL4atQDUqkAxBAAto/397xtRzviczPx2S4CYgfMCFSoMCHAmkpgQjGDogja0TT7gTMEEB3MSVBQMIIxQAEpS6nr3rq/HPXWPcf9cXQwH8eH5lpDre+zMt3I29fgtx8WAALBxWcz77T2v6s3wZc3P39XGVvZQpcEQTXfzLsQtyC2BE7MuGUuthBIPRJ0SCSsspREdr7Sws0AAAAA");
 
 export default SortUp;

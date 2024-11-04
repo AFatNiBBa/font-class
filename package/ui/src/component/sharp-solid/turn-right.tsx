@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/turn-right?s=sharp-solid turn-right}
  * @preview ![turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/turn-right.svg)
  */
-const TurnRight = createIcon("turn-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABSQAAAG1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZHULBgABNgIkAwgEIAWDLQcxG3YEyC4KbGPq0EXYMiSGFun7Eoa8X4jn/3+//821z/kqiGryTNQolvFSIVn6/YUIIf4SrJKJjGv/zO3+tiRIiPdIotKWkCQmjUbplEAoNCrJXEuY7SEQtfX+fzf53j0/OsBvdGi1cWkgCySa83kCiU3teWBRFlimCVjmLccUpeyXZKJJerxmPV4d0POnZYz6VfC1PjR/7fGiTDUAWQQA95+2LHw3s5msD5N1D0Ag9wGHCRoa9hNwiyrYT3MYdF3YzDCEf+BhCJBxfGaBjoZD4BSADkp63zUzNtefpNXpV086XT0ym8pMQsjO06OjRvaWYWONLzrspCxs5G/TO/ReA4Lw//03zxy3/k3OFNj+nfYVDZulRphUILTzw3m9AkUAAJUvXAVB2UWBu876LiCmEVDGTQto9nES0E07R8CYgxIEjJv2kCp9SqzqDyiz3kNz0xO6VR8Yc8vPHrea5iKCgYUfWmpT4sYUrwTDzHIZ6KLVuTzMcVs7/YgFD1axcHRwMzezdhP0wvLu9poaaXgRRQSFURaP4+f5rrmLq7WjQxmTw/uW20Ov98BUMPMqXylS014pvDAAAAA=");
+const TurnRight = createIcon("turn-right", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2wAAAD1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFoLBgABNgIkAwgEIAUGBzEbtALILgps1zRLncWoNOTwcag0XD0fD/Vr6Nu9H7ww67BmnYkiLuqoClXfqaxQJGTZxwiy1dXXzCCEXxOoFjrbQyDyU+DdMQ5cVhqEN7yGURewYWMMHM3wvRKU+FFdC/kp4UNN459x70kdFYDoA8DuycG+v4/xGHHfRNzbQ0DsgjmBChWmBNhQCUwp5lAUwWM0TT4wAohWBiYoqDCIMUABKUqp65bucly3dL467tSVddTqhW99s7c0D8zdWb398S4gEPz8/LFrvRv/2+sEz9+HFTaPyW9olyCoFptFlwmSAABkvLOQEEi1ZLVVAtZJKYnsHA0HBA==");
 
 export default TurnRight;

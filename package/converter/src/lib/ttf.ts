@@ -7,7 +7,12 @@ export type TTFEditor = TTF;
 
 /** Partial type declaration for instances of {@link TTFEditor} */
 declare class TTF {
+    ttf: TTF.TTFObject;
+
     constructor(ttf: TTF.TTFObject);
+    
+    /** Optimizes the font */
+    optimize(): void;
 
     /**
      * Clones the {@link TTF.TTFObject.head} part of another font into the current one

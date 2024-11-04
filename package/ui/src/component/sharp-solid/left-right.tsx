@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/left-right?s=sharp-solid left-right}
  * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/left-right.svg)
  */
-const LeftRight = createIcon("left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABTAAAAGuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcIEDCwYAATYCJAMIBCAFgy0HMRuEBMiehbEbeQgDYREiVvnRfFH3pvFQP9be7v9nBjSTZJY8ZC2ZlGjWyJcq06kMlUw+S8b0vsS2/Kli0siqdQyOBtLNjR0LvawhQr7aZe3y+8TNtHEeBTiJQxsLlwayQKI5zxMIdEzvPJEssAd68Rew352tiRDtk5CyJMc1HJcLajyVew3yI3/BS3xp/NG7J3UKAGIMAG6fmmW8/8dPxM8M8aUIAuIWwBpCQcESAheEAktE1kBVBT80m+n/QIYAogm6M0FFwTY4AFBBiioy9xpqUceNKEbtTrtFXSIFgtqhJ+oRAFq3TZnu7/DX5fpCY2A176hhld9+DRAIvv8+S3vx3+4JAL+Pn35DKadoSxCU3dmuboIkAAAZR9gSAmmZAD6171WA0EWA1NQVoFikQ6Dq2kGgYUUEgaauO0JR5QgLegVLfc9Yce6EVQsesIYLH2bTQpSbwsmZ+6glZxBOD3HA6+ckDz2ZFz7juymeVuxHk3HAKYZWlvYG+ib2DbpVdg4WMhyS9kEswMuPJfFyeL/fMbC1M7GyDH1SeL9hd+TLHaALEO0xV0oiFaeHe2gA");
+const LeftRight = createIcon("left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA3QAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGMLBgABNgIkAwgEIAUGBzEbvQLIjtRG+UVWEg/f75eee/8LgSLUUdGsGV0iHFDZV1fYFbLss67C7NR2Iqu3at+dcuCScfNAOJI8u9DFL2D3GFPKxDsGQ4lv1Sct5Jes47NL459hn0gdFYDoB8DK4e66341oRLw0ES9WERArYEqgQoUxAeZVAmOKKRRF0IhmUz9wigCiVXMSFFQYwASggBSl9Ha19JSDrpbO6/29zujUeXDYpStmav211+n6Vd3bpbfg1NbvransAYGg58/t02Xf/P/2rgR/v37lDaasoV2CoJptzjpLkAQAIOPGTEIg9UodbZWAOZCURHYuixMCAAAA");
 
 export default LeftRight;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/slash?s=sharp-thin slash}
  * @preview ![slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/slash.svg)
  */
-const Slash = createIcon("slash", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABRwAAAGzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGcLBgABNgIkAwgEIAWDLQcsG2MEyJ4FTpk9GhERzSOaNpqOj/N91I0iotawnr0NENpEoWIdCfTCEugIF/egLJePMU8oX6H/Mbf3J1nQ+o7klre2hCQxaTRKg5CohLJGypQqc37Vvv/9Tf3VeRTg49zHws4DWSDRnOcJdJ7X96ZlAWWBfVHMvGXJopT9kkx0kvwzPX6tUPPblE55WuKyfDTfTXhSNA2A9AOAvZOmC+9N3iRX/yNX9kEge4B5ggYNpgnYpAqmaeZBVYU3+f+f/4GEAGkldxZQ0WACzAGooEitA116Tz2OmM5rI6HgKSMJJJSzXwgvfvr9XDiv4/Whe371d+jl0OqLQ28gCNOX718xNn+1dxXw7tnf1cv/vXJRoF0BoVn+v6xbLoD5AayShyKAsKAYoIC8tdsjAdGJgKJVp4DGFJOAqtMSAS1mlQho1emAKrVDDOt1KLrdgcaGB1TDvtBi089qNRz1bUiWlb5m6Y5m7DHm0lnWOfU12dxC6je4bETvIRcjLOYO9q5mplauijtz3ZsdB7E2gignLYvquB09znfMnF2sHOzzkAaeN6PuuDpG0yiAlVtFxZPScu/66LIEAA==");
+const Slash = createIcon("slash", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA2QAAAD9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFULBgABNgIkAwgEIAUGBywbqgLILg7shs9HhJdw1LByDJ+Ninio3+/17L77A0QyExXNOhOF4FJCjb66U+XKuqkRf6qAVBVmGlltqn4xd4WFnKoyk3TKAUAOAScaCGfYlsoF7LAxBo5mOL6BEr+lRj7L8fSl8dWwJ6SqAhBdAFjd2Vj3rh71iIv/ExfWEBCrYEqgQoUxARZUAmOKKRRFUI////cDpwggGriVoKBCFwYABaQopam11l62W2stB/236DNn7vJ9eh80v930efP5pk+bQCCYfb+9zoVfTa0JPr74+RVX+P9dPkhokiCo5v7POcwHkA8EACDjvpl8gEBqkmRDoHmRyiJrd66e3TkH");
 
 export default Slash;

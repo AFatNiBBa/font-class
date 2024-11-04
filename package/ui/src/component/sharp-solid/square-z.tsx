@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/square-z?s=sharp-solid square-z}
  * @preview ![square-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-z.svg)
  */
-const SquareZ = createIcon("square-z", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUAAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBCwsGAAE2AiQDCAQgBYMtBy8bigTIngW5qblKekcmH2foF/Hw/2v/2+fOfBFlMLNkJo3KoolHqzR/DS3hLyqZ/JKZELAhQszaVe37xM3OO48CXOQhjYlLA1lge54nEGjURdsT6LLAMn0Be90mTqgjEt8ICZKIjqs8vk7I43m2CtLTBA/lpfFPj/skNRmAaAbA8h1bNisNxVDE7zLit40IiOWgEMiQoV+ARTKBfrkCuVwwFOVy+g8sCCAq6X0SyJFjAqYDcpCkPK/pqatoyLfXVdSeqG+oT9EQ2db2rvatUVcnamsjumIHCDs+4j3v9098e10CVknpQtuXHrxxt3ua7h/a5sFbuQ4CwZm9f0cfaFr0v7ougb8fj39F5aEopfeolkCQTSpPsjdKECUBAEhx3YgoIZCMkOCp9R4JEGoRIKlUK0CmT7MAuVoTBagwaLYAlWptkYm8Rmi3r8NJvUtwZo57cK7dB7jCIt+1Su2RRQt91/RnLWGNBVYPFdOnTCsWFFNPYwKALN2FxbI47nrOjKdZx11w3lXHHHXKVQNdttm85pw1HrjahwrTTTFNYYFiO3yc3u6Yy6445YLztc9CxXl1nOt++XhSEsWdwZIkIlW/OGnybQAA");
+const SquareZ = createIcon("square-z", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3gAAAEDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGcLBgABNgIkAwgEIAUGBy8bvwLIngd2g3MFIyMShu+1w3j4WkPf39sAogpr1pkqYN3KOtS1mWomS3A+xtxUsay+BKaEaWYfwqr19e4GJ+AZhwFgHnCeLYzDxtgQOoH0XoYct4trIN1McMPR+GPEdZKWAkB0A2Dv5NEjyiqqiMP6LXFoHwGxB6YFChQYF2BTITAum0aWBVXUdX7gNAFEoxUnkJExjClABknKObe3NXTkE20NrRfaU8eZ/mNtWmPoZGu0zb7qfvVvxnm+31eWFztx8PyqmR28aA4EgsVHP9/o2vzf3JbAj0//0aGuokyv0CyBoFiql5yLEqIUAIAUl8wGBJJuRU4bJcCGUZKI1PwFlq8BAAA=");
 
 export default SquareZ;

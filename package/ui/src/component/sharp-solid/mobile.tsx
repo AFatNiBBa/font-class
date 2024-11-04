@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/mobile?s=sharp-solid mobile}
  * @preview ![mobile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mobile.svg)
  */
-const Mobile = createIcon("mobile", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABSQAAAG8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaG0LBgABNgIkAwgEIAWDLQctG2oEyC4ObDr8QgvxrkexmN1ifBke9Uk8PM2V708mC8keAKmeKinWlex6qpXMvo6EZUXkUViS1dXx/39u9207/Yd4z5IKlreGaILm0mjERig0YqYemAvoPdtDIOb/XM/3fDTAbyMbWhSWDqTAOp9PYMDr8xKosMOzE8WzbjpPDSm/JXnRSRqm98PWFnJcKe4qSY9S3GsfGv9MeZN0CwAxCAD2Hh628f0VvyK+Ni+Jr/aBgNgLWCQoUGCWgB10gVmGRZBlwa9omvQfuAgBRIsaEsjkBmbBEoAMkpRzt67LvnyoLqvjvb5ejr4oj9RVLaoqol5+3GM/1onPG+gHNuDnC3qEAhogDlqb+f89asf/Tp3An3f14w02X+JkeoyOBIJivVk3jZsGqThJAAApzjPJFwmSURp51577AoQKAZKWSoDCDEVAVtlEQGleTkBLZT9d5K4wajZB0nMKFLZ7gWzUB5R2+Ckto1GEB+lc8ncWV1mo7GIcRGxy6xiUx/HSbPGYt545YWMjlk6O7hbmNu4GuWrrDwcVg0s/RLFAhJp47b8uTyxc3WycHGubFr6XLU+eb0PSKOZmhiQRqRU+");
+const Mobile = createIcon("mobile", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2QAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAUGBy0bqwLIjsQ4JvJIF42HePhv7fW+2QkQ6qho1syqlY0qsa+ucKSJfIz5p5ZAbzC7wXHMOSS6LYvtOsg8DLK47TYmCg6HNH6jcSrIcaN4qIr0OOFRj8ZXfR6S1BUAohUA8zsbSz5XohJxXr4gzi0gIObBqECBAoMCTCkEBmWjyLKgEmXpHzhKAFFtWhLIyGhFFyCDJGVYQ1VT3s5y/cXG3LStPsaftT77PnbBpU+nTu+sjJ6OAoHg+fqTPyctU/9rGxL48vbnd821lp/jLD1DrQSCYqKccBh3tWqNMwEASHHZ+OKBdMpJ1WSTEBKRqv8LAAAA");
 
 export default Mobile;

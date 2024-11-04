@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/popsicle?s=sharp-solid popsicle}
  * @preview ![popsicle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/popsicle.svg)
  */
-const Popsicle = createIcon("popsicle", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTAAAAG+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdH0LBgABNgIkAwgEIAWDLQcvG3wEyI7URvkDWUkE3y9r/f7MhZCHVYQcVcjJoTh/jqDwa3FkF0dS6C0sdRK9CVj7/vc3z//5pwAfiNTGzgNZ4HOeJ9B5NJYHHtBYYJkmYOk2nYceUfRGSJBExB/S8TVDHqezaQ2kN6nETHlo/DNimqQlAxDdANh2/PAhX2tRi/hVj/jlAAJiGygEMmQYF2CjTGBcrkAuF9SiXpd/YEEA0ageKoEcOSpYAMhBkvK8p6WtoSM/1tbQevr3xoiPR0RHRPzZ/PnYyRCtIdoq1e7q7JzyWuntlx1RUsaOmq1qYkdZ7oip+gVaaqsLtgKB4OaMF+e7Nv5vbkvg7/tn8VdU/xpbUxXNEgiyhfWFzsQziK0CAJDimUpsRSAZlWCt7V4KEFoRIGnUKkBmTLcAuVYLBGgwaZUAjVodlom8Reh3tkPS7iFkVnsOuX7voMFG3+RG/ZE9EzrI9C8tYbdFu8qKZYuXFuuLqa4xkSdTfkOxLM59pr55mHTNffc8cdUVNz0xxCOHtKfu2u3hXV5UWGaxpQrrFdvW4/AxVz3y2E333ctFNijOS3M986PnoYoEWH7BpNZFan5w/8Hjm5fvXAUAAA==");
+const Popsicle = createIcon("popsicle", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3gAAAECAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGYLBgABNgIkAwgEIAUGBy8bvgLIjpQuJ6Tx8P3a67lvXwgcoY2KBpKZKKQyCBVfXVX/dYl8Vnaqd2pRVXY2h1jlnXIAkEPAAWnAGbalcgE7bIyBoxmObyDHfnGuifQ8lXj20vhpwDlJWwEgegGwtL2+5msVVcRF/Yq4sIqAWALjAgUKDAswqxAYlo0jy4Iq6no/cJwAopnjCWRk9GEMkEGScu7IHU1deaujqX3/2+zHDV3xff7zTrSbbPQ2fk+UV0svvoiyjJVqsYqVspz6f7J4AgSCl5/6uGf2X2tHAj/e//2NK6y/xmJqoFUCQTFdTzuIpxCLAgCQ4qnJWEQg6ZHI5kAzIikXqfX+vfuPbly6fQUAAAA=");
 
 export default Popsicle;

@@ -23,10 +23,12 @@ export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
     const out = new Font(), ttf = new TTFEditor(out.get()), old = parent.get();
     const { primary, secondary } = icon;
     var codePoint = 0xe001;
+    ttf.ttf.name = {} as any; // Completely removes the name table to make the font lighter
     ttf.setHead(old.head);
     ttf.setOS2(old["OS/2"]);
     ttf.addGlyf({ ...primary, unicode: [ codePoint++ ] });
     if (secondary) ttf.addGlyf({ ...secondary, unicode: [ codePoint++ ] });
+    ttf.optimize();
     return out;
 }
 

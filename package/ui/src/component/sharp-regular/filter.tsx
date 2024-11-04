@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/filter?s=sharp-regular filter}
  * @preview ![filter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/filter.svg)
  */
-const Filter = createIcon("filter", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUwAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBJgsGAAE2AiQDCAQgBYMtBy0bowQRlZoFyH4kZG7eaFYROmeeybadZY8Ljbpojk/i4f/3x7fPffdDrIMmZqMEt2nTzQagwauPq5CfgtvuJS8iHiFDo0IUsQCYOvU856EAvlHQxsKlUxfIGOM8AgGMLcyFQrEC1QpW0wpYrZ1dihDdJulTPsmw6IfVBTnuxU4VpEPpJXbUD42vemwnqSgARDMA5qxcOt/jT/RTxIvyhnhhLgJiDhgWKFCgX4DpCoF+2TCyLPgUZen/AyGAqMRHE8jImIjZgAySlHNHT51syCuSvXalIBYHbnZFHvWxPDpWhKhrEGJZCDEzsoi4PHq2+ez3kZf9y4+nWnEwxZ9Vq/POPHbcaec/vvJw4q2n2aU39pjh/7HaIvGKZiAQvJu9YFLRNP1/dV0CX+7+/Enar6h8zKSzqJZAUIwtx65LIBEAgBRbjSaCQDJewnett1+AUIsASaVaAQp9mgXIao0RoMKgCQJUqrVUIXKN0G79AEm9DaAw0TaQtbsGKkz3RK/UHtx2iJcnfm6xKpFQPAff8RBiGeqkOWB5HGGb0/5Q0rFL+mN/u3Z6BXKn1rclGhx/Eb7jIcRx8ryedfczHXuZEuG+pP16sw6RIWrgYhI0KaMCAAAA");
+const Filter = createIcon("filter", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA3wAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGwLBgABNgIkAwgEIAUGBy0bwgLIHoex22RJF83nJyfUeHh+f/+tve95X0hi1cwkONN5KhQnTZ8sNCcpC11VyDeZIb8SmDXLMU5YxgFwH/R8WxiHjbEhdALpnQQlHsQa5MmEE5bGVwOOkxoVgOgBwKrtm9d6+ik+RTyvbxHPrUZArALjAhUqDAuwVCUwrBhHUQSfoq7zgeMEEE0Wn6CgYABTgAJSltLS2t7oLNvaG23bbYy+7R1bt3XbYvm22DZ5pefK9wl7+Xhx9Z9jX3busg+/rLz5+s3/fW2oDwSC+YeeLax76f+W9gRf7v/8SYhayitokSCoputpexIkAQDIOGoyIZB6STJtkoAFBimJbPoYAA==");
 
 export default Filter;

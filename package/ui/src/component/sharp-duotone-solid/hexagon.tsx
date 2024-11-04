@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/hexagon?s=sharp-duotone-solid hexagon}
  * @preview ![hexagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hexagon.svg)
  */
-const Hexagon = createIcon("hexagon", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABTQAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGULCAABNgIkAwoEIAWDLQdKG4EEyJ4HppuL9CM+1AoRQxob8bY5fzjx8Px97dz7fsu2akNt1M7ZKhxGuxdtlA9gwIHPTFgcfyvWtodKaDefcKvQSGbSiA2m0zyRzBDtmfX3PnXqec5DAXyjoI21QBb4nOcRiFgu3to0LyhXmGrtdBOSyyp9yicZpn/D5gZV/MuTLvIj4Zn/Axh/5lxJfQUAMQoAjq9SSTza0c741Xfi2ykIiBMAqwgFBYsI7BELLJJYBZVK0M66hnbUNUMA0Q1+toBuFEyBFQAVSEQl0aqlWkmWD6lK6Vw6Q1rKUZY0QrPma7rcftZKLoDn90EguHmxXtPH/nvVIsDP17/Cz67bKZvolSAojbqhnIAkAAAZWwgJBIohCQAAYNCrAKEfAVK3fgGKBQYEKv02EOiyzI9At35nxKJSIkyqDJAGXYNi1wVUJt1Alz3PqNtklLdBWJb4msUmJBQ/YrfDxRFeZjppbqxso7ytmraxY8Ylumam1jraBtYCWUqmGxMJDY77Iubm4MIi+Lh8Ps/qWFoZmJnWPVF8PzTZ6uNmGCINddMdRSGSxPp+Z9/ozaZ2J5OMkvYm");
+const Hexagon = createIcon("hexagon", true, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2gAAADwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFMLBgABNgIkAwgEIAUGBzgbtALIHoex22RJF8VUPg4j+H6/1z3n3QChDuuwThQUWbWKHPvqqPqvq8rjI1zLkmT1a+bvL8Ll/O4GZ4BBeRFkoS5gg8dwpRwO+R6CEm+rayKPE162NP4Y84LUVgGIXgDsnD7Y9+lH/sg4qV8TJ/YQELtgVqBChUkB1lUCk4pZFEXwI+vaP3CmFkA0WzJBQYVuDAMKSFFKc0dTVzkVuv384VHX6VPzjd7Gvzm3ePzqcY+DDwLB52P317P+v7Ujwa83f9MV1j9SNtAqQVAt1AsuJEgCAJDxwHxCILVKmzZLwBpgSiL77tx8dPX2vbuLNwMA");
 
 export default Hexagon;

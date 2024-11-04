@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/dash?s=duotone dash}
  * @preview ![dash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dash.svg)
  */
-const Dash = createIcon("dash", true, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABUAAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbHILCAABNgIkAwoEIAWDLQdEG4gEyJ4HmZuXZkeIQrHVxavfXBEP3+9nnnvfy18gsLtqC6osLGr2rAFY2EyFqtBRFSpTS2Tzf6fewiyN/RfaixNKqINa28NqRSvIWWehxCTXF61Pf/P8n0cBPqPQxqalgSzwOc8TSHRa511CgQeUeCLW3jSyKLJ31qQm0/FMHWcH1PhUbmmR7/MPedpuHF+oHqSBAiDGIQCHT/Y6xLvRzej0JjpaSEAcgbAOo6BgGQb7UIFlzDqkqoJu9np0A39+61AA0UDnFtCgYA2yCYEKElHr3FBrpJ4oVw/G9bmIt0NiPJx57dr0q0EhHsy+Ca093v620TnfwUfvcW+Uk+7dG008v4dAIPjw38/G9v3rH0rw+eOPP/gVpWyjX4KgbPe2jRIkAQDIuEpLIFDMIWhv2BsBwiCC1BhEsURBNWgLLauS/cago6ioA8K0sSANu4BirzuqaU+07PNyGtNRrggfYP6DltJoUk9B14cSlgEWos7WYQXbulsuGDCLZvZ2LqYmli6KPun8q63GomoPAgGXD5TAHT8qQ+WcnC3nkn9MBc7buptdb4BFEOOOvaIQGWX47KnzwrlpmtRJDwoA");
+const Dash = createIcon("dash", true, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA4AAAADsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGYLBgABNgIkAwgEIAUGBzUbxALIhof/X/vfPmfuFxE04xnPkNy7ZREP9WUSvvqEiFeTPG5w4BawBhJZmiWU+AI2eMiKCYI9SoWgxIvqgjbyada43dD4asoFUlcFIAYBsG7bpo3efspPGXXzjKhtQECsB/MFKlSYFWClSmBWMR9FEXzKpvEPnNcIINrhlqCgwjTmAApIUcpwT1tf2drT1h1nJx739F0fe+jM6IPu3mvjjxa2BlvfF9RHa2/7r1zpD7YDAkH97vmPfQMr/3f2JPjy/Odf3WDKFjolCKpFzSK7EyQBAMg4bWFCIA1LVNslYAV4SiL7Dx84cXzx3QA=");
 
 export default Dash;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/xmark?s=regular xmark}
  * @preview ![xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/xmark.svg)
  */
-const Xmark = createIcon("xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUQAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBCwsGAAE2AiQDCAQgBYMtBywbhwTILg7M8zdJEcbzBo2x/mM5EI5nwxDPU2vl+z09e8CoULGOZOFWB9iIOJbyjLmKTUUmdv2Pzb0PXKfS/pH2ytBIK0Fz7mYzNpvJZqm6wZmu+4L/YAsPOA7ykNHN/FX7PgMegkdOjTdeKuADwPOx8YKcC3RvvAKNX2tq11sfz4azieJ2Z6OmaNqrtcSS9AvH54Kaz2kt5UeBL/lD88eCF0XbAMg4ALh73jb4/vOQ3PdG7j0CgdwB1hEaNFhG4JIoWCZZB1UVHqjXw//AdQiQDn6ygIoG++AMQAVFal0fakfqszgz2P21eNvK4zCzYDSY3QsWvLndxSbG8XdD8uLif2Tk3Ts83oFwodG3vg0IwtbTN0v+9Q8V8Pvz//51C5BuAfoVEJrj3rExZYGSLgIAlLyjGl9EKNYJ+F2HfRUQgwgoOgYFNJbICFSDjhBorYoR6Bj0mCh1QEybBC6GvYQbF55wNe0Nty795I7pNK+FPmv6s5ZQa6DqYnY8LrjrKMwDIFOz5GGRHiGhwyoWjg5u5mbWbgq6aLS7vdoCKz/EfA4PK/C0f708mLu4Wjs6UJsSr5c0Dztfh34EwMk+2wsp7YdrBQAA");
+const Xmark = createIcon("xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAFcAAoAAAAAA5AAAAEUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQB6CwYAATYCJAMIBCAFBgcsG88CyC4OeBPrlCB0Tf/TrKJGQNi4qIiH7/dr577/PuLRNWkyCVE8bmhopZMZUiN52lJ2qAwR6trqaEXTTJvoV80C6eCaBxBSVTMn1b5PaFUzWx4nlnkqf4FEHsUBWHd5+UCHE7a5jSGIoxGeRiMajVtDjvtISXpKwGNeGj/IA0lZAIguAGwdmuK1FrWIan1ElSAgtsCwQIEC/QKsKgT6ZcPIsqAW9br+wGECiAbeTCCjwDDmABkkkXN3a9meDyK0VJ5737gneXvC+aYqsAvJd/3fEdErtLdfGYVWJXMOEAi+9pvLTv6aWhP4fvk/zvUQlTSaJBAU8/V5Z6EePVERAIAUV0aPBwNJt8TWAGmB+ESk8ub1");
 
 export default Xmark;

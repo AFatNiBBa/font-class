@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/square-full?s=sharp-thin square-full}
  * @preview ![square-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-full.svg)
  */
-const SquareFull = createIcon("square-full", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTgAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeH0LBgABNgIkAwgEIAWDLQcyG38EyB4FbtMzjqvkEYbTND1CxId4GA/PH/s69743FUFJzYMpPERjG6BNrYvLyxO60fytWNvevyMayg3JLUMjWRKTRiM2ojetgfpinrjZeedRgJM4lDVsaSALbM/zBBLr8jzgaYFl+gL2uk3nUUcUvhESJBEdl3l8bVDjokcmn2Zw014aXzHmBKkUAEQvADi5KhXxvKM7it//DcRnnIKAOAHMIhQUTCKwTxSYJJkFVRXcReOf/gMZAohmyGETVFQsgjUAFaSsku7saDJL1Y4mwzCLYCKRzJ32DgMiCdFhJhKJyOB61vvs+9xBP1/fER537m6tvSTDetl+7QcIBJ/KlzDr/v/WDgHw8PHnV/oZaTxTPgOtEgRls7GpliAJAEDGgSshkCYJ8NROjxAI7QiQmrULUEywIVC120CgybQEAs3anRFF1REG1QecOl3DxZ4jXA06w032vcxmg1HChHUy+0tLKmggP8eRYJizvAx1zvN0Ged4W3EfcsmDVQwsLez09YztFLRRdPbmChaY9yEWERTGsvg4eV6u6tvYGlta1Ck5fN9wO9jNHugCIdziSkmk8anJgXACAAA=");
+const SquareFull = createIcon("square-full", false, "data:font/woff2;base64,d09GMgABAAAAAAEsAAoAAAAAA2wAAADlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFQLBgABNgIkAwgEIAUGBzIbrwLIjsO44TuyxVL+46F+DX279wOEOqxZZ6IASyBchaqvrrCsiHxUhbupRVV9wewGB+4RJRAIBhJQINuoC9geY0oZhryDocQn97SQTxNPMjR+mfCYVFUAoh8Ae6eHB77XUUdcNW+IK/sIiD0wL1ChwrQAmyqBacU8iiKoo2n0A+cJIFo1kqCgoB/DgAJSFrCrpaecuNz5MLur0dLXsvis/9mfhQf+va7rugEQCNa+/nh3s2/zf3tXgp8f//3CK2y+p3yGdgmCaqlZci1BEgCAjEcWEwKpXepqqwRsgKQksusCLM8M");
 
 export default SquareFull;

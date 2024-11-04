@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/sparkle?s=sharp-duotone-solid sparkle}
  * @preview ![sparkle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sparkle.svg)
  */
-const Sparkle = createIcon("sparkle", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTwAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYHELCAABNgIkAwoEIAWDLQdKG40EyC4OeBPrZIhcQqdpPtUaXhgcRVDt99mzu0cACtWxPgVsVNBYAqFIR0X98idcwpJk9Jva5tt1CEWTW4ZGMmkwtba22BbK2ppZiTBso8R8qSqz9+tvPTeNRwEuCHRe4w+km6PzHE+g8UAuzMs8029g/21LHBWCdBsSJSLxwxqvG0q8zVdHepPgEf8PYPwx5EPSlAFEJwDg4KLIwe9H/EhxW30kbh0BAuIQwCSIjIxREGzDAqOISUBRBD9SVfEjqmoSCCDq8bsZ1CNjCLAAgAISopSulrq2cs7h5puLsqlgwU6x86uL6Tv/NwXPm3ueREgTRUJ9DiAQfD4eU8f2/8aWBH59+hv+jqofUUsf0CiBIK9Wq8aoQdQEACDFQ0LUQCDrgjTU6qXbC80gJPWaIRtBQdFsBeqM82jjxQksSpPQawKQtLoD2ZY3FL2+UGfb367XG/mFsPFlP2hJmcTTNU7d5GJuGetc0GmaJ5zZ4pVrEuyClbOTh8Vs6yHIm9x7Oso0IvUhjkVn4sQ4d/Yo1Wjf3G3ngn9JgtuPRC+9W4JtEGDtbKOZSJE77r1BdFi0q6bTUrhTAAA=");
+const Sparkle = createIcon("sparkle", true, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2wAAAD1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFoLBgABNgIkAwgEIAUGBzgbuwLIjtMlNuUxnXj4fu313LsvRBJYh3VYkgK2iYojoeJLJNyfyqqqP36FLkmS1dsfO1/v3ODAJfHEA+EkeoJt0AVt0I0NBg8PYguChhKfqicd5Ies8WyGxh+jnkg9FYAYBsD26eGB9o/8kVE3X4jaPgJiB8wIVKgwIcCaSmBCMYOiCH5k0+QH0gggOm1ngoIKwxgHFJCilO6+joFy0qD38vT4+Ojo5GSuNdz6N1vf1F737r7eff0aWAcCwbfP7jW09r+7L8Gvr/8m1/yIdrbQLUFQzTfzrqINMvBMyHg0F20EUrfEaqcErEJTEjly9yLeXi+cGg==");
 
 export default Sparkle;

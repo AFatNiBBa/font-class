@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/caret-left?s=sharp-duotone-solid caret-left}
  * @preview ![caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/caret-left.svg)
  */
-const CaretLeft = createIcon("caret-left", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTAAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUF4LCAABNgIkAwoEIAWDLQdQG4AEyK4OeJPWI0Mg7AhD2qrej2VA2LGBiIja77Nndw9BAaGCgDDAxrKx50JKRugz4lckyejn98zt37YmirZ7JFFJLCEJmkujERuhrNEAA4SqkvnzPVFiVPPLjPb3b83//NMHfCDSecwD6eboPOcJNA8kbc0TSSigxDOwdqe1g1L7pRFLy681js8JLds1fZTvBbij/wDmj6AvxVAFkEkA8OjN2IHbS6/kvpvcG4FAHgNWECoqFhC4JgoWSFZA04Re6Tp66boVCJB+dG0F/aiYAXMAGihIayMjfWPtNR0fzqvXUzk1w3m59uT/VoV7Vwqd0JaG7wFBGHvy4y39+v/gSAG/fv47fEU5K2NQAaEedAfm+Qwe5gwBAEo+CwUQVCMKvOuoLwJiGAFFv2EB1TwDgWbYPgJ9lhQQ6DfsBVHakJi1qFCMegfVlQ80s37Q59rf7jcbHYMxK/MtSxxyNFjjkmmu8jRWWFtTeV7jZdM71iKwi7WLs6eVpZ0nI3eO93IylPDAg1hGUhqrYnV2L87QvnvYjXn9khreb4W95e4IbCMAzo40UklJnb5z8vPNqAkXq3ta/jIBAAA=");
+const CaretLeft = createIcon("caret-left", true, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2QAAADtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKRE0LBgABNgIkAwgEIAUGBzsbsQLInge2G+oj7IQB6qJNR3mKh/xlezP7j9KaptvSNKjSjSQnFMGiEfY0CkU8RlyQTRLkFgxzfoGZ1ee7GxwAxBgE6AFnmGIyOO8xVoYp4xtXESixUz1qkC8ZzyqNb9MeSd0VgBgCwNHV2an3drYzPupX4sMJAuIYLAlUqDAnwK5KYE6xhKII2lnX/IGLtQCig09IUFChH8OAAlKU0uht9JfL3kZPXPRWPSutodbv8nt/5hAQCP6vnzK4+9fVm+Dz7Rc2GNvZQpcEQbVar7qPJg5jWwAAMppWAgKpS7I6Ato2pCRybBU+vEprLQM=");
 
 export default CaretLeft;

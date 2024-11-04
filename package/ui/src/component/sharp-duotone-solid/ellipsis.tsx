@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/ellipsis?s=sharp-duotone-solid ellipsis}
  * @preview ![ellipsis](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ellipsis.svg)
  */
-const Ellipsis = createIcon("ellipsis", true, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABVgAAAG5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfH8LCAABNgIkAwoEIAWDLQdMG50EyJ4FTtmVgQ/hza4hlCFsDD78U4h4+DrM93f3arGSSo0qpYNW4S4aa0DREJzATbT6z9+7897v87LsFu2pRUWLxhqWZbQGRVmi8cL4N7PqA+EEWDC/OPU856EAPohkDgoFZIHPeR6BiavFafWeLy54hbG7s5EpCq80iyXpF47PHUp8CIdIeucAz+GL4xt6a0gaGUD0AQBnN+kUHq94cTbXbhBzJEFAnANWMGRkTDFwSBCY0lkBRREsuKbBguGfH0EAUSV9NIMqKlgHGwAKSJIopdFotCqdcp3YvMG0IqLZiQw7vraR+xk0QfovKw5GPtW6I38cIBAc9GqXFvvXS+Dr/v92z5MhPnmAugSCvK1ty8cDMjlOYACAFE+MAokzZUNcutX2goHQpEBS1YRsQoaiaQsqlvhvVzVdEERpCGOFAknbLWQHVlCMXaHi0NOsGofwUMhjJv9pcQmKxPvI7XBRhLquTJ097ttRGtZMS5syw0k0jQzNNdR1zAk2lXIWBhISGvdDxM3BhUTQdDDncsScmum0mfkuUbTeMFnKxWZYhgN2tvh2JlLkfqPf74xnnZn9xSlqxdwtAAAA");
+const Ellipsis = createIcon("ellipsis", true, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA5gAAAEFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGELCAABNgIkAwoEIAUGB0wb2ALIjtRG85mRePh+7fXc9zZAqMM6rBPFBUKhIgu60/HAslOV8WvETiWr6l+0/zY70NRTa23hbQmlCaeSQPFvr4+CD3Uyc5vmJyRFEBIDRbzJR+pIr1KJl/oHMH4ZckTSlAFEJwA2Dna2HVdRpShriNIWAmITTApkZIwKsCwLjCpMolAIqlRLFbWTBBD1dCmDetShF8OAAiRJFBYtdW3FvlLzgZZoQein33e+/zNVXi11/DsPVefdlzwHAsGzbwOvz3Us/29sSeDH938//V0n8TW9R6MEgjxTm3E6jnXqjK8CAJDiqelBA3lXK9TDLe3IMpEid165ffvG/Uc3Hs3+A93NDg8=");
 
 export default Ellipsis;

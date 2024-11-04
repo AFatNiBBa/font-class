@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/slider?s=sharp-light slider}
  * @preview ![slider](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/slider.svg)
  */
-const Slider = createIcon("slider", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABVAAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBIQsGAAE2AiQDCAQgBYMtBy0bngTIjsJxr8QrljIMBb+Kh69l7f3fPVO3PZeJwYaQbIqSdWiyPITDJWFXSHDoMWILi0avD3+5929wB9Yr2osvG5vGGpZl3vYsDTCQOXXzvPNonr9RaGPhsi6QBbbneQKJdeEi67LAIsoTsKyd3fIG0W0Sn/JJhkmfYXFAjd9xnEr+zBFf803jnz32pFoAxDoAuPMqn8R9HvOIcXEjRvdAQNwFHCZQULCfANfJAvspDoOqCuaxWMg/kBBA9HiaBBUdLoBrACpIpdbJvsnQrdSXQ9feZMkWJYaXbWgiQwxDRIBoLUKbDq1b7ehMm71NY3e0dQswBdPXRvJ9gMP4heYy64T2eA7i1kFbf9Fz/TAAgeDPLPK5Zrj+f2lI8PfX91++oZQzLEkQlOOL48oJkgAAZHxiTgikE2S46rJvAoSGAKnXBCj20QhQNccI0DkoSIBe84ws6kTYrtJAWvYWFBftQLXdBXSuexi97VEch7l25t+WmNCQPkWvy8MYp4HK+gIVh3EuS5ZtKFixiK6ZqbWOtoG1QpaS9sZEwoJ1DyIvFw+K4Xb8OF/SsbQyMDNNY+J4XrfY2vVWqBKSnuVISWT/MgA=");
+const Slider = createIcon("slider", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3gAAAD5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGYLBgABNgIkAwgEIAUGBy0bvALInge2LXrtFaTJQhl3Yzx8v/Z67t0XAkkgM19FA6tMFLFKhItNCr66rhpQlsev7Pid2k5l9SbkJ3uDhHzFr9p3D7jpEZNmxDtX3sSBjbEhNBrhuxFKfI2OLvJl1ngx0/hr3HNSqQDEKAA2jvf3/GqiiahbRG0XAbEJ5gQqVJgSYFklMKWYQ1EETbRtPhABRDe1CQq6MIZpQAGpKqX0loGuoXI00NV/l/3VYg7EQPTHTbsWXo++/ld9W3tYc6Ndf+XGjT40GiAQ/N75/EaW//cOJPjz5dlgytfolSCoOm3HRYIkAAAZ9xYSAmlUxWi3BCwRUhLZfRQ=");
 
 export default Slider;

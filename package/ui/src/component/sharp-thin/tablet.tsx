@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tablet?s=sharp-thin tablet}
  * @preview ![tablet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tablet.svg)
  */
-const Tablet = createIcon("tablet", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABUgAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBEAsGAAE2AiQDCAQgBYMtBy0bjQTIjsM4RjyyK8VRxMP/r/n+PncmWa+TwpR4SkQKmByQryPQwK4qrmhEVu0n9XWSufb04uZ551GAb5GFNqYtDWSBjDHOE0isyxdRVGCZJmBZOzsDg3Cr9CmfZFh0w2qDPJ46okZ6nOB+fWj8pb97JFkGIEoALNu+eZNmK1oRv9oTv2xAQCwDlUCGDIMEWCgTGCRXIZcLWtFux39gRQBRx3smkKOGSZgOyEGS5Xmn7o1GrUu+rVErdqcsdYksOvdpFF1EClF0jsgidjaKhiiKiMbw1+Xrf4b9Pka3D61W65WWV+2ybJZaSuXHYPvw4cCBE6WOhgfi1J2zD9rfbeH/HY0E/nz97y98RtrNaKbX6JBAkE1sT7QnmhBNAQBIcc3waCKQjJLhVTt7IEAoECCpKwTIDFQKkCtMEKBmiFkC1BU2y0TeSehl74Cks4uQme065Hr5AjULfdPrekUmGPq56e9awmqLrJqrpk2eWs2vlqHOaIDM4wXVtjT2WiqNw6pjzjvniqOOOOmKwS7ZZF111moPXeVFlWkmm6oyX3WcPC9vc9Qll5103rkyZYHqvjbWNb95HNSEhNM5kkSkupbEKwA=");
+const Tablet = createIcon("tablet", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3QAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYF8LBgABNgIkAwgEIAUGBy0btQLIHgc5Ga95glvUZCUrX+aMh/9fY933/yCmmUT2zCGJJ814SHQy69mTp6krJczZqmnzNDDzE+2E+Gp3gwP3iMI8EA1okEG2URewPcYsyZDtbIEiHjvRQHpI4T5D45cRdyQ5A4huAKzubKwrq6givtfvie/WEBCrYFogI2NcgAVZYFxhGoVCUEVd8wdOE0A0akkCBRrQj1FAAZJcgG0NHcW2pfUgdeSjtbcfa43Zl14+01m63lUvqnddlENzDggEX3+sv66F/81tCfz88u8XXWEtyvQSzRII8lw95zBKiFIAAFLcmg0IJO2yrjZKgHmwJBGp8V9cAwA=");
 
 export default Tablet;

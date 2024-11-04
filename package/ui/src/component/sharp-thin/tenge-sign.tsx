@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tenge-sign?s=sharp-thin tenge-sign}
  * @preview ![tenge-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tenge-sign.svg)
  */
-const TengeSign = createIcon("tenge-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcHwLBgABNgIkAwgEIAWDLQcxG30EyK4ObFNtQX8RZhkkhhaLXL1Ynw1DRNBaWT0zTwsfQtaRaDSScHHkol/ICIPGsHodfVfbOu2EuENyy9BIlvjm0sRi8/jtkxlXNSG+2nOy9j3N/kz/52bc63kU4PfEQxsLlwaygPZ+nkDAY3keB35gZ3oCdnvTGnWk7Etmosl0PFPHE93Q8lwXp3ws8LZ+aBatc6eoFUCWQgCu3SkL9PuZn8mPSeSH65BArkHYCqOiYiMMLqKCjZitkKYJPzOZxP/ArVCATKP3C2ho2AnZC4EGitLa3Ip+amy3+6mujsMoQ3Kr73rpUhCpZ0m/fcHC2+DTGyBwtvRLz/J1lMDyxc9BEM79W0su/p/tC/j9+UXtVzT5mTclzCog1IOTg9q8gbwRAEDJI2LeICg2IoI2eGe1ogOhmNZBtYEATecATNnMvzGtcwOVNidW6mAoBnehOu0AzUoPmHLRX5+2MvWYME5mPmmJuUSzKThmWJDANNBZz1N5mMKytHefCjJcor6Fua2erpGtwNcKa2cm17DMFwGbwQISYI4fjxs9axsjC/MyJgX7Ncler5dBJYj0OFtRSOke9eSefsMAAAAA");
+const TengeSign = createIcon("tenge-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3AAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWFwLBgABNgIkAwgEIAUGBzEbtgLInge2i7UTMe14umoqjlDpBN/v97rnvBsg1GHNOhMVLpGtQ5bVddVfyKr6fKFLNrq2r2BwGwLmr31+1b47xgn4poPohtcw6gJ20BhjDBrN8L4EJZ67p4X8mk18mWlcmvCBVFUAoh8Ae6eHB378jt8RF3XEhX0ExB6YF6hQYVqATZXAtGIeRRH8jrruB84TQLQSmaCgYBjjgAJSllLau1p6yklXS2fVo/u2zuysOmOxofGF5oOmb2+82cP+9QsIBJ+3/v/Ut/mvvSvB3+9fygrr3/EmG2iXIKiW6iXX4g3EGwEAyHhkMd4gkLol1VYJ2IBSEtl5eOH+sh8A");
 
 export default TengeSign;

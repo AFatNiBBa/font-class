@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/table-list?s=sharp-solid table-list}
  * @preview ![table-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/table-list.svg)
  */
-const TableList = createIcon("table-list", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABYgAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBSAsGAAE2AiQDCAQgBYMtBzEbyQTILgacMjs14qFkiBhO08STcJ4vGi+PT/HQ/73v75lzUlrx1qhTt4oBDlACFmsWfoCheETein7+fO/Zn3cfGkO8t2TlrcEJQoNiW3RjMhO+Z3sIRAHVzv81n9/zowP8RocWaaXnDRQRC5tAA++drbxBZwOb6QRs1s6eQul1g5L0FEmG7Q2jC9S4lnSQnwmv6UPjnxlnUk8BgBgGAE4fsnF4tbEd8W8Sv66AgDgFWIYoKJiH4AArMI+zDFRV0I6mcf+BBAKITsCLElT04Ay4BqCC1FU5GYqK13CFfJjC6rQ6BrXIpqG+QFQ06rBTiAHE6jBqaNWyNl/4wXwDLFjtBSdm7uddfz2AQLC5o8w96g7+SyoG4O975WekaadsoVuCoKw2q4oJkgAAZKwZEgLpmAjv2u9NgNCLAKlTrwDFHD0EVa8VCDos8kHQqdcNVlQZwrhSA6nfEyj2bUA17gI6HHhrncajKBOhCsRXLjYmoegyctmdFKapr5L6gcV+hLZ549rnTDQKbRNjSy1NPUuBzMXNlZHYCo76IuJi50TC6Dh63F/QMrfQMzHmRSLovmy0XlebSGIAdZslJZGKnnG25wg=");
+const TableList = createIcon("table-list", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA6gAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBAwsGAAE2AiQDCAQgBQYHMRvdAsiO0yWyITBHYeLhY9l8/+/Simtdlaq7ZlCta8Zju0fj0CckLfGcUFE3sRlk9LYZY+07Nzhwjyjw0Cbb922hgTJewIbc0dzYo0i/R1RQxnvxpIl8yTqeZ2n8M+CJ1FYAiF4AbB3u7vjdiEbEdxXxbRsBsQXGBQoUGBZgVSEwrDSOUiloRFXlB44TQDTbkQQl2jCNGUAJUkspdjR1lQdlai96svtUR3R16rpyPlnrrf1M1Kl79dvG7SahTbcb3QcCwXWffy57Vv+3diT4+/YPZ6hqpKyhVYKgmKvmnCVIAgCQcWMyIZCGtcDdLAErIElJZPvFMf8YAAAA");
 
 export default TableList;

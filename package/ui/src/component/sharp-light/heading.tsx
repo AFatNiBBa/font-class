@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/heading?s=sharp-light heading}
  * @preview ![heading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heading.svg)
  */
-const Heading = createIcon("heading", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABWAAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBPAsGAAE2AiQDCAQgBYMtBy4bugTILgrsxgfjwsMREeFprUeElfGcTYvn+dZe75uZ0O5P2AHZcEkRejSajW0VC/eFrArYGPFPbU9l9cLTM7d/k8wq7R7JLYsmS9BcGo0UFiISyhp1yXzIkl+17xUSP/3NP++8DfhApLEs7gJZmM+J8zzsPO+y6XHn2Qf7pl/Avm6TeegRhl9ESFBEdDxhx9kFLb8Sm/KjgM/5Q/NX0AtFqwCyBAAP3gz6eJNMkqsh5EoXAnkI7BBUVGwQcJsp2GDZgaYJkwwD/wcqAmSaPVlAQ8UTeA7QQJHW7vRT8+11P9XVvuul62Q+ITXpvURZ7UpGJIW27Y2Xxv9Y4C4tuTucExeCSi9JX6j55vPYA2dQfN64DwThcvOXArf/z/YF/Pl95Vc0THJWxjCrgFAPhkxyBnJGAAAln4RyBkFxh8HeOvKVgOgQUEzrBFTrHAKazj4BU7YUCJjWecGUNifWTBsoRt6C6pYnaNb8wJTb/tq0tdQwYoKA+cQlNjxUn9JMMq1VHdoqGxlUqtd0WQ4/JBbBKgtHBzdzM2s3R170zbu9xgyu+yKVkZSmqnTbu18em7u4Wjs66JAaPa+GPebZEcxjAK5dgKWQMvPiAQ==");
+const Heading = createIcon("heading", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA4gAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHoLBgABNgIkAwgEIAUGBy4b0QLIngV2i/NRu9gMmTyGnj/G4uG//X6/z8xgUt0SUbSySOIlk7WTxfILkaSREt6i/qT5JvMuS0J8tadZ7btOTvg7IAYcYWiZtOXxwbOEMfCQ2YNoQlGqhhL3kQbSbYKbLI1felyTlAwgugGwcbCz7a0e9YjvKuLbFgJiEwwLZGT0C7AsC/QrhlEUQT2qyj9wmACiUVUJFGSMYwpQQBKl9Lc1dJT9tobW3KZVR7QGSG0Y7Wq5dbSm9gi8vAyvv3hZH5ad42/eZg4Egvy1eF3L/5vbEvh5/TdyVT3eUg3NEgjyfJXTeIN4EwCAFGdG4w1hkvolPW2UAAsUkkSkpvcBAA==");
 
 export default Heading;

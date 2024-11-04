@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/mound?s=sharp-solid mound}
  * @preview ![mound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mound.svg)
  */
-const Mound = createIcon("mound", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABRgAAAGuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGULBgABNgIkAwgEIAWDLQcsG2EEyB4HdsPXETa6LIbhixAPX/u9nrtvA8AvUQVGReAYXF106khYYAXkUEgg24nsVP5kXizLr9r36W/+eedRgI8jCG1MWxrIAtr7PIHEunxbCWRhFtAX42/e2oyilPsmE03S4zU9XjVDjq/FuCrS3QQ360Pjrz7jJHUFgGgFwNp9u3Z6/yt+RXypRHyxHQGxFpQCBQoMCrBCITAoK5Flwa+oVMJ/YEkAUQ1nJpBRoBfDgAySyLm1oaop702X1h96vDziVcNLX8zcE82xb+xe673JUceZaGoPx2bOPLbn2MSkNehnIBDU1v+fpmXFv9qGBP68fFIOpjXpHmolEBQzKjMcTmtA0AFoKa4bM14USFoluGujWwKEegRIqtULUBjQKkBWb7oAVYYtFKBavV0KkeuETkc6SBpdAoVFboCs03NQZYUParXOKK4G6VjyZxa3SUMbh8q5s+aUy8qpp1HexnN3ebksTLkeM1N50nEXnHfVMUedclUhl+00rjlnkwVv9KHSXLPMUVqm3A4fx/c65rIrTrngfOmzXHlemeK6XT6V5QSY85iSRKSqdzX+KAAA");
+const Mound = createIcon("mound", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA2gAAAD6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWFoLBgABNgIkAwgEIAUGBywbrwLIHoVxTGyk066LQUwiHr7fLz33/rcBIh12gDoTBSyTCllX1ehUV1jWQD4VDsh2VrZ2k3mxrHu+at+5wYF7qIFoJHkW6CAJ8cgcC4LBcFbbBSW+Vrdq5NOEJxcaf426JbVWAKIHAHunhwc+/4pfEfeNiHv7CIg9MCNQocKEAJsqgQnFDIoi+BWNRn/gDAFEE0YJCir0YwRQQIpS2ttrneWkvdZ2+XrjXftrbxaOu+ae9Tyrz3rwxV1nxzcLC5u4q+8CgeA/jx/ZvfmvpT3Bn7fXM5m7+QwtEgTVfGPeVe5C7gqcmPHQXO4ikNol1SYJWIVSEll7P+EaAAAA");
 
 export default Mound;

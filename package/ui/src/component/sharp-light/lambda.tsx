@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/lambda?s=sharp-light lambda}
  * @preview ![lambda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lambda.svg)
  */
-const Lambda = createIcon("lambda", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABTgAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEJCwYAATYCJAMIBCAFgy0HLRuGBMguCuyGsyNkhBXV0KOJYW1oghkWD19r5fs9vVuXmTB0iEgBk4sDey6A/mxArwsakYqNjt5iYc4AXfCGKM1tlyHv8dPffG2cRwE+DjzFsbDzQMbSaM7zBBLr8i3YHxvs6xe0b+3su49BZJUu5ZOsls+wmSDH26BFep2it3xo/DPGU5JcAYjBANh85MB+nf2J+N39Qvy2FwGxBRSBChXGC7BOJTBeVpBlwR/dbvgPLAQQbfUICWRUmI3FgAySyHly0xqQDzet+kTd1KJpxkQdR6OJE3EsRjAUd1sfj5FRT+mjby836OPgwYOLwc8TPj4zVe9p7w9ZpT5bDN7RC7vUQCAYN+OrZwat+9/TJPC3ht3ddVIfeiQQVPO6nIwOgBjAT0rx2JToIJBMluBa+3shQKgRIGmrBaiMM1iArDZXgJaJlgvQVjugErmfMNypDpL+7oHKCk9ANtwn0LLON6VteFSPhXE181dL3MHo9r6yeMGisqZMXY31P5Xaa8uyNOtxTM2WUZfdcdtDl1x0zUPC79uvP3LLDgvb7ouKxRZYpFijbAePw4ddct8D19xxO3dZq5yXZ3lsF88W7oLkS+yQJHWk9s1zt85fPAcAAAA=");
+const Lambda = createIcon("lambda", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA3QAAAEHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGILBgABNgIkAwgEIAUGBy0buALIngXu3iVkRMIIEwanvF2Lh+/XXs99+wLENiqKQLEKF1iRZdvqqBLYfiGjdnyM+FPbqazeYmFOs9r3Col3ygFADgEnGghn2JbKBeywMQaOZji+gRxfgwbS5xSXL42/RrwlyQWA6AbA1tnRobIe9YjrKuLaPgJiG0wLFCgwLsCqQmBcNo0sC+pRVfuB0wQQjRxOIKPAICYAGSSRc2dbQ0c+bWtoLbSNnLfdvBhoi9Ybg7O17to/9Wv6w++f7+Yu73w/WXw8fXr1YQcIBP3v3zy427X6v7ktgT9XxxVW9ShTDc0SCIr5iltRQpQCAJDiudkoEUg6JbIx0IJIyiM1Pr3/7MGj+wAA");
 
 export default Lambda;

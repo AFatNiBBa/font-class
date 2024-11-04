@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/columns-3?s=sharp-light columns-3}
  * @preview ![columns-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/columns-3.svg)
  */
-const Columns_3 = createIcon("columns-3", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABVgAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBIAsGAAE2AiQDCAQgBYMtBzAboATIhuD7td7vc2d2KzsbhpsoYFbA5FKZgI8jlegnQ+w+oHAB+4EVjtycN48CvMShnYdPm1+O/psnkMD3PG6eBZZpApa10y9vEN0m9NR/kmGRDJsDyvg7xmqQ7qavcTM9NH4wwA2SsgAQ3QGwaPP6dd59iA8RX///mPjaGgTEYpAFChQYLMBchcBgpYxSKfgQ///P/8BMANGEyxMo0cRUzAaUICnLstVq9Wg3upSb2o3qcCpSO4qoqqpdpai4LUUqqtC2tatuWBNV19A3YkRH946fhn996Gtvr9TA3le7n9/Zau/U7/vpt/dyrrNalvfk8yAQPBg+9vvd3eb+1amdwKcXv/zGfUX/f0h16kAnCQTF2P/H2pFqSLUAAKS4ZESqEUjGKuGund0SIFQIkDRVAhQG6S5AqTJGgIahpgnQVFmvEGVL6G1ng5POzsKF6S7Dpd4ewg1zfaY39Y7i4tDHTn/bEpZLYNlYnjR+Yp6dVV9h7gIZ+nPytDjyks+Nol2HnHbKBQcdcNQFAZ2zzrropOUWuMyLsknGmyibLS9Hj+ubHHTOeUeddioOmSPvV0e6ZFePIiUB4WSOJBGp9SalcVMAAAAA");
+const Columns_3 = createIcon("columns-3", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA4AAAAD9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbGcLBgABNgIkAwgEIAUGBzAbwALIHoex82RJFZrQ3pURD/Vr6Nu9HwJJoIFs2GaiiOpa4WqDvjquCoUsj48RN7WMyaz6WZe1OjnQE948pDShRALwIMC2RBJM0IIdsJZh4E0FJX7HuAbyKuFOlsZrvS5JpQIQ3QBY2dlY97KOOuL6f+LaGgJiFYwIVKgwIMC8SmBAMYKiCOr4/18/cIQAotE6EhQ0ogeDgAJSwdsaOsq2ufVWtlWtrWitcvtd2Tn2qPu3o27y4uT07unLl9K6GG7iFAgE935cudE1/7W5LcGrx+8/YvB/nac5miUIqvH/4w7zFPJUADsx47axPEUgdSvgRgmiWSElkS0ftYk5");
 
 export default Columns_3;

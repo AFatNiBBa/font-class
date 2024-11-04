@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/pipe?s=duotone pipe}
  * @preview ![pipe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pipe.svg)
  */
-const Pipe = createIcon("pipe", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABUAAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbHMLCAABNgIkAwoEIAWDLQdEG4kEyIaHf9b63Tczu18NfBDXBEncmpiGZBUS3ryEf6gmea9ujd/40QEuiNz1veOBfCDR+44n0HggeR74J5RpBtbbhjkagV9KoiQkfpg0TjtkHqanFUgeJJ9xjf4DGF91dJpERQog6gEwY8mC+d62R3sSn0vPiM/mISBmglwgRYouAkyWCnSRyZHJBO1JqUR7lEo5AUQRnT0FRaTojl6ADCSILGurKtRki6sKlSsutUTckcTx5tuVF1vvRhon2u5V9XxS/+R7j8+bP+v+pvY852vfqj1/vjZxfBwIBPnRzrvX1E3+X16VgC/Pf/7FD0npbYxMnqBcAoJ0cGmwlXEYYqQAACRxWE/TQSDVJoFPrXZXgFCJAImiSgFSndULkKk0SICCbsYIUFRpgVRkFUKzVRUS1fZBaqwjkGn2FAome+cWNUcaIpyDuR9a8lyJ5izlI4YOzyfm0wjzXqdlOilftvsfzpUBsGmzPXY7aJONtjkoyH7zg0N2mavhOV6UG2Go4XIT5eb0Xl6M7n4HbBuL9jmT5Pud/g7r7QNgnQQw8nBDKZFEWv1i9SGRptY24o0C");
+const Pipe = createIcon("pipe", true, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA4QAAAECAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGcLBgABNgIkAwgEIAUGBzUbxQLIHgc5mat5om+y5iji8GMRD9/v97+19z1fTPP3rAZJvOSfUcmkik9/oYFXhsSQL2zA0QL2Dx7fX2bM73RyAHD16wH9wPdawikmYDnlghYELbwf9PBA8aV6oIl8kw28ztL4Y8wDUlsFIHoBsHPt0kWff+bPjEZ9ouECAmIXzApUqDApwLpKYFIxi6IIfmZd6wfO1AKIZu1MUFBhHNOAAlKU0t+hrnLVI+23ng9F3hl0+7PhRnV3ZPP08ncuM/Op+8mT7s/g1IFAcHiyM0jP+v/WjgS/3/6PZ6j+HGsJWiUIqoV6we04h1gTAICMc/O2EUj9UtW8oDVDSiK731qL9wYAAAA=");
 
 export default Pipe;

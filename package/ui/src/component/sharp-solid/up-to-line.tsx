@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/up-to-line?s=sharp-solid up-to-line}
  * @preview ![up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/up-to-line.svg)
  */
-const UpToLine = createIcon("up-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABTgAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIEFCwYAATYCJAMIBCAFgy0HMRuGBMguBuyG+mJBeeZCrpC2jOt1WCzeFUG1lj2z+x9CxwpRsdBoDCtFoOKjbIxJxUZHn/8xNt9HNZH4kMQ9+cykVAt9t7w1TZlbqTJ3ACD4vwzQBZ//c/n2fDTAbwuCoUVh6UAKPPP5BAYehXVhJ3J2YBPFM28ZsyjlfkkmmqTHa/X4dUKNC+EjMfmRwV350fhj8gipqwAgBgHA0Xmnjc+p4K95B+JbEwTEEYBphIKCcQR2CQXGiUyDqgp+vPwHMhBAtIGPJqiomAGrACpIWUXGHqVYLerHHsVg0B30CNHNED26oFKriJRqRLf1S2dkuRzmT+wEm/Xq1qtZfPCRy83mwIQFiOeeLvxPM9rUv0wpAPz2P0J9u5kJdEoQlKXGhcm4BYRMgJFxDKtxs0CaJAB8a69XBEI3AqS2bgGKMToEqm6LCLRMCiPQ1u2YUFQ5wqipDlKvW1DsuALVqDfQsuvLaBsN4VNhHc3+1JIqGi53sd/j4wRPHY3zPp2aSV6WbcchYadVLNux7dCSRWsOFbqvbR/ZUrGQshsxPw8flsDb/uN835J9B9bs2M5tkvi8bnNs59tJEwDlho2URCqOdt2HO+7LBAAA");
+const UpToLine = createIcon("up-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3AAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGELBgABNgIkAwgEIAUGBzEbuwLILgpjN8IIWkWnyN5+lHXmF/Hw/H64c99/E/M6z57dQ9tw6WQSy4RIoq8Eq2TybzBAVWbZHgKRQGaAVfvuBkfucRRliWShLmCDh2wvgoBWEHK8K76rIP1M40dK458e30lqCgDRDIDlg501f+/jPuK2RNxaQUAsg2GBAgX6BZhTCPTLhpFlwX2UpX7gMAFEpVkTyMjoQD8ggyTlXJPrKhryvoXag4M9tWqjdj8ajP4u34Z+kR3m5pvLoTsCAsHG2KuPF01z/6vrEnj8k15heR+fU6iWQFCMl+NO4zPEZwEASPHSaIhA0iBhWikBZg0kiUi1L64nnl9N3AwA");
 
 export default UpToLine;

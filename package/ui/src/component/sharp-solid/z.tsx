@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/z?s=sharp-solid z}
  * @preview ![z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/z.svg)
  */
-const Z = createIcon("z", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABSQAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcHcLBgABNgIkAwgEIAWDLQcoG28EyC4HeLIJnRhbbElDMeWn1oq5fOkuXCXvMRmNePq97/bcd9NKUVV127qNsFEqLoDCoyzGMFg0+kPUj/323ndvNz+5VkWSJWiiWgolEwpNYyVZVJk7ABD8XwN91b5riBDFdhmgC/73N8//+acAH+c+Fna+cYHPeZ5A53mXb0oo+2BpgpZ5yxzbY0rf1EST5J/p8WuFmlvLG22UH2b4zITmn5Q3FF0NABkEgIu3hXk+V/hrhfw2C4FcABYJGjSYJeCYRTDLahGqKvzx/A9UCJB2CikFVDRYgg2ACopUa6rH5rMue2zuTcRo1sTjId1ekUQ2xe0W8aR/0b4xjz8pbBG95F9B3wtsil519wFBuF97z8Dgv9NjgL89rtOKJuhUQGh2W1jJEwA9wCeVXJDOEwTFFANP7fVFQHQjoGjXLaAxI0hA1W2HgDbzmgS06/bEItVFjFptUPT6gMaRe6hGfUCbY192u9FY3ggXYe6LljyyaDim1VJFezr1VT7sjPb7uqxkLiSXpUU2HDpwZt2abWeGOjHvnds38vDQi1RVSYXq0e3ocX7ZuhOnth06SEP69LyaceFXZ2kKA9i7XUasFLkBAAA=");
+const Z = createIcon("z", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2gAAAD2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXF0LBgABNgIkAwgEIAUGBygbrgLInge2jWr9BlY/LTJaiIfv90vPff8FCHVYh20milkoKIGvrqpfIavqs0bs1FZX/wZSWoqW7SEQyVL77pQDgBwCLkDOsC2VC9hhYwwczXB8AzneFd/VkX6mKn68NP4Z8p2kqQAQnQDYONjZ9qcWtYjXMuLVFgJiA0wKFCgwKsCyQmBUNoksC2pRlvuBkwQQ9dxMIKNAL4YBGSSRc2tLXVveb6lrftB726Y1Bh5aY7pSxdX7qk+/PPY6ymcPvY0CBILzzdkvOpb/N7Yk8Pf3cIVlLT6nCholEBQzJafxGeKzAACkeDIdnxFIWiWyPtCSSMqR4i0AAAA=");
 
 export default Z;

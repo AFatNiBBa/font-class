@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/ruler?s=sharp-regular ruler}
  * @preview ![ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ruler.svg)
  */
-const Ruler = createIcon("ruler", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABagAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBcQsGAAE2AiQDCAQgBYMtBywb7QTIngXOeYsgpKjmRGsxxH6l5inFz3j+Yz/aue/LikndTSbgjSYaCpmUaBYtQYqUskNliORvwdg8xPwR8wSN5DrztraWqGvzpiFbMtdCVsj79Pfu/NtagM/oI+2l/3yCtPd5AgEtGj4toSyNMk3Asnb2fc8guonQpwgZxh82F2jzmHCoLwUf0pvmrzV3ULoGAJkFAA9eNRt4+89t8j0M+e0JCOQBgF0MNGiwiQFusASb2HZBqxVuGcPg/gMJAqQH4OK0/OBb8A5AC0q1bMOliCNhd+SgcFspVzqMSkpZEVVOm6xmm46vtqtO2w5/NAlGm4CcaDt2s7t/bBhsc6geDqGgYNrIrSp6bIIwfK7DD37ZePCDLz3Yd/A8IAhff3grU1np/6iICfjzsPIrGt5K/QSjCoTmcAgZFaAIAKByA0cBQXmKCa866SMGiHEElN64gMYGOQZojTvAAJ1taQzQG/cMS1oBYtGYQZn0HjTO3ILWonvQufGe9RbDMjDZPOT/XUZdQ7VNFI/EqEDTlqrYjBhWi7Qd+G78iJ/OYuPUiStrK/uuFHehUV47Vl8RNV9E4iJiSAFddx+Pd6xduLTv1Elcp4jeJz436+l+ipnAe6SiFCmO0ZoXAAA=");
+const Ruler = createIcon("ruler", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA7AAAAD7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBCgsGAAE2AiQDCAQgBQYHLBvfAsgWoZLz0P9+6Z35bwNEClU0tbqnitGjUPWtjYrfaiKfddVsCfTXyYH7EQ9AnzfPLhKl1wQt2DiPZuy4FZR4EQ80yN1s4f6GxleT7pEaFYAYAMDBE0cOe/spPkXs14+IfYcQEAfBgkCFCjMCbKoEZhQLKIrgU9Q1P3CBAKLNWxMUFCxjA1BAylLKTHejtxxvqOvG8avHblw9vrMyuja2arnUHGh+X2xdb6nn9/YuXGB/+sL09JkzS+8fXn/+fleOJSAQvFsf+32hf/N/R3eCL89//hRf/TZlEx0SBNV6ve5sgiSAj5Jx11JCIC1ICGmTgA1OKYlstHAT");
 
 export default Ruler;

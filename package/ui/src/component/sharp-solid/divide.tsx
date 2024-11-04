@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/divide?s=sharp-solid divide}
  * @preview ![divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/divide.svg)
  */
-const Divide = createIcon("divide", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEACwYAATYCJAMIBCAFgy0HLRt9BMiuBmzXGiEaYlS6RWk6yNHGWXeHH+QvPuLh+fvhue/HKi2qqIEqhZoHNmvECZQ2zvb/78/7Jte1e5ZgJyUIbe23NKGvuQPAdf83gGr9v2wPgSgE06lTz3MeCuBbyII25tIFtjrXeQUqGu8QWFYr1iqK3Z1tyyTFPkkSS3I84jidIY+njFKQHtIfuAkfGh+kKJKqDEA0AgDWD7IZeKbw/P8gnqWAgFgH6EaQIUM7ApbQBdoxdAO5XPDq838gggCiJC9MIEeBAWAUgBwkWZ5XVdXUFHX5fg2z+gRRExHVKWYHNbwa7q8VNb2m/+2/000VOTDyGrkvG4iZH147NIC4aepvTaXBHX4C7/uR7if5/3VOW1RKIMjGH1eMJwlJnAUAIMUVmfJFBEkHOnrXWrcChGoESErVAmTaSBCQqzaGgEInCwJK1XbQRV4ltCoVkNQ6BZlFG5BrdQOFJa+81Br0i0IeM/lNi4vWUOQUGrR6dOJwIFNnj/tDF05r8rVdUEAvtE2MLbU09SwrZC5TrYxENTjih5CBlh5ywuXxLVegfG6h15etH+OC+yO5tb5eASaNYM6qJYlI5YMF");
+const Divide = createIcon("divide", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2wAAAD3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF8LBgABNgIkAwgEIAUGBy0btQLIjsQ4RvGLKBYigvq1t563GyDUUdHsANCoCBUfDaThQJ+Kzzfi10kivWlW+66TMznamRJL8wCgeUBJEGiYsOU2JipCjWj8zighj5vsQgXpKpVwOUvjqx4XJDUZgGgGwOzu5rLXcpQj3oqIN4sIiFkwLJAhQ78AEzKBfrlh5HJBOYoiP3CYAKLSliSQowLt6AXkIMlyaF1FQ77TpvZQXew53o16o0/NT99HSko+XJ5RTqfZ9LA68zgDBIK7hi9zp00T/6vrEvj86e8111z8io/pCdUSCLKxYsxRvGrWHB8FACDFudHjYCCplxEqJXScSxKRKp8JAAA=");
 
 export default Divide;

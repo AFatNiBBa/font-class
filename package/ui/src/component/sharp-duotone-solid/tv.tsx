@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tv?s=sharp-duotone-solid tv}
  * @preview ![tv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tv.svg)
  */
-const Tv = createIcon("tv", true, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABYAAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBIgsIAAE2AiQDCgQgBYMtB0AbtATInoWx46MkWsr7a4xIioevtfL97tmt29kLcgeIJ6iQHYMD8nHkomMTFXUuaMRVJMnTW6rM9eWa/++3U6eexzYF8DkEQdtDA7LA5zyPQETS4VuoVCpgtYbW3WlbcajlRUssLcejOU4XqNL8/EqL9D7Fa/4fwPhrklcknQwgRgJgx8mj+w0MxmCKX73PxC/7EBA7QRHIyJgqwBZZYKpKQaUSDKYeBqOnEEC0MZzpbfzANdgEqEASclV1RnU63daw6kS3VZ8dMXxEiuGRc7ceIVKIenhEjjicchoROYaf7tbDRN0fsz6O9H/mS79sf4qCYqBpnjWKRtPgS3qlFAoznpYy0CgfGiAQDPW2EVuG+roJ/P7yn/C83kB6lqBPAkFe0lviXHoGkRrAj0rxyKz0TINANltG79rvjQChRoCkrRYgm2KkAJXaYgFaplsrQFvtqCyqjjDW+Q6SfndBts5jUBnrE2jZ4mvQNjay63AXz33ckvdKaM9WWblsRdlUlonKewOTl5vLtr3gUWoshLMuue2WBy664KoHgrxnf/zQTXs1Yo8vKlZaZoVik2LOH+UTFNxz39W5aF+zWTnvL/BI718IXlJoV9nPMpEi1w8eLXVAub+JzwwAAAA=");
+const Tv = createIcon("tv", true, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA6QAAAEHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfGsLCAABNgIkAwoEIAUGB0Ab1gLIHgeO2xwVXZJLaHyoKIL6vcy9e59WZGlF0zWo0iWDUAy2e3SEjY6KYjw6liJTZPTvL1VgZvn/DuqUA8cWWRoERJ38AnRhusdYPCneYqDK6fKsgfyW4yV/AOOPXs+klgIgugGwc3Kw7/UjPjLe6h/Emz0ExC4YESgoGBBgXREYUBlBpRJ8ZI2PqI0QQDRKFtDIugfDgAqkUCqoraGjOra1XnRlZ+Gai+wqVx3ax753+2/0623dGeH1vvstRoy837UdEAiO5n710rX+v7ktwdfPf+s5dXmfolmCoCzUCy7zHvJeAAAybo3lvW0EinYFAAAAjRKwBgAAikJklNab28VH2C7sDgAA");
 
 export default Tv;

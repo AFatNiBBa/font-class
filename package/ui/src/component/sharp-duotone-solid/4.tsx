@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/4?s=sharp-duotone-solid 4}
  * @preview ![4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/4.svg)
  */
-const $4 = createIcon("4", true, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABVQAAAHIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBGQsIAAE2AiQDCgQgBYMtBz4bqQTIjsQ4FvJIFY7i4f+n/2uf3Ly3+Am9hNKrqqV6UE2BxoJC4VoR7i1kmRk1OqXKPP/X1Iuyo3z++dyj8J6nFnjm8wlMJL2Bygc0nM7Qtju3pRRZ3qUllpbjwvE5Qh4300MNsudZPOL/AYw/+nhIpi0BiM4AWLxlwyrvWtHK4kv9hvhiJQJiCagEEhL6CzBPEugvVyGXC1pZXdOKuq4IIJr45Qk0kTAZMwE5yBB5PrpsdMg3l41iR1EWW2NclKUQZYBZJr8oIoIQwt4d0WvIq87+GfzwFz9frKBDV4caa9KPtSqLVApcUdVjGORuL51qmA0Egtv/1h/2dJr3f7syA7/e/vcb3Fy34m4G7WQgSOPqcXbGXSBxAD8qi8uGxF0QSEbL0Lu290SAUCBApqkQIOmnswC5wlgBGgaaLkBTYYMk8jahu10NZNo7B5IZboFcd69Bwzzvg6bukV6NcubKpy1zhUaXr6smT5hUzammCVEfgpSXc6tla9Tl2BiNBx12xmkXHXLQMRcVc96q+JJTVlj0cl9UmWyCSSpzVO783tysgvMuODbW/avMVe23R7ls94/GD2aAKerGJBFZpLZp4++eUYp+wwAAAA==");
+const $4 = createIcon("4", true, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA3gAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGULBgABNgIkAwgEIAUGBzIbwALIHoex82RJFZqQH66MeKjf7/XsvvsDLIkUkQzrRAHr6qgiyuoqklXRVR3Pwv2pJFn9kln1q43aaN+BQ44cD5JhWxBqAhZjjEGjGb6ToMS96rkG+Sbh9UzjjwHPSe0VgOgDwM7Jwb7PzWxmfKkjvthDQOyCcYEKFYYFWFcJDCvGURRBM+u6HzhWCyBayE5QUKEfo4ACUpTS19noLsedjY6LjtO5bp3RGR3RoeNi8mPf/ybc4Odbbk/Nutq+2t7evt6+fmcDCAQfzl9N17v+v60zwa9P/5YV1s14nKNNgqCaq+dcxmOIxwIAkHHTZDxGIPVJqi0SsAKkJLJzbf5sAA==");
 
 export default $4;

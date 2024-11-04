@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/triangle?s=sharp-regular triangle}
  * @preview ![triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/triangle.svg)
  */
-const Triangle = createIcon("triangle", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTAAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHYLBgABNgIkAwgEIAWDLQcvG3UEyI7EOCbySBcvIoJorayenQfgTRQwK2BycfFxJCywCzs2ghWq6EvmWsj5v9zze350gN+O7NDGsqkbx9S5G88TCDTqZWNpBIEFyjG1O1sTZWGfpKUsyfEsxyd3yPEiUkW6k+BG/tD4pc91kqoCQLQCYOm2TRu9/RJfIj5VJj5Zj4BYCkqBAgUGBVigEBiUlciy4EtUKv4/sCSAqMZvTSAjYxhjABkkKeeWmoaqprw1Hqw3ecLkXTE5JsYOd1b9zu27tjfFztF3W+/+GeXoZ+UjDr/f5403SvSR2e/33p9E/E6IBuK1nuW7f+5rWfC/tiGBb8///VN/dOVLku6iVgJBMaEywe4EEgEASHHV6ASBpFsCAADQ6KYAoR4Bkmr1AhQGtAqQ1RsvQJVhMwWoVm+TQuQ6odOeDpJGF0Bhlmsg6/QMVFngnVWtM4o7QlqY/KHFrZLQyn3l1ElTynnltNAos+O0Pb9cFsZcDYOxcNJR55x12RGHnXBZIBdtdK84Y5UGr/RFpakmmaI0T7ldPx7f6oiLLjnhnLNpl/nK88oYV/X5sSAnjDlNLElEqn34Ms8eO30EAAA=");
+const Triangle = createIcon("triangle", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3AAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFsLBgABNgIkAwgEIAUGBy8bswLInoexMbPpJV00MY6fKzyJh//f79s+590/Zk08j2fPsya5gUdCopOpRE9mfUr5i0omv2aG/H2dyBDt+RXy7hgn5IsOohtew6gL2IwxBo1meF+CEt8jDfJlwouZxj+DnpMaFYDoA8D63tamP81oRtzVH4k7GwiIdTAhUKHCiABLKoERxQSKImhGXfcDJwggWkhMUFAwgEFAASlLaa06G91lt7PRYe5obuZg5nC/e+p1r88tEx/4b1afvp09BALB1sXOq7Pepf9tnQn+fntZYd1M+RptEgTVdD3tOEESAICMZ6YSAqlDUm2RgEUoJZFtvxCe3nt8AwA=");
 
 export default Triangle;

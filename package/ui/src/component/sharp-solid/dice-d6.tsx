@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/dice-d6?s=sharp-solid dice-d6}
  * @preview ![dice-d6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dice-d6.svg)
  */
-const DiceD6 = createIcon("dice-d6", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTgAAAG0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEHCwYAATYCJAMIBCAFgy0HLhuFBMiOlC5fNPHw/NzruS9pB0AZM7q5+jkWjjluQHqKLIH++QfweXHqec5DAXyjII1pa4MskNCc5xGISNLW61uwYDWtgHV3tgRN2OFRlrKWHJccflfI40JWo4p0Lr3Bqfyh8VUbNSR1MgDRGACTVy6dr/wUnyJeV+4Qr81FQEwGhUCGDO0FGCcTaC9XIJcLPkWl4v4DCwKIanTfBHJUoSuGAnKQZHlep06delUN8hX4xro7l61ctiJWxvJlwoqIWL5SWBYRK7tcbHzxe+c3O950beF7wfL+oDU//ouITvylLn7C24FA8PRDi7YbG437X7teAl8e/vxefkYqZZTpImpLIMj6VfpZFyVEKQAAKU7oEiUCSTsZ8uo7vRqFuhhIqtWFTDuNIVdXX6jS0XBSub9UJvI6QnPrAZL6DkNmhJOQa+4WVBnnuV+teWR3hT5p+quWMIMj07eKwQMGFWOKaaIxx0/G5dhCLfU64Ru94aIdDjrgmO222e0Yw46YHx233wwJne6LCoMNMEhhjGI5fzy9wnZHHLXbQQfSmrGK/V4vJ+T+3qAmhDtELElEqvUY2P23jQAAAAA=");
+const DiceD6 = createIcon("dice-d6", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3QAAAD7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGMLBgABNgIkAwgEIAUGBy4bugLIjsQ4JvFEdC7i4f/X/rfPnflimk2SZzXIEGlU72QWoXnyNP2/Et6imkTW5BfZs05OwI+nMOBAODm1JZxFmpDlNiYO0aDw7RLyeJY9VkN6mip4ckPjiwGPSRoyANEOgK3z411FNaoR1+Vb4to2AmILjAtkyDAswKpMYFhuHLlcUI2y1A8cJ4Co1ZYEctSgG6OAHCRZDm+qacnPRmm8fXJ2fuEsWpzE5PP2598mKrcq3ux/z3anre3n4mfBOhAI/n8amda2+q++KYHPn358i64sokjPUS+BIJsqp9yMAnTCAACkuGsyCgSSZpmu1kqABQhJIlLdn3C6FQAA");
 
 export default DiceD6;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/frame?s=sharp-light frame}
  * @preview ![frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/frame.svg)
  */
-const Frame = createIcon("frame", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABWgAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBSQsGAAE2AiQDCAQgBYMtBywbxQTILgocY2p6iHsuYTijEYcfx5mPSRjx9Gtlvz9/aeDCYBOFKInlxUWzsXEs3AoZLn9GbMVGR48Va9t76R/izicz1NsnJEFzaTRiIxQaNZLMZiwJ0dneIbXv8f7+5nnnUYAPP1FoY9PSzifQ3ucJJNblBRwFFligHFPqNmbQcJVXwxAcIobmQ/OAmq+JTvlc4H1/aP7Z401RGwDZDACuPxtm+K6ySjZGyYZbIJAbgMMEDRrsJ+ASVbCf5jCoqrDKOOZ/4GEIkCm/tYCKipvgHoAKilLr+UU3GerTbtK+iLRJ2kif0DbSpaDSJRnkTgsNzOdNaQY73x9dWo75ffUw2dJCLUBxunT9DwAEYeeH9q5vuvR/3hXw91vDR4+r/ClLzBUQmuNjpvkD+SMAgJJ3zPxBUNygAAAA6H0QEC0CiqlWQGMfg4CqdYyAiYPyBEy1HlGlLsR2swpF7yU0znhBtd0HJi75WVPb0wQTEwrMXy5xwFh/jXEQscJlbLDxQdm8ym3FepaajV0snRzdLcxt3Im4ytyHg4HC+15EsUCEKnicPW9PLFzdbJwc25Iq3jcsT91tQ1c46QmeopAyecYAAAA=");
+const Frame = createIcon("frame", false, "data:font/woff2;base64,d09GMgABAAAAAAFYAAoAAAAAA5gAAAEMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBBQsGAAE2AiQDCAQgBQYHLBvaAsguCmxj2OjPIqJ4GWKUzvp3LBb9jdF4+H7669ybR0totnTViqZbBtW6QziEwqOZFe4bsxn/hd1qV6+OU45bkicRJgCRHviNYFb7rgPAdUtWSLwH3HSIWfFmnFwnPsHG2BA6QfhehBLfYsMA+ZV9fM40/pnyQSoVgJgEwMnNxbk2vyP6XUTfGQLiFCwKVKgwK8C+SmBWsYiiCH7rPh8YAohBDpigoGAFm4ACUpYyW5qBsXLdDNRvUUdtNGq1JmuNJsY00URdvVZjudxT78z5frTY48U6rmqhAxAIfsx4mdj/DxP8/dHCLm32MCxBUG10Gx6jhWgFACDj3XK0CKRFyeigBOwRUhI5cCgAAAA=");
 
 export default Frame;

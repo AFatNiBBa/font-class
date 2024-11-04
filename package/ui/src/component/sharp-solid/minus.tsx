@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/minus?s=sharp-solid minus}
  * @preview ![minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/minus.svg)
  */
-const Minus = createIcon("minus", false, "data:font/woff2;base64,d09GMgABAAAAAAHwAAoAAAAABQQAAAGnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFULBgABNgIkAwgEIAWDLQcsG1EEyJ6DcZscQsq5qXTiz0tFtbJ4/v/vxfa5/6W0qglV6hyswgFry2MNNF18RGaNDkQwNu8xD/EhienWSBOXtkZp00yahEKbpkpcpgN0wf8lS+37xc3zzqMA3yi0MW1pIAtwr/MEEuvyxOJsTEsU022ihx5S+EZI0IjouKTj62iClvuuz0y91R881ZXmPwv6UAY6ADIOAM5upnoMI+F3HOQP5xDIGWCdoEOHZQIOGQXLTNahacJfXv6BCgHSix+qQEOHCZgBaKCkmexOs9s06zQ7thxOl4jTzea7bzDy/+3+8fOs+tJE75oAQVh4bM2veav/NqcB+Ocjnm8c+a0B9CsQuu0xljNknC+vBABQuSUAXiQoAwovddgzAmIQAaXXoIDOEh8BzaAtAnqsyhHQa9AFozQ7MW2lQxl2C50Dd9BM+4Aehz61XtMxXgkqodSLLH4yIhN9moontaxTV6OzTFi7osti8FZTIRpl15lT13ZsO3AdsEs988aJSYRO+JBKiUtSZbodPA7P2nHpyoEzp6VLhZ5Xg25xcYgUA8fdYSlFyvyLvHAFAA==");
+const Minus = createIcon("minus", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA1QAAADsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKREsLBgABNgIkAwgEIAUGBywboALIHge5ifWuxFLGR3Eh4uH7/dq5779VtLolsmeGJN4I0UKik8Uynkl0SIS0Q2WI5E3mr/F+Mqt9p5PjM5/tcsIooVwTC7QtcchjrChTxje8pSHHVXGmRLpIXzj30vjV5YykVgCITgCsbK+v+WhEI+KzGfFpFQGxAgYFChToFWBeIdArG0SWBY1oNvUDBwkgynIggYwCregEZJBEzrml1Ja3Wkr1w9ZoG37ofPgbIq9398v3QCD4npg65v+rLQn8vP+HuU7iLT2gKoGgmG3OOogPnTrjTQAAUpwaLhFIU40ug81BSkQqna3rCAA=");
 
 export default Minus;

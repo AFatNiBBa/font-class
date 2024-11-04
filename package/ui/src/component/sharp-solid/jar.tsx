@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/jar?s=sharp-solid jar}
  * @preview ![jar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jar.svg)
  */
-const Jar = createIcon("jar", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeH0LBgABNgIkAwgEIAWDLQcqG3cEyI7DuOE7ssViiiclgu/Xyn5/ZvYAaEJECpgUqPNx5E6vjQs7NOYqNnUyFbnN/Ff7fupUzTgPBfA94kEZGxctHQt8zvMIRCwXT9pauee1gtW0AlZ1Gys3HHVV5AgeEUM6hmbxhDxOZ+MK0rsEr8qHxl8DxkkaMgDRDoBtxw8f8m0yJiN+10b8dgABsQ2UAhkyDAuwUSYwLFcilwsmo1aT/8CSAKKCL0wgR4EZmAfIQZLleUNDQ1PRkh9rKhpPtzS3iOaIIxVOj2dHG5saRVPE9Gp7dWqaa4x9xVZsHTu/FYQJW03U+kYp9O15IBA8H/r/8nzbxn/1TQn8+fAp+RmpfYutqYp6CQTZwtpCZ+IZxFYBAEjxzPTYikAyJMN3bfZagNCIAElFowCZIe0C5BotEKAwapUAFY0Oy0TeIHQ720HS7CHIrPYC5Lq9B4WNvgcV3ZFdEy7I3CstebdFd22VyxYvLdeX00TjI8/ockO5rMx9lhrzcOia++554qorbnpi8EcOxU/dtdvDdvmi0jKLLVVar9zOH/ePueqRx266715es0F53p7rmd8/D3pC0uWcJPkt2Lh18REA");
+const Jar = createIcon("jar", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3AAAAD3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYF4LBgABNgIkAwgEIAUGByobsQLIjsO4mRvpojkWnuLh/9d+v8+dQUyTJrINmUVSiRA1JDqZUN+iyjdrFvJbv2r6eZIZ1MwpBwihNW8BQkCJXK54ATt4DJVyOLT7EchjP7tVQ7pPcLel8cuAW5KGDEC0A2Ble33Nh2pUI76Wj8RXqwiIFTAukCHDsAALMoFhuXHkckE1yjI/cJwAohaVBHLUoBsDgBwkWS431bTkW53SuN+ieaolNe83apqstFf+TIix9wplcVGOffgDEAh+fHk4O25b+F/flMDPV//+8BWWH6JIFdRLIMjmyjkHcQNRCABAihuTUSCQNMvgWgkg5ilJrnR5fnoBAAA=");
 
 export default Jar;

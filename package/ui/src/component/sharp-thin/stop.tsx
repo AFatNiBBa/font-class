@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/stop?s=sharp-thin stop}
  * @preview ![stop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/stop.svg)
  */
-const Stop = createIcon("stop", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABTAAAAGzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeH0LBgABNgIkAwgEIAWDLQcrG3gEyC4G7HYLRP9ODIXcCdELpvDJm6DXESo5z3+tfZ77updm5geIFaqwjUQJKJGFiyOp15hULBrt/K8sCfCxpCtIirSJZrPNZDqBIY2zvN2YTIg/qdMkm/wBm4ANUtaqZK5V7QBd8H9TN8///CnASRzK2Lg0kAUSzXmeQGLDI5kWSJdpApZukyHoZeyNkCCL6Lg83mqRW6HnnUxRPwr40m6a39jsorQGIKsAABdvxIAfkeU9WcZlEMhFwC5EQ8M2BGdYwTbOLtB14Sev/0BBgMzjZgt0dOwDhwF0UKr3pbV+btavj3PDw2o1pWV2ZxgHqcg4S1qSYc+zqr+7PeDRIyYZjG/qVbSgjPB4HiAIty+9e+PBmX9xLPDL/7/xDeVzhUUFQju2j5n5DPksAIDKSzafEZRtDF518lVADAgo8wYBzVYBQTc4imDODg3BvMEVUvqSWOcYaJk8QZvTTrRb50XnnPFZ89alNeGLzP/SUnwEboxqLupa+rpQeVZ/6FiNy3IJi6im4Siy5gRkCe7V+Qw6LyJVVkin6+h5OimWrZmGDxn03oxWXp1gCKQ8zlOKVF8KAA==");
+const Stop = createIcon("stop", false, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA2QAAADpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFQLBgABNgIkAwgEIAUGBysbqALIHoex22RJNTRD+bgSI1RyHur3ez277wYIdVQ0a4YCyrgSS9IVtkJW1ceYP7WZyupXqsxV++4GB5oIBhwIBYMsvg26JMbDDliOYSBuBSVee6SJ/Jnxo0Pj1pgvpKoCEL0AWD852PKnEY2ImxpxYwMBsQ5mBSpUmBRgSSUwqZhFUQSNqGv/wFkCiGZvSVBQ0ItBQAEpC+xo6irHMdufZmc1nF3V/K9e/+Y+6fr6nlB/yAGBYL/+8fVuz9L/1o4Ef3+/HeND8myrBEG1UC+4jA8QHwScmPHMfHxAILVKrDZLwCIkJZGlBw==");
 
 export default Stop;

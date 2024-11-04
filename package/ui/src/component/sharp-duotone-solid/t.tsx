@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/t?s=sharp-duotone-solid t}
  * @preview ![t](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/t.svg)
  */
-const T = createIcon("t", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTQAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZHMLCAABNgIkAwoEIAWDLQc+G4MEyJ4Htq1ivQgTHcayReaHggtCRNTavz27++juh1kSqbCOIxaWFWp2pOLjYiP0N+IqkmT0WbG2vZdkEOIOSVTaJyRBc2lisREKjWZWBcGfZrTv0998bdimAB/nPhZ2HsgCn/M8gUSmb4o7DyhMv6H9ty0TagTSlZAoCWksbbwWaHlePyaUrwU+0v8A5o8tPhSLCiCrAcCF6x0HvyFDyfIYWXYJBHIRsJugomI7Aaepgu00u0HThKGMI0PGcTcEyBTdX8EUFbvAPgANFKS1Tf1kRbvW693tzuik70ukT1LHiaTb+311//bArm+7xyq+foAyBHvsvg4Iwo83a35/VfH/vC/g189/S6fHIa9LmCsg1APjAYM8oLAD/KiSZzx5DYJqEwU+dcknAdEhoJjqBFTbuAloOvsJmNgpRcBU5zJV2kKsN0RQLHkIqlOuoFnvCyZO+xtT61OfiOBg4YeW2pZoq4uxcJR5bh0sep1rzQKPNe+lJnwwi4mtjZOxkbmTYA4c+2ytrdEtH6KYsCjKo9l/VvtoHBzN17K9TQHv614XPd8HLyqAY3pvVUlJXTw5GGiKwXI4AQA=");
+const T = createIcon("t", true, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2QAAADsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFILBgABNgIkAwgEIAUGBzIbrQLIHoex82RJFZpQfgQXRjzU7/d6du8NsQLWYR3WiUoKbAxRyFfXIeqqjo8RfypJVr9SZU4z2nfHOHIcZB/0fBt1ARs2xpCgGb4RocaDcqqNfJbxdKHxx6hTUlcBEIMA2L6wv+dnK1sZZ03EmV0ExA6YESgomBBgTRGYUM2gqoJWNk0/cLoRQLTTJEFFwSBGABWkqLWzp62vnu9p6y56sqf0xNzHQf9m6/nW88OtQ3QgELz5fvPLjYG1/509CX79+HdmqGnFYUKnBEGZb+ZdjUOIQwEAyLhtLg4RSJ2S1XYJWCVISWTPzYWPAQA=");
 
 export default T;

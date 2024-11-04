@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/message?s=sharp-duotone-solid message}
  * @preview ![message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message.svg)
  */
-const Message = createIcon("message", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABTQAAAGuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGQLCAABNgIkAwoEIAWDLQdKG4AEyB6FccNd4iom68t4R1rFw//f+7bPuTelVU2oUjrHKhYKJ1OAxseaff6AA/xogP4a7DT87J/N3Qf6CO0eaS3dGRrJkbTt0Wx0W9AuzWpCaLVPf/PPO48CfEah7aGBLPA5zxMIdEzvPLAooUy/gX3dJjKiI5DeCImSkI5H9Di7oMb38kEf+TUbfOT/AYxfllSkoQIgJgHAxf2gRN2LXkbTfojGFQiIS8AmQUHBKgHHVIFVmk1QVUEv2xZ60baEAKIf31tAPwoWwCqAChJR68RI31i949Hh5/GJ8YyREPfl4bLd1X2rWTTaLzo6Hr0e/HWAQPA0XfWgH/8fHEnw49u/n/A7auuUXQxKEJTddtckQRIAgIz3rAQCxYSEt476JEAYRoDUb1iAYoVBQDVsh4A+65oE9Bt2TRV1SJg1nSCNegHFkSeoZr1Bn2M/q99slNggPEv8zGILCeVDTMKYPR49g3Q31rp9Xqv2o2YcOsXC0cHN3MzaTSAXpXu3V2hw7kOUCMWoh+bwlR3Durha72l7nz6+N20PvdwhQ9FR96wUhcgoEyEjBjkmmZJOJgAA");
+const Message = createIcon("message", true, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2gAAADrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFILBgABNgIkAwgEIAUGBzgbswLIHgl2LOI/MCyyMB7q9/48u+9SWtV0TdegStcgHELh0Tj0t6BIHU8T8k9sJjL65VeIen+AJb9zjAOAHQalwTa8VlnABg/ZJoj20IWKocS36l4L+ZhveEho/DXhntRRAYh+AOydHR363cxmxlv9Qrw5QEDsg3mBChWmBdhUCUwr5lEUQTPr2h9ILYBoRVGCggp9GAYUkKKUtq6WnnLa1dJ525tdzroWG/2Nf73dvKl/eXrywRcQCD4/ntO3+b+9K8Gf16cV1r9TNtAuQVAt1UuuEyQBAMi4s5gQSO0SbC1oQ5CSyIFPuTwzAAA=");
 
 export default Message;

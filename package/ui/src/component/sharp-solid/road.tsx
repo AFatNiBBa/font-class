@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/road?s=sharp-solid road}
  * @preview ![road](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/road.svg)
  */
-const Road = createIcon("road", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUwAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBKwsGAAE2AiQDCAQgBYMtBysbpgTIngVOmT0a8c4jDDeaDvH7RXzIbeKh/7XXO7MvQKhQEe/XkSUSmi37OhL2KxshW7Y9kdXrf2zufaDtEN+RhnNlaCRHGms0m7F5ZmwW83sHfOqCm7jm+Z8//Xnakz1aFFZiJEjFKs4nMMDpvHQis4HNdAK23dlakSntk9bIJDkuHJ8blPhWfdBBfk34mD40/pnxJvVUAGIYALTutGP8lt8RV82XuHIJAqIFWCaoUGGegFOqwDzNMiiK4DdN4/4DCQFEJ35pgoKCY9ACUEDKUlZG9I6BcpuKvQ96+3rvxkBA3BeCwPejN0i9Af4tghj78mp7uH29YknjG669TlBjkKAC3zAvkpoZYZEIEM+tDd54MrJP/3f3Jfjba+RfUXPW2Ua3BEG11WzpZw1kTQAAGa+4WYNA2qbAd+33SYDQiwCpU68AlTkOAUWvTQI6LKoQ0KnXDaooPcK4AeKp31O8su+FF+M+eIdT/6TTeFSvhzl75vOWGGkgPMdCNs8mzU5hHwQVj1uclrynX/LhKpZOju4W5jbuCrqK84eDaASGvogKsvKoicvjrdjD5Opm0+fXT2nhfs/zHG/2QVUw6bZCSiLLJQYA");
+const Road = createIcon("road", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3QAAAD5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGcLBgABNgIkAwgEIAUGBysbuwLIjsO4mRvpojkWPsQIlc7D/6/9fp8zF5NokklkGzKLZF4S1SuLTKK/EPH0NUSxqunnSeZaM6ecJsiBcOBp8yzUC9hrcWvIwGEoKPGputJG3ibcvDR+GXZF6qoAxCAAlrfWVr1+j+8RH5uJj1YQEMtgSqBChTEB5lUCY4opFEXwPZpmP3CKAKKdxAQFBUOYBBSQspTe0tPWVzZ72rr3urf7okffbrfuje7omWkNtv5Mi+bu7PTFcX0MzlxLL/VZDQSC1zfX90cD8/87exL8vP/3R1fYfM86W+iUIKhmm1n7WUPWAgCQcWImawTSoGTaLgFzUEoiSyc=");
 
 export default Road;

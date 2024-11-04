@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/colon?s=sharp-solid colon}
  * @preview ![colon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/colon.svg)
  */
-const Colon = createIcon("colon", false, "data:font/woff2;base64,d09GMgABAAAAAAH0AAoAAAAABRQAAAGrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGgLBgABNgIkAwgEIAWDLQcsG2QEyC4KbGP4mCEaZn0Ui3HXCxkOQ7tHv0bj4fv92rn3v7+CeBKtbMKShyxaklfvNAt1QyRUplN3qGTy2j+n3k/iicbuhdbs5jFpUWt7WK3iFShIrMlcq5NfZu/ZHgLxv7ee7/logN9oaFvddGkgF/h5Pk8gDaNengeWZYFlmoBl7ew+GIRfpU/5JMPyGVaLA0rMVC9q8jOB1/LQ+GP6kNoVgBgDAPsnoyGKnvQivvsT3/ogIPYBiwQVKswSsEUVmKVZBEUR9KLfD/9AQgDRwNclKCiYBvMACkhZSrs9WA+X48F64GJgcEAMRmRdX+7WtfjeP0DnJToNAsFPpx196781mOD3a+4zIsRqdtGSIKg6/Y5Z3CHGKgEAZNyxFEiQJij4rkPeBAgDCJAaBgSozDAIKAasEFCbVyKgYcABVZS2MGXeIQ25hMqmNxRTflDb8ncbpqK6HIJphadZakui5hyTMGad01AT7c3SuMFlw37FkoNdrJydPCwtbD0EuRkGT0ctDTe9iBKhGNVxO3ncnlq6uds6O+UpDTzv2F56swNbwdRVCymJrP+uAAA=");
+const Colon = createIcon("colon", false, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA1wAAADoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAUGBywbqQLIHoex22RJF81QPsa7EPHwtXTv720opR7RUdFUzaBKNzqW6pEMCh8h6T7C0yyDRF8y15rlF/u7Tk5Mr3e8H/DeEs9CTcDylJmZIJj2Gh/IMV/cqJHuE9x2aPyadUPSWwCIEQBsHe7ueP+Kr4hONdGxjYDYAqVAgQILAqwqBBZkJbIs+Iqq8g8sCSC6rCWBjIwRTAAySFIG+muD+SDUd9qnn3y9PdL+WxEP5xesA4Hg46U7w6v/Pf0J/Dz+d2dYEs3URo8EgqJRNZxFS6mMpgAApGipe1cKJD2SrXZJgCaIJBGp9t0BAA==");
 
 export default Colon;

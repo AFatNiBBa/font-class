@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/caret-right?s=sharp-thin caret-right}
  * @preview ![caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/caret-right.svg)
  */
-const CaretRight = createIcon("caret-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTQAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEBCwYAATYCJAMIBCAFgy0HMhuDBMieA+6uIixybcu8n9cHQSQfTChjBNXebz379se9nG0IQYdESpbCodR3BIUUZylPYa+Q6DNobvdzSF9pF3GrW1uyBM2libX0lVBoNPND7fsO0AX/N3JqvPFSqfzIi/aPFuSBlO7deAIX6Dwv7vDABzZR3O7cHo417dOSxJI8XuR4zJDj0IhJ+pmgE740Ho37kFQVgOgDAOevAh+/KHh4GvHgAgTEOWCOQIUKUwQ4ogtMMcyBLAv+8O4/kBBA1MkHE8jIWACrADJIUs6lt9S688titt+9iKNQJKOKog/EyaRIIUp5taD61L95Ez7fPDt0wDhKfet0fgF+TkqQ5Of4fSAQfCnj35/q/2+WBP76x/jYAsRGUmhKIKiWnpYM4mIsJRYiq3DA2Z6SCRp5qMs3AUIbAZK6toRUJkkka1tEamY0ZtS1PaOL3BKGDAGSdPmKVHZckWzIF6k58nfrhkK/KPQ20/+0BC8H3HWsFMvsshlRZu9JmvbYbaQvvpLBu5jY2jgZG5k7ZdCBH5yteRbo+iGqKCqjLg6nl9djYwdHc1sbXqWH8520i92eQVsjhBtCSSJSOYPy6Z0B");
+const CaretRight = createIcon("caret-right", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2wAAAD3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFwLBgABNgIkAwgEIAUGBzIbtwLIjsO44TsyiFi8aS3i4fu137lv32LWxDNe8awedTpDt76ZRP8hkuiU8oeqifyb+av2tU6OL3zDs7ZFHnNELYywLXHIeUjRmY43Hf9YQ44Fl0rSS4LKS+NLv2eSogAQPQBYO97f9F6PesRH48SHdQTEGhgTKFBgSIBFhcCQbAxZFtSj0dAPHCOAaJKLCWRk9GEAkEGSci7L9rIzH7WXbeeHB23F4VFbap+o9dR+xl1zu/1QPVT9Y6uq19nVWSAQHN7+/de9+N/SnsDn298XZhPEfKqhRQJBMdmYdBH3oyAAAKkyWE1M2iT0Jqh5CIlI7dexuw8EAAA=");
 
 export default CaretRight;

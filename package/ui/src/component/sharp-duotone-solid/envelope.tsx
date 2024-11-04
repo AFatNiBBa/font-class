@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/envelope?s=sharp-duotone-solid envelope}
  * @preview ![envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/envelope.svg)
  */
-const Envelope = createIcon("envelope", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABVgAAAG1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHYLCAABNgIkAwoEIAWDLQdMG5QEyB6FTdmtkd3eyOpERNbFPpElnv//e/+da+/z7i9prVA6tybcRWMNqAEG+FOA3gg24Pgfp76fxBfQu1D34MRCHdTaXlSLUbQ5r1W0IuXfzF+v76duetmmAN8otLFo6+IFPud5AgFmw4swoYASz8DanW3PDlkOJTTKkhzPmuN0wsjPjs2ozwXv+T+A+WOHmLLUALIeAHD7xSDCZ55fycr/lKy4CwK5A9hP0GjsJuAaU7CbZT8YhjAvVZhHlRAgE77aYMLAXnAUkCuUyBirwJ2tGc/z7nJH1kWe5nlXV4N69WCyPvl3wILzD1EFCNHJ58ECzovXQBC+3Hqm2df+i6sK/Prx3+UrKvUdiwqEPq2nTQoUAQBU3vELCNoqBe+62gcBsYyAMlkW0HZxCBiWnSJgZq8mAZNlT5gylsRm0w7Kai9Bu+oFhs3eYOaarzfZnHYSzsTcFy05lHCwxGqpwh6XkcrbnQnTPre1zIMqWTjEwtHBzdzM2k1QF1F4txdqZOBBVFVSQT08Tp+3x+YurtaODnFOH+9bGQ+9PQumIdFedKU1qfT6+eEx3x1P86K3Kd4gPisAAAA=");
+const Envelope = createIcon("envelope", true, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA5gAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZFwLCAABNgIkAwoEIAUGB0wb0wLIHoex82RJN5pQfpwIEQ/f75eee98LoSLQYQdUIFZbhSpCxVdX2NVV5fFRFWqnkmT1D+Z8ZXn3gIsIHVL8EHVGfQOH3A5ywCTQtgw1fpZjXeSHxHt/AOOPScekvgIgRgFw6sGda350opNx0nwkTlxFQJwGCwIFBTMC7CoCM6oFVFXQyaahE02zQADRzUUFdKNiHBOAClKIWru6BrqG6v2Brv4SI+6WHCl3l9qj7X+LL63fdLNhfd16AwgE37fuXXgxsvu/dyDBr0//poUp2+iVICjLTZ4mSAIAkHFkKYFA0Suh7oI2M4pCZJTR1puj1qu371orZ2g8ODsA");
 
 export default Envelope;

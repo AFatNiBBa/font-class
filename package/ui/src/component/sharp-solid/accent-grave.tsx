@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/accent-grave?s=sharp-solid accent-grave}
  * @preview ![accent-grave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/accent-grave.svg)
  */
-const AccentGrave = createIcon("accent-grave", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABQwAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFkLBgABNgIkAwgEIAWDLQczG1wEyK4K7GbHD4QPJk3FrDAn3BP2J+Lhayx9f3cDhDZRqFhHEuq4sFDo4grCnpDF8amQZYuq+uyfzd0HEokQ75HmcGVojpm07dFsxmYoNKuWuVBisj0EooDM/v7m+T//9AGf0UdrLFsayAKfU5dAGlCXdp1nAWWBZZqAZe3slyfCrdKnfJJh+gybgQNKDOVbNaTXKZ7yQ+OXAV+Shgwg2gHA2s64i/p7fI94riKerYOAWAOME2RkDBOwSBUYphkHRRF8j2qV/4HjEEDUwpkJFGR0gAEABSRRSkNTTUvZDrsbD7ZmUz22o2myUsV/8vRx7Ju/iv43ZwCB4PTz48BJ2+L/+qYEfr75p3xG4xAzqYJ6CQR5ujptHjfIiBkCAEhxw1QbJ0gaJLhrsxcChEYESGo1CpANMQgoGk0RUGNUTkCtRhtUURqEbosGSbNzyBZ8oOj2gxqL/lat7siHgjMpdydLriQq5ziI2ObQU3k7M7Hb4bTq7TI2bWLt4uxpZWnnKchd1305qTRcehHFAhFq43J4vz6zcvewc3FOUzq437S89XKbDAWoMxaTRKTmLyf656f//IWyAgA=");
+const AccentGrave = createIcon("accent-grave", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA1wAAADyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKRE0LBgABNgIkAwgEIAUGBzMbqQLInge2y7SV1lRKk8PweCWOUOk8fO33O3fffgVv+IOMZ88MyS1EQqKTSRXvFqpVhkj+rSpD+D2Znx6q9t0pB+6xpRpwhm1BqBewB44xxqDRDPfJkGOgmArpNsHNQuNXn2uSRgEgugGwvLW26uUrviJeW4hXKwiIZVAKFCgwKMCcQmBQViLLgq9otfoDSwKIKhUJZBRoRy8ggyRyzm2VjrzZVmnubTQ3x3T7G3XJzfPIl/4EAsHa8uXHUXP/9bYEfu7+5QxLYjZBXQJBMd4atx9XSt2RAACkuDLmRSmQ1CWmVQkwi0gSkdpPznx44iQCFwAAAA==");
 
 export default AccentGrave;

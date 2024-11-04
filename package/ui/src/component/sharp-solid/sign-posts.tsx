@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/sign-posts?s=sharp-solid sign-posts}
  * @preview ![sign-posts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sign-posts.svg)
  */
-const SignPosts = createIcon("sign-posts", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABUwAAAGyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBHAsGAAE2AiQDCAQgBYMtBzEbnQTIhof/XzPv+zPJ2Uy2yL9VwKyAyQH5OhJ2bQkdCwdkUVVn/s+mO56PBviNhnKftJsvkNF1V88TSHQ+L5EssEwTsHZna0OocZIkJDkezXE6oYxPxQ010t30ETf5Q+OXfm6QNAoA0RUACzauXeP19/ge8aH1gPhgFQJiAcgCBQoMFGC2QmCgUkapFHyPVkv/B2YCiLr42gRK1DAJ0wElSIqy7NdoNGudyg3usNoqVJGiSxRRRZAn2kOyuWpWFmqmnYRmc2ZYR9eOP0M/Hvho3quc83xXIJaRXWk+S5Q+Pz0PBIILM+9f3tll9v+2ZgI/n/77Qz8jrddpfupAmwSCYnRrtG1pPqT5AgCQ4oJhaT4CySgFfNd2twQIFQIkdZUAhQG6ClCqjBKgZrApAtRV1ipE2RB62l5A0u40KEx1EZR6ugdqZnuT1vWMQmzYS2c/bUlLa3TJozxh7Pg8Mw8rmZME2t/OysvW8AtmMgIOHXDSCefst89h5yr8jDXFecctnWFLfFE2wVjjZTPl7fZW2oDpGWcd7uv275klnw+HuzBfHwFuEgknKiWJSNVzU8ZIOA==");
+const SignPosts = createIcon("sign-posts", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA4QAAAD+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbG4LBgABNgIkAwgEIAUGBzEbyALIHgXunhM2YWgZyzjkN8ZD/H7fzsy9K6Z5Pdvb7Jg0C5GsnUyoP0S8b4jglQr5NfNX7fsGaQ+B6AbnAQXoScAD8j7wvo26gO0xlsGUZz0Sanwtr3WRbxPeeGj8Nec1qa8AiFEAHN+5cebLr/gVcdWOuHKCgDgGqwIFBYsC7CsCi6pVVFXwK9pWPxABRLd0TFDRhUWsASpIpdbBWge6hurtga7+B/pzpPRHv8HIfgOPDMR6Z53uKUefNc8J/tKAR0cN1ASCrpf/zhvZ/987kODPu6dX2H7JJjvolSAoG+2Gh9lANgIAkPHMejYIpEkFVrslYE+cGCL7R9Dm7QAAAA==");
 
 export default SignPosts;

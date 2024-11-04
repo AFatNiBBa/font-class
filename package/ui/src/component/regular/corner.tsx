@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/corner?s=regular corner}
  * @preview ![corner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/corner.svg)
  */
-const Corner = createIcon("corner", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTAAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHALBgABNgIkAwgEIAWDLQctG20EyJ4DbtM84p0hYrjZmPM4eXe5UjzPN/btvplZMa27SZOSSXiEEPFSTbOHSPK0pfxD5RAh8v3/n9t9f2uCWL6IeN7aEpKguTQap1MylVBoJLMqZNW+T9087zwK8I1CGwuXBrJ8jHmeQGJdNs8TyQILKPEELPPWTjRK2TeZaJIen6nHswNa3kjoobxS8KDeNL8teFH0VAAZBwDnrg1c/DrpJGdd5Mx5EMg5wDpBRcUyAYc0wTLdOmia0Em3G/+BhADpJWcW0FCxBjYBNFCktbmhnpF2NS0crG/SI3kbfrZAXibeLSbPI8MJyzY/45/+bFjQP3PhJk7/9z0E6y6E33pv3ATeAyAIP6d/cH3s8G+/UcCvz//RN5Qv5RPoV0Co291tk3yBfBEAQMl9sXxBUMxR5KrDnguIQQQUvQYFVEt8BDSDtgjosapJQK9Bl2jSBsS0aQfFsFugOvAEzbQv6HHoL/eaTr0ghHuJ71msoyF7jNVShT1OfY30OZb7fS5zmQfnspjFwtHBzdzM2k0hF652t+dYsO1BVFVSQT3cjh6nx+YurtaODmVIH89LGQ+7OgtREdQdtqKQ0vsmAQAAAA==");
+const Corner = createIcon("corner", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA4AAAAD+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbGYLBgABNgIkAwgEIAUGBy0bvALIHoVxw31kIZYyPm6WFvHw//t92+c+GXFNkz2bIdbIPxES3TR7aJBen1L+orKITOQnMyRYvtfmwQacsASCG26jLoPzjDEGjWb4VoI8PsUK0ocEz2Yaf4x4SlJkAKIbAHu3zg9V9ahHXDcmru0jIPbAtECGDOMCbMoExuWmkcsF9Wg0+oHTBBAl2xLIkWEUE4AcJJHnvW1FR37VVrRmn5Y6Pg+8GfF+/stovB1s/zL7o/vH3xmPaR44rdX+a3o+cHo6cFntFAgENz87eNS1+a+5LYHfv9ykg1GlH2iWQJCtN9bdjwqiEgCAFE/MRoVA0isRLSXABkgSkcrvAAAAAA==");
 
 export default Corner;

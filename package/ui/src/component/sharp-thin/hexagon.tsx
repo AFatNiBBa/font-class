@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/hexagon?s=sharp-thin hexagon}
  * @preview ![hexagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hexagon.svg)
  */
-const Hexagon = createIcon("hexagon", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTAAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEDCwYAATYCJAMIBCAFgy0HLhuBBMguBpyyOQUh1WpOtBYfjH8i54SXx18RVMvWM7uEFG1KKmsKFY0Fh8PicElYhERYjPnCJoc+K8bWHuYh3pBcKzSSmTRaohLlTZO51r2/mJ+/1fP71KnnOQ8F8I2CNjbNjQskNOd5BCKW1OsFrhesoFym7s72bCHat9BSlqRfy/F5Qo2bJjH5lvBUPjS+TTkDqRQAxCAAOL1JxPHSolbEfxPEpzMQEKcAFhEKCmYROCAUmCWyCKoqaEXT4H8gQwDRDn6HBBUVy2ALQAUpq0itVorVorRSrEgpFcoMpUlBSUqlM8mMmlLtVkVp/WXw8rukrUftYKxD0h8JHz0cBQgLBL6KQHB++3GPNvIvUwoAXx+/IT+6aaV8B50SBGW1WVVMQBIAgIw19AmBNE0AAACg1zMIhG4ESO26BShm6BCouq0g0GaeF4F23S4IRZUjjCp1kHrdgWLfCVSjrqDNge+o3WiUl0L4mfioxcY0FD1jp83BIZ7mKul8LO3DvCwY1tQzwkO0TYwttTT1LBUyF09XRmIWHPVFzMnGgYXwdvV4ndYyt9AzMc5Hwvi8Y7C2p40gCzDqNj6vIJvSbmtb60zGAAA=");
+const Hexagon = createIcon("hexagon", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3AAAAECAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGILBgABNgIkAwgEIAUGBy4buQLInge264mhdrEZcnzcljhCpfPw//t92+e8O2KaJ4mjmUVyT9D+ook3slcLEe9TgtXJ5NfMz3/uEyKwPb9q393gkCOOKUANOJmeYMUF7AQoRj0wOCACJX66rYl8l/C2pXFgzAtSVQGIXgAcP3fqpH+7sRuxXUdsO4GAOA5mBSpUmBTgkEpgUjGLogh2o679gbMEEM0eTVBQMIhpQAEpS2lu7mjqKmcrtp/pOHe2/XT7ua4zpzvnv/v+nLu86XmjRqB/Ox7v9IFA8HntS3oO/W/tSLD/4wPOUL2b8jtaJQiqhXrB5QRJAAAyGuYTAqlTGpsl0EVKZyJb7t95dOPewwcAAAA=");
 
 export default Hexagon;

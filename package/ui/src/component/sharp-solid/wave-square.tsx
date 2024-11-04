@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/wave-square?s=sharp-solid wave-square}
  * @preview ![wave-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wave-square.svg)
  */
-const WaveSquare = createIcon("wave-square", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABUgAAAGyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBHQsGAAE2AiQDCAQgBYMtBzIbnwTIjtRG+UVWEkH92mfP2/20G4aXUwFGBUwOyMeRInk2Lupc0IhfsamTUVi17/N/uef3/Dbg5yM4tD104gQ52o39PIFE87U8z8IsUextw0aNLLwhEiohjRWO1w7K+F080yC9Tt/xfH5o/DTWM5JOASCGAGDd/t279HWjG/HtP+KbHQiIdSALFCgwQYCVCoEJShmlUtCN///rf2AmgGiilyVQosAiLAOUIImynFU3Bpb76kZ1uK5qkaIOKtW1qCpRkIjCCFZq89qe3iG9/VO+n/vu4Zucu9kJJ7yV5bdr5RM4tU95HgSCz18Xvj8+eOWvdp3Aj4/74Qn/u+lR6kVbAkEx8/9MR0YMSA0gSXFPD3wVgWSWhN51gBcChAoBkqZKgMJ4QwQoVWYI0DDJIgGaKrsVouwIIxxlkAxwExQWuw9KI3wADSt9SptGRJE23KNzv7bkzRLatCnPmz03L89mZfGZwPTVFfnYnnqvjUyDrc657po7zjrjojuCvGVXcddVmz14kx/K5pltrmy5HG7f5X0iveW2i7ohvs4K+b4/1T1/+jTwEqKdr5QkItWZrM1KPg==");
+const WaveSquare = createIcon("wave-square", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3QAAAD2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGMLBgABNgIkAwgEIAUGBzIbvgLIHoex22RJNTTqx2E8/P9+v/Y572ISTTKePbNIpo1Epnonk+h0nfQ7pbw1dRZxxJNZFbDA3t3gBCSkQLg4DnwbdQEbNsYEoRm9laDE7+pWE3mfcNeh8UW/W1JbBSB6AbC6s7GuUUcd8f7/iXi3hoBYBWMCFSoMCbCgEhhSjKEogjr+/88PHCOAaLZegoIKfRgCFJCilN6Opq6y3dHUftCRHdGhXXulGR0Tj71/jDvl4qG+1Gis1DAHAkHfr7OTk56Fr60dCT5/+sEZ+l/nZY5WCYJq8v+kw7yEvBQAgIxzE3mJQOqVttosAfOglER2PIupMwAAAAA=");
 
 export default WaveSquare;

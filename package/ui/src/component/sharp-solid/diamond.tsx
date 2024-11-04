@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/diamond?s=sharp-solid diamond}
  * @preview ![diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/diamond.svg)
  */
-const Diamond = createIcon("diamond", false, "data:font/woff2;base64,d09GMgABAAAAAAHsAAoAAAAABRQAAAGiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWFoLBgABNgIkAwgEIAWDLQcuG1gEyC4LOLw3L2BYpDIvssdlORrlx6Oh9eibw4ieDt/Zd5fWtFT+FO7gzRKiAIcDGsCARqQ1Dh9ENaZ7H0SHN1GMNnFRBK7Irq5CV5lKdtgAGUvAmvmBmHAvmNW+S9UYlGwPgbi4ed55FOAbhbaHBrIA9zpPILEuLy6CwALlmDJvuc/GUvZLMtEkPT4TPV4d0PPaZgp1X+CuPDR/9ERxNQBkFQDOriZjvp7znPyPyJMgIGfALoEGDTYJcMhCYJOVQmcleM4Y9A/cRQCZRu8soEODNVgH6ECRbnV5bD7rXE66ZXG+mMl5LvfF5AEJXweB4Prz9jcd/s9iAK+PUz96XMwDZhkgaJMxsS2gEACAyoN0gUBxMQAAACx6FiDcEKDYuQnQxAQJ0LnlCTAlqUmAaW4TFtJdiKhdB8PrGixaHsEq6gVsBr4du2jaraBiSv3J4kcWGa7ppYr2dBprdKCJNO/rst4D17LY5cClC3f27Tl2Z7AbY//euZGHDr1IVZVUqB7dzh635/bduHXs0kVe0qfn7YwHvzsLy1DcA4FikHK8QwAA");
+const Diamond = createIcon("diamond", false, "data:font/woff2;base64,d09GMgABAAAAAAEkAAoAAAAAA1wAAADdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKSE0LBgABNgIkAwgEIAUGBy4bpALIHgc5mat5pIuynZXF4YeIh+/vzXPvfymt8lK4cyZUulgDiocq6AKm+4rsRDOL4Z/MhF9tVmv9zg1OmAKgNC+CLNQFbPCQ7UUQ0CpBifdqXeRrwkNK48+ce1JfBSBGAbB3enjgpx3tiFYt0bKPgNgDqwIVKiwKsKkSWFSsoiiCdtS1fuAqAUS3JRMUVBjEOKCAFKWUga6hcmLeH6fHR+vN0WZnDfzU+EAgeLxuqpHN/96BBL9vd3qG6p+UTfRKEFSNuuEqQRIAgIw76wmB1Csx7ZaADYOURPa8FQ==");
 
 export default Diamond;

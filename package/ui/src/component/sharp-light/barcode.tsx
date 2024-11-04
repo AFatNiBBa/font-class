@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/barcode?s=sharp-light barcode}
  * @preview ![barcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/barcode.svg)
  */
-const Barcode = createIcon("barcode", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABYAAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRgsGAAE2AiQDCAQgBYMtBy4bxATIngPu7BCLMoeIQ5aL8eIVxbD6OI+H79d+5959iPiSIWlSi1oyKdGskX/KDCH/oZI0r//POP++ySG+swSiLSlBaFBsa/87uYQ1MwswyYaobX83/9d8fqFHB/iNDi0KM6398NZlExhwlO9NG3Q2sJlOwGbestGSKffok8woSY/fHt/OUOI5IiZfEx7bh8aXGTdSqQAQwwDg4L6Qx8eD2hH/jcS7KxAQhwBqhAoV5hHYJhSYJ1KDogja1DTyH8gQQHQCL0pQ0IMzcAmggNRVRHJESrFaVO5FhVCpUApIQYVLpkAokIVJ6S7St2i1rAdvdc0fqH0kOGz844PnRc3o6XqAQPDxuVtdu/0vUwoAn09/689I80jZQrcEQbXapJIgCQBAxg76hEDaI4V37fckQOhFgNSpV4DKHB0CRa8VBDos8iLQqdc1oShyhHHVCVK/B1DZsgfFuDvosO0r6TQeVSzRkUD/5BJyFsquYqfNwSFelgYTHqSOh/lYNOxym5FOomduZqOrY2hj8JV8vjWV22FZX8ScbBxYCF/X9ofLulbWhuZmdZkwfu8a7Pa9jaQIgHDNupRESlvNVYQBAA==");
+const Barcode = createIcon("barcode", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA6QAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBBAsGAAE2AiQDCAQgBQYHLhvbAsiOxDgm8UQ0HkQ8fL/2eu7dFwJL5PJVdNhmogjLni376qpWf+FaHr++9k8tgd6q/f3gXvSJE6lFOrvOe2fKyTVx3MZEQ6IR7s4vocTbaOkiX2SN5zs0vhrzjFQqADEKgM3D3R2fOtGJqBtEbRsBsQVmBSpUmBRgRSUwqZhFUQSdaBr/wFkCiG5pSVDQh0UsAQpIPQU80DVUDkb0VwPZf1qYp3U43x5tf5+rb9VezX6aXS+6/InmiuFhHQgEn1/efn05svK/dyDBlzc/f+sMNZ2UbfRKEFStpuUsQRIAgIwH5hMCaVKPrHZLwDJ4KYnsuXb1zrMBAAAA");
 
 export default Barcode;

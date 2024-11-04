@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/house?s=sharp-solid house}
  * @preview ![house](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house.svg)
  */
-const House = createIcon("house", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABSAAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaHwLBgABNgIkAwgEIAWDLQcsG3gEyC4KbGPS6DDe9ahpZC3MIOacT18uRhSt/Vs9u/dDCIp1JEoUijX6OHIv9in7IxyQAlLR5///3O7bdvpC+5JmhmpbQhI0l0YjNhqJRmmcJXOtWbaHQNQn8PzfjHs9jwL8HEFoY+HSjQto7+cJJNadb+BJZweWKJ55yxnbI2W/JBNN0uMze3w7Qc/79txAvSl40X40v6zzosxrALIUAFy8PkjxzfIlmR0nsy6BQC4CtiI0NGxE4AxVsJFmK+i68IXGkf8Dt0KAzNBHFuho2AH2A+igpPcNC4ZF/dqCYf6dBfMXJLdzM7KAoEAOXNs+bWoxugAzwP7JR45qyjAx8djEWz4DBOHd//v0xpIz/+cuKPDt849+97gu1BRzFQjt4HjQpC4AjCXAqjwinZ0FZQMF6FsXeikg5iOgzJgvoNlAR6Cb7wACg81yCMyY7zJV+jyx0nSCstBd0Jz2BN1KbzA442fNWJmWJlSQqU9afN/CvTV+zAt4mW9jg448UeYVfizsfUjNxFEsHB3czM2s3Qx6kbp3e30P6dkRF/IEuDJ+nb1uj81dXK0dHeqSCv5eMTz8bhOyQnGP85QiNaQQAA==");
+const House = createIcon("house", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA2gAAAD6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF8LBgABNgIkAwgEIAUGBywbtALILgpsY+bgTwAFNRQ9ZkHuGO0XCiEevl/+PPfu+7Sld41Cd82gahUeXX10VIj9QkbhETLpNjITvQ0EyvyuHz5gzGR7CETV9oJDThgOohm2BaEmYDHGGDSa4RsJSnytXrTIjxk+zDT+mvJC6q4AxCAAto/2dr39il8R7w3i3Q4CYhssClSoMCvAmkpgVrGIogh+RdP0AxcJIDpITVBQYQwzgAJSlNJXt/rKYd3quavj9lqtjlq93K7tTvNpK/f49erD62cgEAxt/XvF2v+uOsGfL5MVNm+5lW10SRBUK82K89yC3BIAgIx7ywkCqU9S7ZCAVZCSyNbBAAAA");
 
 export default House;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/pi?s=sharp-thin pi}
  * @preview ![pi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pi.svg)
  */
-const Pi = createIcon("pi", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVAAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBKwsGAAE2AiQDCAQgBYMtBykbpATIjsJx72SLpfziEvHw/Nq3c9/M7iIiA0lEPdFM8lYSpN+wblpN8k/mWu+/v6l/nH/6gA9EamPngSzwOc8T6DydnlBYGlhAiSdg7U0r2hHZl2SyZiZ/suNrhzxuWaeCdCPBlXbT+KqlcyRZBiAaAGD0wrnTlT7Fp4jn5YjnpiIgRoNCIEOGNgIMkwm0kSuQywWfolwu/8CCAKISnSaBHBmGYjQgB0nked/aFXXzBbUrai2tVbuWqF07xbxoGgujeURkUTtSCBvNo3U0j2bRJFpErcDDa0fU6ljdoPp7BxuoOlmjRo0Gahxqavh0D42cqaFMC/dtUkON+Y2VDfTCAG+Ntcoh43tAIPj12csr6w/7X6N2Al8e/fzav6EopWrUkECQdSt3syxKECUBAEhxQMcoIZD0ldA16rgqQKiFAEmlWgJkWmsgQK6WrgJUaKe/gDQ9VybymkITyyckdeyGzADHIdfEA6gwzGOrUpPIokd6e+nzlj6B0/FDRe8evYohxdYz5IAQandoYTY6HcBMZ9i0wU477LPeOpvtY3yP6e5+203Q2HgPKvTWQy+FIQp3+KovyNYee22WJT/SZ6jivNnJAb28M4yRAH3uXUArUtq1GQAAAA==");
+const Pi = createIcon("pi", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3wAAAEEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbGwLBgABNgIkAwgEIAUGBykbvgLIHoex22RJF81QPgYXIh7qx9K3+3+AUCdl0IDgoqrRVwPpE65lH199U5uprL5kBtvuIbPad25woklIAVkgAUmGKy6D87AxhgjNaN0KNd65r418k/C6Q2PDlFekUgDEIACOXjp3wu9mNCPWWxHrjiEgjoJFgYKCWQEOKAKzqkVUVdCMVis/cJEAot0yQb14EUuAClLUOtrT1lcv9rR1Fz15fuzSROnJns3jo5PdpSeWG4ONf0vk2eCzsYMnvhw+NTTzee3GtT+7pmeDQCDo233w562BA/87exL8/fqGKxq/s4FOCYKy0lpxPX5D/BYAgIynluM3AmlUwnaptyGlI3PtCQA=");
 
 export default Pi;

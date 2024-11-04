@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/circle?s=sharp-duotone-solid circle}
  * @preview ![circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle.svg)
  */
-const Circle = createIcon("circle", true, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABVgAAAG5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQB/CwgAATYCJAMKBCAFgy0HSBuZBMiGh//Wyr+vqmcCQB1gVETggDSRsGsTFQVAdk8kfvX1XNw87zwK8I1C20MDWeBznieQyPS8RBKKpPMMLN0msqMjkN4oiZKQjss8vqADivicL6qQ7qa3uMz/AYzfOrlI0igDiJYAmLlq2QIP66M+xdvafeKt+QiIWaAUyMjoKsAUWaCrQolCIahPtRr1UauVBBBVfG0GVWT0xmBAARKiKLo0qTQrVvKbG6/4sSjiw+wncW7W44XvV36d/3bGQ2dnPlrwbkWvupZ1f3u+3flWbfpcV7g6uevs2V0nX70y11xXxHkgEFza2v/4phZT/m/YJIGfD/77hQ9J7WGS6tBQAkEeUhtifQKJAACkOKlXAgJZFwnu2tQtAUJjBEiqGguQddFSgEJjgwWo6G6sAFWNLZNF0Uhoa0ODpKkjkI1zCgpt3YOKKV44VW0jBwrlZuqdFj9PInOnypHDRpSTymWg0r4n8nByua0POJkKA2nXToccdNwO2+1xXGBHLfBPOGCehs71oNJIw4xQmqQ0x4/8SjhHHbNnztrHTFaetwc4qdcPJCspuKPMZJlIkZt/qJGHBpzcsmdvFgAA");
+const Circle = createIcon("circle", true, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA5gAAAENAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHYLBgABNgIkAwgEIAUGBzcb1gLIHgflxjPBmVF+fpFKx8P/79dvn/PuN4liUsWAployWTv/R0KdTMJXn06dRTTLD2RwOEkpDtSfPqkRvszeecBNpCwx59U4WSYaOOSgLWwHSTChBCXeVM8J+TKbeJHQ+GrYc6SuCkAMAuD4zo1LPrayldGsXyGaLiIgTsCUQIUKYwLsqQTGFFMoiqCVde0PnKwFEO2Yl6CgwhQWAQWkKGWop62v3O5p67716cqdq3hykpf39l/sI/f4OC7NTGOw8X26WasPLzg907Fz58Z2z06N8gECQWNh5I8De//pSfD59V+0VP0xZQM6JQiqtXrNwwRJAAAyHplJCKQhCQDVdgnYAaUkcvB2gvXdAQ==");
 
 export default Circle;

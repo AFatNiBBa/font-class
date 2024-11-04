@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/bars?s=thin bars}
  * @preview ![bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bars.svg)
  */
-const Bars = createIcon("bars", false, "data:font/woff2;base64,d09GMgABAAAAAAH0AAoAAAAABVwAAAGqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBEwsGAAE2AiQDCAQgBYMtBysbjgTIHoVxMz3SRXMUUd7+EUG1X2/P7t79AMALESlgcnHxyBrYhR0b8Ss2FRl9yVz7XiH6F6ee5zwUwDcK2h4a3yChuT0CEVst9rwEBekVqOIVsO7OllA07VASoyzJcUmOxwNK3LdPjXQ3weXwovFXT5dIcgYQHQCwYOPaNb42R3PE70bEb6sQEAtBJZCR0UeA2bJAH0WFogiao9Ew/4EVAUQdPSmBghrGYRKggCSX0pac1rW2ZUN8p1W+3b1t3Ox6o0ubuNVNJe1Gqr0/8GmHp/84wKH6rtd21V3jiVp8eay/BwSCse9efNjZfvb/Fq0T+PP+6TcUX9NTtJBAkEc3RtsWXyG+CgBAigsGxlcEkmEyutvGLQFCKxRI6lpB1lsHKFoZBTX9TCEm76yVRWkpdLEdQNLGacimughFF++gZrZvXl2XyDeGOm/qwxa/lCNLtqoJY8dXM6thLNOXgPDzWdW0PvyCrY2AUwecdMI5++1z2DmGnbEmPO+4pRK6xAdVJhhrvMpM1XJ2v7/BfmecddhJJ3DNLNV+e7gLcvcIsBLCnSiSJCKVRwY=");
+const Bars = createIcon("bars", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA6gAAAEFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBAgsGAAE2AiQDCAQgBQYHKxvWAsgehXEzPdJFcxRR3i5GqOQ8fA1z7+9uWikqOt1mokqnFYlCKAbbqnCn0HSFihE3WAaJvmSefc+QWn2dnOuZDxJowAHIt7h5BJEknoDlMWZJhlwywMkVlPjkrjrShwTPMjT+GvKEJGcA0QmAnZODfb+qUY24qkVc2UNA7IJJgYyMUQHWZYFRxSSKIqhGrcYfOEkAUa9NCRTUYR4rgAKSXEozvKWurRxbNud3A21v+l73tr49HG9hf9PpSmflH/d5WH/z88165v3hxx4QCH4/7dGNjvX/jS0J/PnyusH4lSpolECQV2urLuMXxC8BAEjx2HT8QiAZl1XWS4A1ACFJRCojAgAA");
 
 export default Bars;

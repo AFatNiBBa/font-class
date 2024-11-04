@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/equals?s=sharp-thin equals}
  * @preview ![equals](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/equals.svg)
  */
-const Equals = createIcon("equals", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABSQAAAGtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaHELBgABNgIkAwgEIAWDLQctG24EyJ4FdsN1UUwZxrLFYjwN+cHJGA//rb3eNzuh3QCATBQq1pHEwrKxcSwcFHRVfYQu2pzK6m/E3P7ncSH+LTmmeWtLSILm0mjERig0klmVP81q36dunnceBfhGoY1pS6cuoL3PEwgw6/K88zgLs0gS8cxdXSuSaD+hpSzJ4zUePzvkeLZgkx4T3OabxocBH0iKAkC0A4D13VGJ32/+jnivBfFuAwTEOmAcUaDAMIIlpsAwyzjIsuB31GruHygIIOrxlxLIyBgFUwAySFLOVVXVteSdqq48LKtSVC0R5Vlbnnxp798E9I150Nt5D2F0+6UfBwLBj9mfT9uW/jdWCfz99kc5rx3iawo0SiAoZmozZvFdOz++IgAgxY1AeRCR9DLwVZvdIQglAiT1SgEKQ3wEWWkaQZ1RbQT1SptMkZuEbnMCSbNzUFj0Blm3L6iz5G/U647igRDmJf5nsYWE8jnVKzUNNA1V0uZYHA+1zIcvX4qwiZWzk4elha2HQG5K++mo0ODci6SuokYGtJ08rk8t3dxtnZ3SlCGdl0MvvTmCZGDUWY4kEan+EnN3AAAA");
+const Equals = createIcon("equals", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2QAAADxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAUGBy0bqwLIjsQ4RvGLKBYiHr7f2zz3/UepzaHQXTOo2oVrQuHRpWlI01HVsUbsxDKR0dtfZrXv3jieebZl0e1uwZn2/eZBF7f1ZP+ZjWBCF4SoIMe9M1Wk21TCTR+ND32uSYoCQLQCYGlzdcWPcpQj3isR75YREEtgVKBAgUEBZhUCg7JRZFlQjkolfuAoAUS1GUkgI6MVXYAMkpQhDVVNeaNM/a6mOPJ8/LX19d9YyZKWkdaX1uev7AOBoG9q7g8ts/9rGxL4+/2P3GslvqVX1EogKKYr0/bih1at8U0AAFJcGV80kE4x42phM8AlIlW/mM4B");
 
 export default Equals;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/hyphen?s=sharp-solid hyphen}
  * @preview ![hyphen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hyphen.svg)
  */
-const Hyphen = createIcon("hyphen", false, "data:font/woff2;base64,d09GMgABAAAAAAHoAAoAAAAABQgAAAGgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAWDLQctG1EEyC4G7MblIhyAGkIZy7J0+VqNcXjS5ON5/u/77XPv/b9hGL1PTTRzOAqHCWUTaIAFmMhbaRw/o9a296aEeEMSlUYyaS6NRktUhgxNC4Q520Mg8uv1/e9vnv/zKMBnFNpYuDSQBT7neQKJdfm2RLLpASWegGXe2oyilPsmE03S4zM9vr3qoaVXrxhQPph4qTvNnw1XiokKgMwDgOvHWhWvLl3y7x/kxw0I5Bqwj6CiYhsBZ1jBNs4+aJrQpe/DPxAEyBBYs4CGigWwDKCBIo2TVV7nmmmBQlRFRyY1Yv3s5uO6fbkc6D0AglC/nzFT/5LKAH6/Jt9QrsoNjCsg1FE/0s8ZyBUCACg5s+YKBMWEAlud9iogJhFQDE0KqLZYENBMOkDAwK4wAoYm3WKlyYhlgw7FtCeoTl2gWXaHgTNvbWg59UrQDqUfZAkVjcpN1O/x0QSdWhrjZTJXk3RZtJ1jxM6dGNtYOxoZmjkqfK9qnqxULKzsQZSfhw+VQLfdx/amkb2DmY11qZNEz6s2ZzvdzgoDhIduFIUUYfr8mSQ=");
+const Hyphen = createIcon("hyphen", false, "data:font/woff2;base64,d09GMgABAAAAAAEoAAoAAAAAA1QAAADhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKQEoLBgABNgIkAwgEIAUGBy0boALInoWxG+0Eu9gM6fh0qXsjHv7br903M2tSEc2byJ45JPHMISTr28mEuiGS6FsKJpn8kxkRqCFCvtpV7Ts45EzkhkFbSG0JWIwxBo1muFdAifM8ViM9JLifaPyZMSZpZQAxBMDO8f6ep+d4jphWiKldBMQOWBbIyJgXYF0WmFcsoyiC56iqfuAyAUSdfgkUZHQxABSQRCmlU+uVo06tHT3d1QmTdcnzdttAIDj5XLnB+n+zk8Dr47PB2E4TNCUQ5FE1chHXENsCAJDi2mqEQNKUiNYlwBpGkohUv7o7XQQ=");
 
 export default Hyphen;

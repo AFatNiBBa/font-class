@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/f?s=light f}
  * @preview ![f](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/f.svg)
  */
-const F = createIcon("f", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABUAAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBCwsGAAE2AiQDCAQgBYMtBygbgwTIHgXunoYtm9AikTaUHLCN8fD/a//b5879Ij4fUatEk0r3RoNmnswqjUQTj2KzqCzipz6IvJ1J5Sd1pkg2VcEmYIPeJXPt+8Wp55kWCuCTRHFsiq7zMcHmPI9AxXq1MbFWkYLVtALW3dk2WRHtldbKkrweOT5XyHEgFqgj3UpwoX5o/DXkNJJcAIhOAGzdEwO/iirifS3ive0QENuAUqBAgVEBNigERmUlsiyoolaL/4FCAFFPXplARoEFWALIIImcZ7TUteXd6ajmAw96I64OCnGt78ZAREugc72/OYK1tv5s67Rnnc/+TWosvr3kBz4UT3zRXlXtL32GZHtF3kED7wAEgrP+zP/csWGqsSWBPy+eQr+iWhVb0jM0SiAoFtQWOBgnQWyhAAApTjKxBQLJDInYra6vBqEZgqReMxRGdELWbD7UGbeSnUzuoEVuMnavQwhJqyNQWOUUZL2eQ50NXrn1eqN4Lfxd85+1FKcRu0uWLlpSriuHqSY8ADav15fT+pyT3JoLB2mW6aqK7ip6C8EzOI+yvkgstcgSpXXK5WK7P6m2o1tm2bJeud+e46Q/PBfEAzIvS0KSgpHiMAA=");
+const F = createIcon("f", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA4wAAAEGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQB1CwYAATYCJAMIBCAFBgcoG8YCyI7URvlFVhIP36+9nvv2BZBcWIdtJooK5CJkdMkTKFZfyKqMR1/aqe1URm/VvuvkSA/gF7tQC4gCDPIiSDEBy20MVYQa4fkV5LgT8+pIH9IZnt3S+GfIU5JcAIhOAGzf2N9zWkYZcVYhzuwiIHbApECBAqMCrCkERmWTyLKgjKrKD5wkgKjXyQQyCkxhDpBBEjkPtdS15aONm+986309mN70vRuIFtvb/uaQ2iY7Xeus/Z86Oz6z9HH553nxsL0s20+viPby6pOgDwSCjR/L6w861q4bWxL4+/21z1BVxlaqoVECQTFfzbsbJxBbAgCQ4sR0bCGQDEmKegkJq5Q+PVIcAwAA");
 
 export default F;

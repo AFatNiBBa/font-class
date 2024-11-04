@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tally-2?s=sharp-light tally-2}
  * @preview ![tally-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tally-2.svg)
  */
-const Tally_2 = createIcon("tally-2", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTQAAAG0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIEICwYAATYCJAMIBCAFgy0HLhuGBMgehXHj00T03OJSDlHDf1k8fL/2eu7b9wGzSYl2ogqMilBYRh9XcJWd2LiCZiP+1HYqq3C9HancU6epQvJvD/4NeherZK59/7+bz+/50QF+o0O7Ni5aIAskmvN5Aon14vKEssAiixOwrJ1dXwyiW6WnfJJh+WTYHJDjdyxWI71KMFZuGj/M8IwkFwCiBMCOk0ePeIMYRHz7H/HNISAgdgJUAgUKzBZgs0JgtqxClgWD+P8//AORAKKO75tARsZCLAVkkKSch4c7tV4+0am1z4Zoh0ghOhFRdLq9o+Pl+M9MGBsry7JSeq0kjY9wHggEE28+LL44tPlXs5PA97d/fEb0fxAr0ziaEgiKxf8XO5ceGbU7VgoAQIobKD1ySUAyKuFVu54LENoIkNS1BSjMUgqQtS0SoGauNQLUtR2VRG4Jk51vkHRdhsJa9yGbbAJqNvvo1k2O4rLwrua/ail7NdqzVK1YurzaWE0jVfA/S9NN1bI6/0asLMAm4czBBnUUWVpwTdXCxYPQCkstV9mo2k4f1zu2bMpZnrNJdd6Z74bdvgBGROpKoSQRqfEuzNtLVgIAAAA=");
+const Tally_2 = createIcon("tally-2", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2QAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAUGBy4brALIHgd2w9czTIwlBwdNjIf6/V7P7rsBQh3WgC4TxQUjqkix7URX1X8hy+OfEX9qCRQmyJdZt9XyvtPJAcHZDvQdMADL85Z4iglY4DZUEKGO2HdWUOJ3LGkhn2WNq1saH0x4QioVgOgHwN7FybF3zWhG1P8lakcIiH0wL1ChwrQAmyqBacU8iiJoxv///YEIIFoxkqCgoB8jgAJSFqmrpaecrztvdGZX8sVGf+PTQn3t6rl37r91HwgET/9GfZu/2rsSvH/xtznDxf/N2MgG2iUIqqX/S27mA4sOY0MAADJuW8wHbgmkdgm3SoA2hJREtr0K7y1vAAA=");
 
 export default Tally_2;

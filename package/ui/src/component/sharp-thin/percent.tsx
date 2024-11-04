@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/percent?s=sharp-thin percent}
  * @preview ![percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/percent.svg)
  */
-const Percent = createIcon("percent", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABYAAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBUQsGAAE2AiQDCAQgBYMtBy4bzwTILgpsY9qwRaAo9DCWbSyPH8a4xtPy43m+tdf7Zmc/zAbbOiDbqJJiWc0okYWrI6mj61nlVEbvPfvz7iP9P6ndWzIrmJQgNKil1UW3JbPqV9W+d4BuNLiJa57/+VN7Ej9KtKX9vTdgrAsbbGJlhS0wG84mNCGetdN9IYl+kyTxSYbxB7sz1LzVwVO+F8Dn/KbZYHCj6DoAWQEATl0o5OF3fibrI7IuCwRyCmAPRIcOOyA4ihXswNkDVFX4yTi6/0ACATLBzyqgYorTwDkAKij6WudbrT/0i/V82NuuQC3JcL4JTYAPQzJpuzQ/8PzdfkeDD6Ldd1/5/1495g8bzISGxg2ZnCsEOfmjicdlwe03I+OJfgGeQBB+9O9+stjmbCjgtzfMBflUxkwBoVsb11RyolWBopIXjPigoDiFh1dd8EVANAQUE01AZzs5BFWzH4LeLn4IJpozWKlzsU21EcWCx0TniD1RbfMgekf9w4lt6RRKUgfpP5ee6IH4OnI7XBShZUGVdUSIg1HaNk0732DGTuiZm9no6hjadNBKPtmaSkhg3BcRNwcXEkHH5cfNZV0ra0NzszRNFN33THZyezMcBrMekCoKKdOnBAA=");
+const Percent = createIcon("percent", false, "data:font/woff2;base64,d09GMgABAAAAAAFIAAoAAAAAA4gAAAD/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHMLBgABNgIkAwgEIAUGBy4bygLILgrsBvkKbek0LWH4G9UieieC+uWvnrf7CSlLFDprCpWTxcVgKfQpG7LEmF9nqZOnNwF5avuLWRVhqp7VV8W7Tg704HLwi+TY1jzABLOEEk/AArehOPAoir67hDyuHSmRPqXwtk3jQ7cXkiwDEE0AmFtdXPCzHOWI92Li3TwCYg4MCWTI0CfApEygT24IuVxQjqLIDxwigKhwJQnkqEQfxgA5SEq5VFuqz1fKqdlUEx1qY5145ai9EU3+DXeS09M9o8CNLfNl9oBAsPX651pj/1ebwN/PP7jBeEhHlQSCbLwYtxUgHgQAIMWZkYBA0qaE0QoJMEEmSUSqfCQAAA==");
 
 export default Percent;

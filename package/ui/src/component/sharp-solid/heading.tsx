@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/heading?s=sharp-solid heading}
  * @preview ![heading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heading.svg)
  */
-const Heading = createIcon("heading", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABVwAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBPAsGAAE2AiQDCAQgBYMtBy4bugTIjsO44TuyxVKeRTz8/5p535/JwmSL/LuqwKiAyQH5riqwXlVwVXEl4apyalFVJ5lrCadO1YzzUAAfRDLHeUAWxufEKZDzeC4+2lK557WC1bQC1rcNHTbC8EWIBIlE44SN2QFlvChSIz1L8Kh9aPwywkOSzgJA9AfAyl3btmo0oxnxvTXx3WYExEqQBQoUGC3AEoXAaKWMUiloRqtF/4GZAKKNvDKBEgXWYgOgBEmU5dJ6rU+5s16rinpVF1Ul6hEIBW0FTDMUAUjFHuju7d/7Z7yTvM357Qq5/2VNl/XPKtzFYY931G/qAfkdPA8CwY/3izoO9Vvyv6OewM9P//7ov6JWMxqpFx0SCIoprSn2RwOiIQAAKW7qjgYCyVKJvGuXxwKECgGSNpUAhVH6C1CqTBagZqy5ArSpbFOIslMY7ICCpMsVUJjnFigN9hHULPHZbDM4ijSikoD6xMWvs+japTxz2oy8KC89g84MonYX57A+4WbJTIRdJ11y0XUnHHfGdYNftdW54YJ1HrbWF2UzTTNDtkjeDp+3dzrhqmvOuOQiz1ksnzcmuOmXT4R1EmDWBbgSkdpfPAAAAA==");
+const Heading = createIcon("heading", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA4gAAAD9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHoLBgABNgIkAwgEIAUGBy4b0QLIjsO44TuyxdCeRTz8t/Z638yEwAKBZZ0TReiio+rq6hvbsv5CVq2PMXtqUVVvM8PUEtbJCX8HxAOfMBBoy+PAU0zAIprc7yBsD5JoBSU+5WkjfUjwfpfGL0PekXRlADEIgKPL0xNVHXXEa3Pi1TEC4ghMCmRkjAqwKwuMKiZRFEEdTTM/cJIAol2nEijImMUCoIAkShntaesrFz1t3blHt57oDkg9GN1yuXu6Ndj6M+WJ798Pe66fO4wO+aV+OX0gELzd2Tp5HNj939mTwM8f//44Q00dVWqhUwJBXm1W3UUFUQkAQIo3pqNCIBmV1O0SbSOIkCQidXwf");
 
 export default Heading;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/calendar?s=sharp-solid calendar}
  * @preview ![calendar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar.svg)
  */
-const Calendar = createIcon("calendar", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTgAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEJCwYAATYCJAMIBCAFgy0HLxuIBMguCuyGY4cEpSJUeEVY93obX/UAPhHP//9+/5trn4OI3/ETIpqJKiF6I0GneWiv0vDmJbxBJZOv4rYDkVKYKb1AI7mZCcJGEDbEbo5PwgjmbA+BqNr3kVPjjZcK+EmL8q82fn78/J0Xn8DEri4+G9BsYDOdgG13thJF2CNJC5bkuMbxeUDPu8Ys6k2NF+FD8886zynzGoAsBcC5K2eGpmaa/B6R386DQM4BBkFDw0YBJzXBRt2ArgvTjKP+DxwIkNnwqQU6OrZjD6CDUr2vm+dnLeqX7Z35NxjzI4uSzFeaGNxbuGhh9S60mUkT3/6485VYKigkEYnop4aS8FUkZwGC8OGZ7iw5+X+uL/D3Q8i/olH5VhPMVSC0neNON/MN8k0AAJUnjghBmVHgXRd6KSDmI6DMNl9As8FSAd18OwTMstkhAbPNd4GTPk+sdKvCZaH7cHPYU7hb6T08y0nfw9lWxj0WTtTcXy05USCeCvt27x2OD9NG4eXPuMMTw7K99YlZ2AZX0UzDVt26TaAlJ59H4sDoi4J9dttrcNyw3d+ev1TLq5uGP+aE4by/1RN+/TbwLCTdr1KK1Ny7BA==");
+const Calendar = createIcon("calendar", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3QAAAEEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGULBgABNgIkAwgEIAUGBy8bvQLIjsK2bfMiThAvwxG17Hj4fr/03PtfCCSBQhXNOhOFYEw0+uhMhFshk7T9smTETi2BXp3c40SaJ3CyLACLax55gIFDTtgOQhm2BaEmYDHGGDSa4TsJSjxV99rIx/yMh5nGV8PuSV0VgBgEwMb+9pa6Gc2IT62C+GQTAbEBpgQqVBgTYFklMKaYQlEEzWh9P9AggGgnO0FBwRDGAQWkLKW39LT1lb2etu5j3fqiO7p1x2Vv9s00Bhvfpzc/O3/Hi4v64mJ9ff2ak12v10AguJ398z4Glv93aoIvz/ddVtgaqbOBTgmCarHlOIkaohYAgIwrMzEIpEFJtV0ClkBKIjtfBgA=");
 
 export default Calendar;

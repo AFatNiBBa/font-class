@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/envelope?s=sharp-light envelope}
  * @preview ![envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/envelope.svg)
  */
-const Envelope = createIcon("envelope", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABVQAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBJQsGAAE2AiQDCAQgBYMtBy8bpATIHoVx41PiILOIENFb7wCeVquIqlXL6h2e7/GgXsVvka9GSCRG4T5hzxiEQSjUBRaNPv9hnL0/o/8BzluTD0KDSrmS5eZQLu1CYbEwX5zKuZyHAvhGQRublo5FC3ju8wgUeA0slUpQsAJVvALWvdlGi1L2TiaaSf6k4+sBLbdBTH1WvLY3zZ81x5TWASCzAODqsV7E0xf1k4/BOfl2AwK5BrCL0KHDJgKnhIJNIrugaUKfBgP6D2QIkGHwaws0DOEQXAFooHRNpFSaJ4bUolZ+RjHQbDXbFFIRnu7ajRbJFNEoCXhKNRLvj6vI2tP1vi0f0+3s9k9CDBeecPHl1MiP9dP//MNDFYz7jIo/+RogCC/n++0R7em/TCkA/N78/tNvqFQPowqEbn/AYIEiAIDKNqwFQdkjhHcnvQmIcXQow8ahs0EHzbg9GLItQToP3xJKkyMWDQGUSc/QObEDzaJTGHLq2R+2mO7p0BdP/9wSChrNb+JIMMxZniaEeQ1kWebYLbu3U8MDFzFtxbJNUybN2VT4umK0ZUnBwvI+iEUEhbEsXs4fT7dMWbdhzorluiaH9+tu23a/BzQBJjwg1RFsKdnU8vbU4srqFAA=");
+const Envelope = createIcon("envelope", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3wAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGcLBgABNgIkAwgEIAUGBy8bvwLIFqHSefh+7fXcu28DrAj1V9Fhm4lKiqhQRZd89Re25IjGr1AFsgSO3OAEOEANOKI4C3SQhPgSjBoAcRgKSjyKlppsZ4NrD42PxlwllQpADAFgbc/Wpufv4l1E8/8O0dhAQKyDWYEKFSYFWFQJTCpmURTBu/j/fz9wlgCiQ4YJCmoMYxZQQKpKqevSW/eX3b11z4Fde6Lv2PZu/acHc2D++tD1z3PN6cbM7Nv22/bK82enzLx4/vaIi4BA8PH2n71HBhd/d/Um+PDw63eTKa+jS4Kgav1vOZggCToxY8d8QiANqKh2SMACSGORXafO7Zw6c/7CKQA=");
 
 export default Envelope;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/pause?s=sharp-duotone-solid pause}
  * @preview ![pause](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pause.svg)
  */
-const Pause = createIcon("pause", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABTgAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGoLCAABNgIkAwoEIAWDLQdGG4IEyJ4DbtM8oojax7tP0zQmhpP84anTxMP/H7X73v+zLjTt3FAbtYO1c4AFEmC2kQacwJywBPI/5va2YVZp/0iuFZJ6c2liLa3CdZpXSiSSSeav9/wHDzDi1POchwL4RkHbQwOywOc8j0BAg9MqXJICVbwG1rcNq2gI0g2RKAlpHMkxe0GNTDlpkJ8JvNL/AMYfrROkTgFAjAEAFw/ZOK6rzt7/F+JbDATEJWAbg4KCdQw4xgmsE9gGVRWsElgFBAFEE/TOApqoWIBNABUksgqkUrlQKSj0hLJqVy5jGTnDyXFfx2v4744W25cdyKpxTd8DCARXz5+D1OFfW84Cfr7+Lb+iOE8ebQmCsvwv1WIFxDkGAJCxootzQKCYYuWnvjcECF0YqamLYo0GVdcuGjZ5npu6bnCiShHm6ozU94TiyBrV3BkNx25B0zzK8+Ccy33OkqOSiGyRw2qnIG0Tg/c4g8sQHdv6VWsY4BAtYyMLTQ1dC0HNxOOloahGRnwQcbCyI0Fkzp/lgghm5rpr0b4mhO77eiu93wAeq9PueSwKkQynnDwu501LlGlqIUYT");
+const Pause = createIcon("pause", true, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2wAAADxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAUGBzYbtALIjsO44TsyhFjKEI/x8P1+/1t73/NFrYljliG5Zbx6JxPqyyR8+i/hDdEi+Saz0btODgiOdqLvIBRYEkjikSSegAVuQxki1BF+TwUlrlfvtZAfEz7c0PhjwntSRwUg+gFw+vL5c342s5mxX38i9p1FQJwB8wIVKkwLcEwlMK2YR1EEzazr/MC5WgDRqi0JCgr6MQIoIGWRulp6yqV15/XO7HK82Ohv/FvwiFevXsMf7AGBYOVg92/3Hfvf3pXg1+d/zw3GqWygXYKgWq1X3YiXEKcEACDjpcU4hUBql3CrpNC2JCWRfY/vvnj2cO3N");
 
 export default Pause;

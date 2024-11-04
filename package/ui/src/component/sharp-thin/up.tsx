@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/up?s=sharp-thin up}
  * @preview ![up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/up.svg)
  */
-const Up = createIcon("up", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVwAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBPwsGAAE2AiQDCAQgBYMtBykbuATIngemm4v0Iz6UDJGmaZIID/9dRPR7az3vvwspyyNnS6GiBIVehGKFO0cQNkZho7Bb2NNI6m+sbXtTGnVHcsvQSCZNxBuxEQpNvCFUmdvF+x83/7zzKLAeiNTGLl64KYvm5C6BzvO2RVGWyAf7pl/AvrXTUf8hkk2S8kmGST9sLqg5aOIpz0rYyx+afUvOFE0DAJkEAK7ezWXh2ksvebWfyA/XgUCuAmxCNGiwCsEFrGAVZxOoqtBL29J/IIEA6YfyaAEVFdeAGwBUUJTKWXfUPp0rBrdSgmQEwatJK+ZW+PPi3XzJinO5HZFhBQhHRMR7tuf4Vg+y92cSy999f5MsHdmbN9UxpPPI/Ejqc89Z0aTUZ4Er3rAACMKBw8//98wL/wZVBuDv933mV9T20i1iUAGhOdAeUE8X0hUAQMmaLV0ExTkMdzbqsYAYpkPRbxgaKyxQDdvF+6yLEJsnbmKlyhCzGoBi1ENonHKCatYF+lxwM/rNptEjSguob1x8ZkTSYxTw+ilJS0+jVYOI3RRtC/Y1ZxxYhbaJsaWWpp7lgM1l7ZWRjISmfREJ8PIjSXQcPs8Xtcwt9EyM05AUui/ZreVyB6ZgAMdegGAjhVl1AAAAAA==");
+const Up = createIcon("up", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA3QAAAD0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGwLBgABNgIkAwgEIAUGBykbvgLIhofv117Pfft+gEhHRbPORAGV2DH66ArLisijq96pRVW9oIMTPjAO9MKhRZoHfE/cAudYGDOK7fQP5LjmqBrpQfqC3R6NXwbdJykKANEBgKXN1RWfyigjPlfPic+WERBLYEKgQIERAWYVAiOyCWRZUEZV5QdOEEDUmRJkSGEIU4AMkpRzY2NzrTVvNNeaNjVHc2ys6dtc16QpmqYedjz8M/nl+Be738uD5e3GZ1Nj9ZGJ26XCKhAcO/Xpx4H22f8NzQn8fPPvl4uoyridHqJBAkExXU3bG7chbgsAQIqLpuI2AkkXNVDnaYIZkehI6cJpAA==");
 
 export default Up;

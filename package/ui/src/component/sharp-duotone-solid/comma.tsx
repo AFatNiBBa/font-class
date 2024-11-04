@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/comma?s=sharp-duotone-solid comma}
  * @preview ![comma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/comma.svg)
  */
-const Comma = createIcon("comma", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABSQAAAGtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFsLCAABNgIkAwoEIAWDLQdGG3MEyB6FceNTQhyziFjUyr2oifJxxcN/+7X7ZmYNEauQNOGhasleKs0SfUMk5A0ZTxZpnPP9/5/bvdvasEp7hyQqySRBc2m0xQan/0Yyf72f3Jo3jwI8EOl97Af5QP9nnkDzQNLWPAsooUwzsPbmZkcR+5NJTSZ/to4vOqH4z5Ya6SEBN/wfwPjmZpG0MoAYAAD7p+Mu1CtfU3SqH9HRAQFxAFhAZGTMINiiC8wwLICiCF5TVcFrVJVAAFHH12ZQR8YgmARQQEKU0uqu9ZYT1rtOj/IRM06ja6k90P5dtO6IPM6/wF1V/RdXgEDwWZ5ncm79Nc0E3p/+og/JVSmupjaaEgjyShU0j2uwEKsIAEhxzUOBAUTWktBTe9wKELoQIKnrEiCb5kJQdFlGUDMnhaCuyyFdlJYwYtEg6XEG2aYPFCO+ULPl79aNRL4WpFPJV1lcWyKtNYmFo5KXaaxSnsbLvCDLmvedaj7cxdrF2dPK0s5TYHfd4OWkraEtLxIxYVEiT8zZPTcj9+5hN2bsSwpkv+P11rt9uI0GWD3QUCZS5N6/FVIovESnYMIIAAAA");
+const Comma = createIcon("comma", true, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2AAAAD0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKRE0LBgABNgIkAwgEIAUGBzYbrALInoexY2JIVpImXGm8lREqneD7/X57zruIacYzniGJl0xIdKgkuiYS6U8ndI0MkfyS+ekhgczeM+RLXSdncrvhGY52pQgTCbwtcShC4JDbDseWSSI1lJiorjWRdwk3WRq/xlyT2ioA0QuAnZODfY3P/Mx4r1+Jd3sIiF0wK1ChwqQA6yqBScUsiiL4zLr2B87UAohmPZGgoEIn+gEFpCildDR1leOOpvaTw46T+Yfehz9i+X7mwx9AIHgZvv2p9f/WjgTfb89Mb92ItXxAqwRBtVAvuIwrvWZjTQAAUs5r6C1MrRJoluSaSElkz//AixMDAA==");
 
 export default Comma;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/notes?s=sharp-regular notes}
  * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/notes.svg)
  */
-const Notes = createIcon("notes", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVQAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBLgsGAAE2AiQDCAQgBYMtBywbqgTIHoVNWT4WD9ccCyLLjj1BfFCJ5/9/7XWf+94EZn7KDsg2qkhCAUlcHsjYOhI2Qra6KjViVm1XZPVczO2fcZ042kNyyyLaXJpYp3SzvkZdaiPSD5DM0ub/ZtzreRTgNwptLJwYSNv3fp5AoFEvWwd+vuzAzvQE7MxdrSseGvtJWmRJHh/t8XWDnl/RQP2ogC/5Q/OP1J4yNAA5AADcfZaKADfjnOwuH7IrBARyF+AUREPDMQhuYATHiJ0Cui7MWZbwH0ggQNbIQxXoGHAduAdAB6X1fnjr8DRs9afTMD4bpzFpSaYtkccZX0dWqUwT6LE8rkwhePnMzoHjnuxPPYeTBuwAYmC4b4Cf58/hd3LFyxIhvLj4mxtsrIKFuAIZ7uPwB4Lwe6/4c27835gK/P0pCFB/RQuXuXawoUBo28u2csGpzBAAUPlMXhCU8xh415WvAmJEQFkzCmiOkkDQjc5CMDjBCsGa0SOM9E1xRKWDsvIONJcsQHfECwxu+KprjqT5D/n65O8tzqthzxwZdQZy0TLUKJfA09hN27xiHktK2oS6gb6pmqqWqULHIsZMj9dCPL6IGOkYEBc6Th7Xs2rGJloG+jzFje4rCnO7WUmSiGCe4yhFavBPAAAA");
+const Notes = createIcon("notes", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3gAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGoLBgABNgIkAwgEIAUGBywbvwLIHge5aeqOdNFEocyHLIJqjeyZ3XsCCayfNWsMgnGx7KMjLJAFlizkVSyq6GsQZsiPCWVWCw45YTiIZtgWhJqAxRhj0GiG7yWo8SquIR9kuD/T+GXCPVJTAMQYAPbOnz70vo024nM38dk+AmIPzAsUFEwLsKkITKvmUVVBG13XD0QA0UN+gooGE5gHVJBKrU1Pz2AzXM8NNgPny3CeOR9DORhnDJXBXHw49vDPQuX63K1brl9fvflj3g97trZ7a+0EEAhefHrWXR/d/N83mODny3//MkPd+2jzIfokCMpSt+RKwny0AgCQccNiQiCNK1R7JGADpCSyeQoA");
 
 export default Notes;

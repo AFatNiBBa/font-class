@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/location-arrow?s=sharp-solid location-arrow}
  * @preview ![location-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/location-arrow.svg)
  */
-const LocationArrow = createIcon("location-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABRQAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUF4LBgABNgIkAwgEIAWDLQc1G2MEyC4HeDI+lHEhlBxRqlotRiae+IyhGhf4tHie717svvmT0qomVKkDlyrURWMdLBSxbSI5q8vL36o59wI+tm6nitECKlJApOpqfIQsCfOuqUrInMzDD9keAlG17wmuGzByc948CvCRh3YePg3k3Pk/8wQSa+GbZwFlgWWagKXbZI+CUflGSJBEdDzi8XZAzUcTk/JWBk/tofnH4QkUPQ2ADAOAo/NGHUq+kz8tyB9VEMgRYJmgQYN5AnbpgnmGZVBV4bu2pX8gIUA66ZkFVDSYALMAKihS60Bfx0A9E0xv+nr7rMh1BsHqZ2yGgkuF2C8vWwggCPs/gvfL/e/uK+Dv6V9Rq68CdCsgNOvtuk4UGM6bAABKHjmjQFAMKHDXfs8QEL0IKDr1CmjMsQioeq0R0GFRnIBOvY7pUnvEuO6Ei343cGPHA67G/eAOu/5qp/HoeUFFlfqVxRcskJ9iOBBihtvAoENNlGGWx4LrxgU3FjGzt3MxNbF0MdBJ3bjaKnhg3osoLCCEMngdv863TZ2cLe3t6pgsvldcbn69G7JGcTd4ikLKYEK5/MPTaX8H");
+const LocationArrow = createIcon("location-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2QAAAD0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKSFALBgABNgIkAwgEIAUGBzUbrgLIngV2i/NRm4w1w/J4GMbCIsbD136/c/ct5kk849kzQzJPVNFQ6GQ8RMik3ynlDZUhQrJWDSNknsyfD1nr/e4YJ+jng9CG1zDqAjZjjEGjGb6TIMddMVWkm3RczzQ+dLoiqSsARCsA5teWFlXKKCPe/hFvFhAQ82BAoECBHgGmFAI9sgFkWVDG/38/cIAAopqYBDIKNKMDkEESOVc3VDXl1Yaq+mjQsLU/pNXnoAMqZTn+8/MTEAh+fLfX1FdtQwLvr3/KCv/LeElQK4GgGP4fth0VtMaLAACkuDAUFQSSWolqtQSYhJJEpObXYaSTk8NLAA==");
 
 export default LocationArrow;

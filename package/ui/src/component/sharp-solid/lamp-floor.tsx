@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/lamp-floor?s=sharp-solid lamp-floor}
  * @preview ![lamp-floor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lamp-floor.svg)
  */
-const LampFloor = createIcon("lamp-floor", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTAAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcHwLBgABNgIkAwgEIAWDLQcxG30EyC4K7IZjQ+QSOk3zUcMeRBin4oh4nn767dyX91vyd5faJayiqa6RVZfePK4pPEIi7BqTwTJIdAw69ZdmAF5Cc3VwYqGObXtYrV6DgsRq1GRW/W6UGCBV/VUL/O7i5nnnUYBvFNKYuHTxOs/mPE8g8LE4DzgPLNMErL1pjXZM2ZdkopnpeBIdVyfUvGo+G1F+FPhSH5q/NntTzBoAWYUAOHm+U5G6T5+sDJIVpxCBnESwC0WDBttQcAQXbCPsQlRV6DMM+R+4CwmQMblHARUVexB7EVBBUWqdre5GC/VcN2pz/sxAytnMz3ZtJ10nbZt0kD2/Vv1Pc5X++CxCxvufO0NX7cSuoAdiXAdBmF5//mHpyP9pV8Cf3/+1r2go70uYKiA0y8Oyad5D3gsAoOQpPe8RFFswqM59jTrRglCMtdDYSoWqtQ9GdkhJ5/xpXOpMrDMDKOYeQOOwF1TrfGHkiJ85ti7NNaEPmf6kJZQaKYagF6CFpaczJ09ytw23yJMyJuySpZOju4W5jbvCrirn4aC00MKLIOQJQAvC4fN638LVzcbJsfRpw37V8LTLTVAYwd1vvCiktLcvHM7u+wAAAAA=");
+const LampFloor = createIcon("lamp-floor", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA3AAAAD1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF4LBgABNgIkAwgEIAUGBzEbuALIjsM4FjxShSb84+G/tdf7ZidAqMOadU4UYVmhYnDVFbae1fcxgmxJVW8DqTJ/A4ccORw0w7Yg1AQsxhiDRjN8M0GOx8UbVaRPKXycafzS5w1JXQEgWgGwsr2+pnIWZxEn5RfixCoCYgWMChQoMCjAvEJgUDaKLAvOoiz7gaMEENWEJpCR0Yl+QAZJyjnXNlQ15a2GqvrYbtrcaNCgMRrGP7f6Z6wbOVva0unpCJVLWL4EBIIvHx4/OW6Z/1/bkMDFz39/ZIVlJV4kUSuBoJgoJxzEC4gXAgCQ4p7xeIFA0ihRrZYAc3CSiFR/8/Ktu5PvAQ==");
 
 export default LampFloor;

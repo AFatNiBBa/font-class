@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/box?s=sharp-regular box}
  * @preview ![box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/box.svg)
  */
-const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVQAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBJgsGAAE2AiQDCAQgBYMtByoboATIjsQ4JvGLKEwiKNbKnt29e6SEt16FGV0kKhYOABwbcRWbikzs5TtSyPyf6/mejwb4eRMfSjQWlVYAVl09P4EDjvKmAj87sIni7U6Lpoj2SSxlSY5HO17lDFncjesKJLeTX7iWfzT+6OoSiUIKIBoBMHX18oW+lKIU8bP8kvhpPgJiKsgFUqToIcAEqUAPmRyZTFCKchn/A3MCiCJ6cQIyFDECUwAZSGRZVlVV1VRTqMtWhTXV61evWF0TotoQ7pMro3qlUBsRdatq62pXRBKipi4ijVWd9xrv/e3Xrl/G9+5cjMm9lrj8YYnF7tW52OWbg0uYLUq2NDyesnnyNQwx5PoQdM8iEHz/f/XNDRP+VdYk4Pc7lIfLpfiS3EOlBATpgPIAG+ILIDoAL4lTOoWRBRIDZEDfWuuGAKEaARJF1QKkumsUIFOtvwAFvYwUoKjacqnIqoRWGxtI1DoKUqNcBJlWz0HBBF+9otZIdYe5eeblljiLQzNX5UMHDcnH5dNUZdWBiovj82Wpzynf6gsn7XLYISfstMNeJxhyzMLwpINmSfBMI8oNNcgQuXHy7eLx8Co7HXPcXocdSsuMl583+zglD/cFNUG4w1iJxBfC2rbDZwAAAAA=");
+const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA4AAAAEIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcG4LBgABNgIkAwgEIAUGByobwQLInoexY2KVyZXA64IcD9+vvZ77FkLggHXYhjWySsECj69PbafCsWK1Pt+IndpOZfVm2m9/voOF1Fe2U07Em8eBQWAJJLejXsAOHsOVcjjkfhjyeB9vFaR3qYXbDo2/hrwhKTIA0Q+AzbOjHVUddcRd8424s4WA2ASTAhkyjAqwIhMYlZtELhfU0TT+gZMEEKUlEshRYhjTgBwkOVJ2FT35aUo7r866dEXXyZjuuNd9nHqy6Q/9H/7VetiyPDG9Z39h3/Re9fXe143124VqAQgE68+ub+V/e1cCf35DV9jUUaUPaJdAkM00M66jgqgEACDFS9NRIZAMym21lABLYJJc6uLm0WsA");
 
 export default Box;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/list?s=sharp-regular list}
  * @preview ![list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/list.svg)
  */
-const List = createIcon("list", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABXQAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBRQsGAAE2AiQDCAQgBYMtBysbwATIrgZsYxL6MAo1Xbm4iKIompc+53bsWPoxRFAtW8/s3ZGiyz4lFbOKDoRGqXckIV9ZymMpLIVEv98zrv6s3NDmbbIymGC1a1f6lnBiY7pkhvzqAF3wf/neElIs8BOXO//zpwdc5I82Fm6bukCe9sQHWyX6ngeSZoFlmoCl28RHiaL2hkiQSHR8eXw9oIqXWE2+J9DqHxq/jK5JdQFADAOA/YdCHp9R8Ne5Iz5lQUDsA2YRCgomEdgiFJgkMgsqleCb5/9AhgCiAV6boEI3jsA1gAqkphLJlUqlXK4Uq0XlvlrR6O1TIPqISmNbTaToitVHIgop5IrI1B5u/2XMptUFFl3dU73BcsNwVhYsXVT9egiqT5f2PEAgePz4P+3Wv6xPAPgR/hnpOlO20S1BUOY7NJNhSAIAkHFmSoYR0hYJvGu/FwFCLwKkRq8AxQQdApVecwjUpgUQaPS6IRSVHGFcS+HU7xkuNl3BlXE3cG3Ll90Yj5JKVCJQP7n4hAXi99jjdHOUt4FJZwdRhzEOC+azFCx0ibGNtaORoZmjgfby3slKwgPjvoh5OLmxKD6OX/mywewdzKhr52ti+L5mdvbrLSQLAHeVLyWRoqcIAAAA");
+const List = createIcon("list", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA4wAAAEHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHwLBgABNgIkAwgEIAUGBysb0ALILg5sY1GjH3WLGVFbBKH4vug4lJ6HYu317R4EUBIoAs06E4UkTKIqVH10XfV3tWUfY/7UEuhL5lrIPvoCe1cwn2V2+8YRLbbYTONiD7r7YPdAi624gF0Km52M7ptomqgECWW8i1Tkq4SnXhpfDXtJqgoAMQiA3ZODfZ/b0Y54biae7SEgdsGUQIECYwJsKATGlKZQKgXtaJr6gVMEELUZSVCiE1OYBZQg1SW0p+orjwXdF916TvTFbexeT7jFmdZg6/s0PDzV7QpiycmvjYForeWbRwc2/nf2JPjy9p97xIPNr5QtdEoQFIvNostkkCQAABkvzCSDAmnIy1BLet2lJLIsAQAA");
 
 export default List;

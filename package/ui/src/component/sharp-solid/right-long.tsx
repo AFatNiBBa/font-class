@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/right-long?s=sharp-solid right-long}
  * @preview ![right-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/right-long.svg)
  */
-const RightLong = createIcon("right-long", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABSAAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYG0LBgABNgIkAwgEIAWDLQcxG24EyK4GbBc3I2RJsKVkFHE64uGTP3Nd3KrjaTz//eH7a597U1rHhCp1DlbhEMUaaMADFJFM9PPn5/+zv7pvyFDemQSiTYKwUINK/33qRjemuMlcS9gBuuD/GiJksl3dvP/9zfN//ukDPqOPVhuXBrLA5zxPIAysy7MtkgWWUOAJWNbObvkvwq/Sp3ySYXqGzWKGnpeWIeqz4DXfNP+seYIy1gCQWQBw+1yt4DMKf4MhP+5AILcAdhEaGjYRuCAWbJLYBV0Xfnn6BzIEyDDkzAIdDRvgAEAHJV1inhjSShphuWpaa9ZUIdIQkZaI1FS3HDisBYMPAe9jjGTd4cYIEwSAIHz/Z6i/+D+qFgH+fPmGSn1hVIHQjgZHegWKAAAqV7AUBGWBCK466Q0BMY6AMmxcQLPBgEA37hCBIdtCCAwbd08sXYlY1G9QJr1Ac+4aukXPMOTClzlsMe16cM7lXmfJZY1KfexzeznOQ1flPc7EdoKnFesVp2yYxMKxIxfmZtYuFDlTcS7tlS1c8iDm4+bF4ng5uB9vmDtzbu3YUeqSwPsNqyu72AZdRKjHBkqRUv20y5whAAA=");
+const RightLong = createIcon("right-long", false, "data:font/woff2;base64,d09GMgABAAAAAAE8AAoAAAAAA2gAAADzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFYLBgABNgIkAwgEIAUGBzEbsALILgps9xRLGDUOWubIhwJpWRFGqHQevt/v92vvexDxO2QS2TNDEm+ETtZOJtEJEe+U8oZKxr8kM+FXgalmewhEm9W6v/OAi36xpcKlk2vEt6Axxhg0muE+CUrcVWsirxIuZxpvxlyQ2ioA0QuA1Z2Ndc+NaES8/Jd4sYaAWAW1QIUKkwIsqAQmFTWKImjE///9wJoAopktCQoq9GEYUECKUto6mrrKdkdT+9Fme3RGV3TM3tTg/9P1dW3lZEUNBILqp7qehffWjgSvt0sHU96gVYKgmvs/5zBBEgCAjGOzCYHUJok2S8A8JCWR7Ve0IAMAAA==");
 
 export default RightLong;

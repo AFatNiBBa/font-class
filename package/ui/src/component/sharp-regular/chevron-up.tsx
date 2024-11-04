@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/chevron-up?s=sharp-regular chevron-up}
  * @preview ![chevron-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chevron-up.svg)
  */
-const ChevronUp = createIcon("chevron-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTAAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcHkLBgABNgIkAwgEIAWDLQcxG3oEyJ4DbssMp1BNJFuLrasp9PL66IyH7+/Nc+97P6UV3EJp1IGrcIhaEVnQHY9I5msm/vP7zXMwr/iFpDKtoskk4dLW1tKva/OmpRAaafklM+RXhdVe3Rq/8aMDXBC5uz5sPJAP/H3HE2g8ej7Pi/MssEwTsPamPRtL2ZfMlCbJn+n42qHGS6whvxPgsTw0/uD1SGoKAGIOAHB1f3qCzyWX5J9K/OAIBMQVgD1EQcEWglN6gS0Ge6Cqgl8qhf9AgQBiBHJmgoqCfdABUEGKavDaG6fhgi+x3cYT8XPGecou73jGGM/Z4z2TUW1O+49ooIDhEPNgMECqwuAwCAS919abe/t/zK4DtM+rVf2MQhCtTsOYBEHpq5S7hB2haEEAQMYC0WQHkdbpyF2nfAgQJhAgjZgQoNjkQVBN6CFo7CgjGDHhml5UK8KSe4U05QGKEw9QLXmCxqkvfcRSlEfCQ8z/aCm7Fu20ST6Tk02Z2poQd5rqW7KsxhYUi8MmGoYGZupq2maGTJxYc327Ht7xIpGXkSM2ybZ3v3yhbmKqbWiQm2yR81rMws+OQxc6wMH1UuqPtFVb9cVkOEjPRwAAAA==");
+const ChevronUp = createIcon("chevron-up", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2QAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFILBgABNgIkAwgEIAUGBzEbrALIHoXpNp4d2bJkfQZ3ieD7/V733AcBAh3WrDNRTK0CFKq+usJ+Ics+xpRQVr9mlvqFnO+1ITo505Pf4YB+sLbm2UUSTNACD9leBAGha8jjdUxBepngRZbGHwOekxQZgGgHwNru5oYPH+NjxG01cWsdAbEGxgUyZBgWYFEmMCw3jlwu+BhVpR84TgBR2mQCOTK0ogeQgyTyvGwqWvIdVxsPtxd3tpYna+21f7mhOv/0qeMEOoBA8P3H007bFv/XNyXw+RVNjhKfUw31EgiyqWrKUWLUaHwWACemeGYyMSqQ1Eum8rAFkCQfqfHy7vWzR/fvTT99AAA=");
 
 export default ChevronUp;

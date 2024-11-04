@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/signal-fair?s=sharp-regular signal-fair}
  * @preview ![signal-fair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signal-fair.svg)
  */
-const SignalFair = createIcon("signal-fair", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTQAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEJCwYAATYCJAMIBCAFgy0HMhuLBMieBU7ZPKLeeTuRhtD+QuZjcMbz9Pv9b+1zz/uI2J2XMNcSvIl1SJboLyEeik6nvqEyRJKutyOVT1YqTVVf/NsDNi4VMQnmfA/BuLh53sVRgG8U2pi2NJAFNMbiBALMujwPJM0CyzQBy9r5tzCIfpP0vnySYfoYJgfU/M4DHcqTgvvloflhinsUnQZARgNgy6ljB/x++snX/6/JV/uAQLYAtIIGDaYLWK8RTFe1qKrQz///4R+IBMgAvq6Aioq5WASooCi1jhkzrDOinhzWGXqKIzI0NDns+LDe7Y3u/Vx8expsz0y22GRVukkKPUzjNAjCm5PPaNT6X4OHFfD9A/QZdf//LC09DFZAaOb/T86XW7q2Z6kAAEquieWW2YKiq+C7DvdQQAxFQDFgqIDGNKMFVEPNE9Ax0woBA4Y6JkgdIsa70KEY7iI0VroO1XgvoWO9j/qA8WkuC+1q+q+WsFMiO5baJQsXt2vbaaAx/ifTcF27LM2+FgtzsEssk2GdMoFv1bqGYmHZi9ASCy3WWqvdjtfbDdsOtcw8Z532vDbbNbt+DlSPCZdyFIWUYe9AXPAEAAA=");
+const SignalFair = createIcon("signal-fair", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA2QAAAD7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFULBgABNgIkAwgEIAUGBzIbsALILgps9xQrkFHjQFMXYz3H3hAP9Xt/nt13P6U11You1TGo0i3CoqsHi8JHyCg842P/xGYio2oBqvYXM/i7DoFpe5dPZrVucCahpRZRAoHgIAMNsuICtseYKMOQdxWU+B2vauRbipcujR+GPZNqFYDoAsDu+fGRj3rUIz7/T3w6REDsgimBChXGBNhQCYwpplAUQT3+//cPnCKAaLCWBAUFXegHFJCywK219nKW4ZZzLXGiJWa+dP2J6dt7hnsBgeB25zE6N341tSb4/vV1hjP/P2I9o0mCoFr8v+gm7804iHUBAMi4M5PMCqQmiWiQ6LpISWTrM7R0CgAA");
 
 export default SignalFair;

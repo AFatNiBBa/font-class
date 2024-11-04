@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/signal-weak?s=sharp-thin signal-weak}
  * @preview ![signal-weak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/signal-weak.svg)
  */
-const SignalWeak = createIcon("signal-weak", false, "data:font/woff2;base64,d09GMgABAAAAAAHwAAoAAAAABRQAAAGlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVGULBgABNgIkAwgEIAWDLQcyG2cEyB6D424JpW88Hv38U9RFM6lHPPz/vW/7nHvT3kvvmlBtwBUHdDoHbKyBfsABDdDYX6NZg60YMbf/eVyl/S3hUsWTJWgujUZshLJGMte+//3N838eBfiMQhvTlgaywPY8TyCB7XmJZIFlmoBl7tp9KMK+0lKW5PHaPH4OqPHbkk1+SOBNfWg8iviSSgEQowDg8m48QthlN+Lhf8SDAQiIS8AqoqBgEcEJU2CRZRVUVdCN///DP1AQQPTiKxNUFMyBJQAVpKh1rO0ZqrdpqrlDQjSBjXa9M9r5smZN59wj21OeUZ52GhAImk/ttycjJ1+9NsHnjz/SZxT8D7mVHfRLEJTN/0nzvLeuGVsIAMh4Lch7B4g0xoC7DnorQGgQIPVqBCgW+AiqxgaCHstKCHo1rpiiDgiTFgPSoGdQ7PlANekHPU789V6TUZ4GbVj6Z5bQlqg1plw6q7qWvs5Ym8z9hral6DvmYtjF2sXZ08rSzlPgdyPr5aStYS0vkpy0LKnTcfS8PrNy97BzcS5DGnRfi3rr1TGoBibcYktJZOv1YsqRAQAAAA==");
+const SignalWeak = createIcon("signal-weak", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA1gAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKQEsLBgABNgIkAwgEIAUGBzIbpgLIngemmx9pUyRzRbQ8jo9HX4Tx8P1+v19734NJFc94ck+mpZG1MmRCJUQSnVLe/Mr8+JMmcy1ZAaqW2btTziS01EIOBDNsS+UCdvCQ7YJoWjOBEr+ljnxLeE1pfOvyTKoqANEJgJXTwwOftahFfP2f+LKHgFgBgwIVKvQKMK8S6FUMoiiCWvz/7x84SABRrwMJCiq0ohNQQIpSSktdWzlpqWs+1RzD751/DsHWkk5AIBh8Ob697Zj/1diS4MfHb53h8P/PmMpolCCoRv6PuMp7w9ZjSgAAMu4MJ9MCqVEC9RKdYimJbDmFRncGAAAA");
 
 export default SignalWeak;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/wifi-weak?s=sharp-regular wifi-weak}
  * @preview ![wifi-weak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wifi-weak.svg)
  */
-const WifiWeak = createIcon("wifi-weak", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABRwAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYF0LBgABNgIkAwgEIAWDLQcwG10EyC4G7JbjEA0RL6M0S8emlL5zO7rLj0Y81K+hb/f+BZgVKhYax0dFAhnXKpYyNSJTS6Dw/sfmfTRCpR1iEsWTJRMtgdfFJppZWzKzYOe7YUgG6IL//c3zfx4F+IxCGwuXBrLA5zxPIOCxPJwiWWCZJmDpNtFDoSj2RkiQRHRc1vG1QonfnkNNvqa8A57Vh8YHHHtSXQGILgDg8Cwcgr89RTz+/yUeBYCAOASYQlChwhgCdlAFxtBMAUURPPn/X/6BCAKIBrgyQUGFfmAYgAJSlNLeWreX07S55fyt+DJ/Gj7MHRfOI7x71/1TijAHO9+fz3cWnwcCweX35imW41dTa4L3oZ8R7/8e8g40SRBUa/8TzzXMcMYYAQBk3OHlmjQJpHYJd23zQoDQggCpQYsAlVFsBBQtVhFQm2BEQIMWR6iiNAt9Eh1Sm0uobFtA0ecbajv+tQZ9QX0WdFDpX1mC2yJXE2pVGrTh1NKYSJO5asdlUTLUiJQWoailqa8gr6Jv8K6QOdDg9jCXFyEtFQ1kg9vu43RMQVdPRUuz1LHD86rE0E+XkkIBwnXtKYlsvr8oVpR3GAA=");
+const WifiWeak = createIcon("wifi-weak", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3AAAAEDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFsLBgABNgIkAwgEIAUGBzAbtALIHoWNYznSRlniRxCfcoRKzsP3+/1v7X3P+6qIeBZtDElEQoEfsW5axbT/UIhvqAyRpIXAnO8hCW5wJqElaAFnQROsuIANG0fzjB03Q4nfcVaNvJZxZkvjh5FOk2oVgOgCwIpN69b6Wo96xPD/V8SwNQiIFWCCQIUKYwRYrBIYo5iAogjq8f+/f+AEAogGn0xQUKEPIwAFpCilrbXWXjY2bdl3Y/qdqbdGXp1yc9rtSfe77v/8wRoHO598+fKkkx4IBC+/dmlX5+JfWhN8f0/OcNL/bzGU99EkQVDN+T/H9jxuktUxJAAAGUdNyuNBILVJQoNEF9EpiWw+duTgkbluAAA=");
 
 export default WifiWeak;

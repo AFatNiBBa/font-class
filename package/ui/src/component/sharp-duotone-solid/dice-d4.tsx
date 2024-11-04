@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/dice-d4?s=sharp-duotone-solid dice-d4}
  * @preview ![dice-d4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dice-d4.svg)
  */
-const DiceD4 = createIcon("dice-d4", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABUwAAAG2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcGkLCAABNgIkAwoEIAWDLQdKG4UEyI7Cca+EuMQUF7C1VvE8//d+7nPvndKqzlClHtB0ygpg5+qxBjohfTRAf0UrhZ//cLn3b/DAs180xqI76qhBZXtYUUZpUdsSjbc2/c0/7zwK8BmFtoeGY4LPeZ5AwFmeBz5Fvin+tw0RaQTSjZIoCWksjcbpgJa7+skQ5XvpwGf+H8D8ottQjFUAmQUAN4+LFm6PDEq6fk86BRDIPcAuQkXFJgLnRMEmyS5omjAQ+h4G1PcMATKMr1rBMBqWwR6ABopIayMjE0NT7dHE0PjzoTb0NA/y8FFZzpP97eztH1vX7ChX4F/e7+rdvyvh/XlAEH7c/dfPlPP/oxMF/Dz8e8JP9Lei3GJUAaEe9oeqBRQCACh5y15kFgTVlo1vnfRFQIwjoBg2LqDaoCLQjDtAYMi2KALDxt0nShsTi2oNFJNegOrMCjSLdmDIubs/bDH1dhC+JT5nsaaEjDUO+gKc4mWskg7H8jzN26pjmWpO2EXTyNBcQ13HXCBTVrQwYGqw4YdYkE8AS2Fz9shW0J+a6cxp+5I0Pm86LPVuJxiCgnpko6qkpM68f8tbP/GGmaRJOp4AAAA=");
+const DiceD4 = createIcon("dice-d4", true, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA5AAAAD3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFULCAABNgIkAwoEIAUGB0obygLIjtMdM9KNfzx87fd67u4GCDWgDOtEARZ4PGr01RX266ry+LJQfypZVb9ilneDA4EUssQCkoAzT2UDGxxyO0hgUcCtrUKJ7/mZBtKLBM/1BzB+GfGMpCUDiG4A7Jwc7PtQj3qKj9VL4qM9BMQumBbIyBgXYF0WGFdMoyiCeqoq6lFV0wQQjbSVQSMKOjEAKCAJUUrObQ0d5bitofV6w1kcNczWumt/Zj7eoWvLvy2P/r0HBIIvdz++2rX+v7ktgR+v/v3EHVYfklRDswSCPFfNuZRAIgAAKR6aTaIbgaxZghoDshLJMpEid13E87fW5odQj7NxAAA=");
 
 export default DiceD4;

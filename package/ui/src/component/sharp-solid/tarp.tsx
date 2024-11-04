@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tarp?s=sharp-solid tarp}
  * @preview ![tarp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tarp.svg)
  */
-const Tarp = createIcon("tarp", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUwAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBFQsGAAE2AiQDCAQgBYMtBysbkATIhof/X6u871cNdS9DLREpYFRAqHb12CV0kMRGYZ9YVNEzdlq88VIBzzrcx8LGCzIm0JzxCjQ+ram3PwjGwrenF+Tfm7a0HVn2JhNNkj/Z8bVBHr9k51WRnqSfcKu+afylvfMkdRmAaAaAacsXL/KlEpWIHxteEj9agICYBgqBDBk6CTBRJtBJrkAuF1SioYH+AwsCiGr6TAnkqMIQjALkIMnyvHFNy3JV43xZuaq0P0STSNE4IspK5ZJYvula64gHTre6X7ra5mGcafuo3L2+Wf0/3X7a9pMpTyuVylSnPcticRrmnDr1x+cml7ncJDkIDcRP8iM/H1/fdOL/teUE/nz33z9yZpqa6lErgSAb2DDQmjQVkBiAkuKY7s4HBZI+MnqpjTwUIJQQIKlWEiDTUTMBciUDBKjSxSgBqpUslom8TmhlbQdJIwdBZrQTINfKc1Bloq9ytVaRhQz94PSPLWG2hWZ1FcMGDy3GF1NHY6KALM0JxbLY9xgn+sGqbfbb54itttjpiEEOWaQdtddsD57liwrDDDZUYbxi239cXmarQw7bab990maC4rzU1zE/vx/0kQDDL5tke6T8yMZDBwAA");
+const Tarp = createIcon("tarp", false, "data:font/woff2;base64,d09GMgABAAAAAAFYAAoAAAAAA5AAAAEPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQB5CwYAATYCJAMIBCAFBgcrG80CyB6HsdtkSRfNUD6uxAiVzkM19vp274JYINBB3aliskAagFWiv5BV9RGyZduJrP7NDKgYuGrfQQenMrIznTQgTiJP5GaBezUY9cDggGyo8a3c00J+Tni5pfHPIvdIHQVA9ANg+tC+vb7+jt8Rc03EnD0IiGmwUqCgYKkAY4rAUtVKVFXwO5rNfuBKAohWPzFBRQtWYQOgglRqbS39XS099WBXS+el6M2eONDp4tOR924Nv+v86IfYgo+rG/2N+VUuMjnze6rZ2ZkVt26dmux99KgXgYhc2/7+9Km+sf/tXQn+fjlvmFPZQLsEQdna3Op4TgEGkELGTatzCoG0SAEAaJXkbk6rkfX6mauXAQA=");
 
 export default Tarp;

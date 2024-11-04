@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/angle-left?s=sharp-thin angle-left}
  * @preview ![angle-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/angle-left.svg)
  */
-const AngleLeft = createIcon("angle-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcHkLBgABNgIkAwgEIAWDLQcxG3oEyI7DOIZcylCGIRgiBDxUPE9/7/trn3tSWrVGlToHS6UAhijWACOU8YjU3/nzs2Ks7b1k0XrzSVTaJzFHG42WVBPNS6DiU6ee5zwUCj8IZCyMbZAFPud5BCaORbloz2vLawWrKHZvmtFYZG8ytSbJn6Tj6QY1N+gTU57LO+7Tl+afKftQNA2ADAKAo4tcFo8feU/eWteQN8cgkCMAiwgNGswisEsomCWyCKoqvFOrFf4DGQKkndyzgIoGS2AFQAVFap3qEffVc77svtAoNaVooooyeSqgoE6R15cPpAe/S+/Dd+uvadw7PZV3IO3ghTAU5TUekAYIws+A77MlCf3v7Cng8+H/H7xnGbJRDkCnAkKz3lpXzy60UnEgAEAx0cRgHqiYIiCf2usBgehGQNGuW0BjhhSBqtsaAm3muRFo1+2EUGqXGNUooOh1Bxo79kA16hK02fWktRuN8JKQR0z+0eIyGko3sd1i4wB3LZk6dzxWgzzM63YpoodTDK0sbRvom9hWyKasuWMh48FpP8TsLGxYAE+711wRtU1bJjYzXyeI16s6u366HsYRADa296iQ0n27HM0HzwcA");
+const AngleLeft = createIcon("angle-left", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3AAAAEEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF8LBgABNgIkAwgEIAUGBzEbuQLILg5sNxQjkM4YGy2W48MWIR7+f79v+9x3R0zzeBZPsyaJOERCopNJFe8e4l80jeTfqhVAr5NZ46GLqFJfVe37B3dBnhwpUooJcWKEp0WbP25jiGDRKH+r8yrIcehKBel1gld9NP7o8ZKkKABEMwCWdjc3fCpFKeJzGfHZOgJiCQwLFCjQL8CsQqBfNowsC0pRLusHDhNAVPJkAhkF2tEPyCCJnOvrKhryTmntblda7VvbkezcGdXs34gbxj6u/S0ITHH7QCD4Nf2P02b/V9cl8PPNP7MzSswkqJZAUIyVxxzFC6NWY0YAANIJMeOOSb3EWCkhZ8RJIlLt+fPbp+v3AgA=");
 
 export default AngleLeft;

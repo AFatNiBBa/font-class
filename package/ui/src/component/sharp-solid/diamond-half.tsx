@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/diamond-half?s=sharp-solid diamond-half}
  * @preview ![diamond-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/diamond-half.svg)
  */
-const DiamondHalf = createIcon("diamond-half", false, "data:font/woff2;base64,d09GMgABAAAAAAHoAAoAAAAABRAAAAGfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFULBgABNgIkAwgEIAWDLQczG1gEyJ4FTpk9GvHOIww3mvgSjubTd8V4+P/9vu1z7h0xrTNJk1pU8JC9NBbNQuSHCCFOKX9RyeR3sbl/4Doh/pH2ytBIY9v2aDZj88zSbGYzwvfZHgLx9zfP/33+9AGfUWhj2tJAFuBe5wkk1uXFJVIUWKKYuav7TBH2lZaytDxew+Nlhxp/ynSQPxO+lpfGPzPepJ4CIIYBgKPHIoepHe2Ip+ZLPLkBAuIIYBmioGAegl2swDzOMlBVQTuahv6ByyCA6MRXJqgoGMIUABWkqLWrr2OgPsRjvS/vmrLCjtVWLYvm1wA7FQguvvyaeju0+7+7L8Hf36c+oJliI1voliAo6826MeE0NiAAIOMzISGQpnS+a79vAoReBEidegUo5vAQVL3WIOiwyIOgU69brKg9wrhZh9TvHRQ7XlCN+0CHXX+703iUK8E7lP+RpWQSpUtk6SbFNI00wctsmia0rInPUJGwCUsnR3cLcxt3Qa9y7+Eg00jqQ8SiM5EYmdPH9drC1c3GyTHPSdB+S/TU2yWYDGbc4EtJZP8rVLXjBgA=");
+const DiamondHalf = createIcon("diamond-half", false, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA1wAAADmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKREsLBgABNgIkAwgEIAUGBzMbpwLILgps9xQrkMkYJ4pcfSwQ2RLioX6/39m9F7MonvEs2hiSeMmERCeTKt6p3v4QIVN5BaCazIQP2R4C0V9mte/c4MA99AAgz4tgG3UB22MsxzDwnhhq3JW1kTcJ1x4av4ZdkboKgBgEwObx/p7nVrQiXpqIF7sIiE0wJVBQMCbAiiIwpppCVQWtaBr+wCkCiHZtJqgo6MEQoIIUtZaetr56JN19fnA4sybNU4McCARfr/8/tPLX2ZPg+3Y5Q81zLGd0ShCU2WbWRcJOLAsAQMalmYRA6pSw2i4By0opiew9K+ZWAQAAAA==");
 
 export default DiamondHalf;

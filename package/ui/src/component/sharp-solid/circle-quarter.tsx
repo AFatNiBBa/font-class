@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/circle-quarter?s=sharp-solid circle-quarter}
  * @preview ![circle-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-quarter.svg)
  */
-const CircleQuarter = createIcon("circle-quarter", false, "data:font/woff2;base64,d09GMgABAAAAAAH0AAoAAAAABRwAAAGrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGALBgABNgIkAwgEIAWDLQc1G2UEyB6DbbN5xCAkkRVjfr4Xh/6w+nj+a/ju3Leb0ppOVFUd8KUajZAI1YpDf2EREozIYJlI9Pd7xuY/zCvtHsktiyZL0FwajdhobltcXX/Vvu+b/uafdx4F+IxC20MDWYB7nSeQWJdHmgWW6fzg/HWbzEOPKHwjJEgiOh6Jjq826Fm3hRHqR33Au3LQ/KO3gDLRAJB5AHD7OpfF4Z/ukvdQyG9pEMgtYB+hoWEbgQtCwTaRfdB14Y6GQ/4PZAiQUeivKtDRsAq2AHRQ0kUapVgtKk6NKOjvYXJ+nPy+rqgMg/nB/cGn9gcHxNeBjQ+8jQMAQXjy6+doL/6PKwWAv6vu6RrKcQ0wrkBoR8MjpYJHOUYAgMqMoSAoswr2Ou0rAmISAWXUpIBmiw6BbtIhAiN2+RAYNek5oXQ5Ylm5gTLtDWjOzUG3bAlGXLhbo5bTDgYRVuJZFhuzUHSOXXYnh3kYqmSssTSO8LRqnEnJhFXU9PVMVFU0TQwyknWnumIeHHUi5mLnxMJ4OblfLqoaGWvq6+UpEbzfNJr5zSYYAop6zFOKlOb/jGi7EQA=");
+const CircleQuarter = createIcon("circle-quarter", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2wAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFQLBgABNgIkAwgEIAUGBzUbsgLIHofp9mCWUPwcChMP/79fv33Ou19Ms0lyxLQ0ulgjE+qEiGjUSJ1FZf1Inoq0TbPadw+4iZIp5lw6uUZ8A4fcdgjbTQNOUOJd9UwT+SZ/4HVN458xz0htFYDoBcDBzavnfa5HPeJ7I+K7swiIAzArUKHCpADbKoFJxSyKIqhHo5EPnCWAaOaSBAUVejEEKCBFKa0dTV3lRkdTe/w5+u3i75s5X+utHc798MNnJ0fHPD4JEAjmt7562LP9v7Ujwd+3H9LBWMsaWiUIqoXGgnsJx2JNAAAyHplPCKRWyWizBKyRUhLZ/TLB4m4AAAAA");
 
 export default CircleQuarter;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/square-up?s=sharp-solid square-up}
  * @preview ![square-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-up.svg)
  */
-const SquareUp = createIcon("square-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTAAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdH8LBgABNgIkAwgEIAWDLQcwG38EyJ4FTpk9GvHOIwynaSL9NKnvUTzP/5p5358fmiS7ZVS7qgiaUG5dNdsKWQfsI2Rx/BqTU1tdHXt+m/eAzg/xIOEzy9BIk7Q1lyYW20KhrSWSmfC7at8nznW+89EAi3xoUVhUIAXWeT6BAdcHFnjy24O96QvYWzu7lB9Et0n6lE8yTM+wuULNpyY9yocCb8qH5p+dvhSjBkA2AICrj7opsnnmyfoCWXcNBHIVcICgQYM9BFygC/YwHABVFeZZLOJ/ICFA+vj6AioqjoAVABUUpdbR5nFvWh+Oe+2TyXRSMk1zvx230ibhhEd5EIdmapZbpvz5lgGr0619e/bpsafblMdruYUCCMLRs7Jjzbzwfzgu4O/3uforWszTlRmGCgjN6mLVMB2kEwBAySt2OgTFHhq+68RbAdEioOhrBTR2UwRUrRUCevapEdDXukeXOhJbjDpcTDyFG6fc4GqLH9xzwd/o25LmnVBepr5p8YkG4imWoiLbnAYa7XoiDTtcFpyrFFwcxdTO1tnE2MJZQUepfbGRWGDsi6gkUkRt3I4f9w9MHJ0s7GzzmA6e1x1Xu96FrCHuMY6ikDK6a0p42QMAAAA=");
+const SquareUp = createIcon("square-up", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3AAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGELBgABNgIkAwgEIAUGBzAbugLIjsM4JlyY+HAT8fD8Wr9z77wvokjGs2f3BBWv3sl430b16buhf6mI52EMuIYFceXd4EQ84kAwDzjPQl3Aho0xaTTD9xKUeFk9VfJ5dvBspfHVnKekvgpAjALgwNmTh9WrsRrRbka0HURAHAAbBSpUWBRgt0pgUbERRRGsRtP0B24kgOhmZIKCgiksAgpIWUrpG+gaKmcGuvpvDObQmX790R9nT29ujba+b+pc7/jytq7rqyvHHl57eGz0AT4QCP68ax+8OrL7f+9AgvX3/54z1KxGnS30ShBUW5otLkUNUQsAQMZ9m1MjkIYkp90SsAuUksi+I7D13k0A");
 
 export default SquareUp;

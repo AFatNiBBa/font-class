@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/coffin?s=sharp-regular coffin}
  * @preview ![coffin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/coffin.svg)
  */
-const Coffin = createIcon("coffin", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABTAAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdIEBCwYAATYCJAMIBCAFgy0HLRt+BMgeg+NuCQUhYmhLeV5349MSz/N/79s+95W0SqVqa9SBK3AwYB8s1izLox00In+Nzhocfv4/+6s7RJ32ziSzSlqjueSfFqFMW1bI+/T37vyff/qAz+gjjW1rgox5Pld1nkCAWZfngW4LLNMELGtn/wNKdIMFfconGabPsFlcoM5ZXjWUl/IPHvKH5i+VeyiaCgCZBAAXt/kktv30k7/unfyKg0AuACtYqFBhAQsc4wgWcK2AWi3003XuP5AgQFrgRguoUWMNbAOoQVFqrkwm4cm4pRGeuDgiltRTiphVSPVaLBHXUo6EVUxljZlk/vkf/XtQTHCs5ET2Djtyd2j6w/YbpcdrrB+8FoyvBwThzX8z0J4I/BdK2IA/Pwu/om6bXmEwqIBQbXQbGrmG9AQAUHJInR6CYg4b3nXUIwJiGAFFa1hAZZ4SC9SGrWOBxhInFmgNu8SRWoSY1eygGHUPKkcuQG3WJ2gc+3Jbs6kuCmlm8p0WF5JQ8BBZTRby0bRQKdvjcddPy4Lm0A+0dBYjayv7hgam9gWyKxkcWAppcNAXESsTC+JD2/Xj6ZKhXXum1lZpHz8672gc6vNaktmAuidbFFL4/Q9r+RUAAAA=");
+const Coffin = createIcon("coffin", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA3AAAAEFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGMLBgABNgIkAwgEIAUGBy0buQLIngV2c8dTqWlKHmERFEZCYzz8/37f9rlPRkyyeBMgq3gTTTRKJk2fUv6ayiKSXzOjwapOhCjVfK8NcYwD9xUGoQ2vYdQFbMYYg0Yz3CNBHs/jm4L0K8HXmcZfAz6QFBmAaAfAtsP7d1qvRS1io5rYsB0BsQ2MC2TIMCzAikxgWG4cuVxQi6rqB44TQJQkJ5AjRzfGADlIUp6XZVPRkh9qKhoPNh0/1HjgaOOxw00HJ2//Xy7xsa1Dy129u+/q5sVfvn376+/bX4FA8OTnrNNtK/81JbD5B1lhtR5v0lAvgSCbqqaciDcQbwQAIMUjk/EGgaRZolpKgAU4SUQqz9+54hY=");
 
 export default Coffin;

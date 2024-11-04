@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/tilde?s=sharp-light tilde}
  * @preview ![tilde](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tilde.svg)
  */
-const Tilde = createIcon("tilde", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTQAAAG+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEWCwYAATYCJAMIBCAFgy0HLBuSBMgehXGbkzSmOzkLn3kvRAT1a709b9+n3Q9B2EQBsYoktpHsCFWiWLhTAVbngpLdVSyBvt2Gg2Hpw9S3ZhINyQnCg9e62ZJM5i+WqVM5l/PQPH+SKI6F4Vx8DaA9qhUo8Fi+rSK1ghWo4hWwDrqbGIQ3H29nyHEn0kG6leCq86bx1WjnSXIBIAYBYO127+C3ohXxtv2IeGsTEBDrAGqBAgXGCbBCITBOViPLgla02+w/sCaA6OQ9M4GMAnOxCJBBEjlPrUxf3qbWlUVVVsMjRBVQqQLVynJExJgMgUEPTG4ManyfJLNm0KBrG73PDrgGqSV0d9Gg0x1fA4Hg25V3ix5Y8b+7SuDL85+/099QNFMD3RIIihnt7IkmRFMAAFIcZ+MjkEyV4FftdV2AUCJA0qkUoDDWIAGy0nQBOkywUIBOpc1Q5B5hmL0lSHodAoVFToBsmAegwwovjE7DAr8Z9omzf2xJUod5Fc2dNadeVg+Gcu4zoPV4eT1bnnKcl6bCk5AN3aaSYtfQydlHI2MI+yAy1yxz1JapVye3D0dqWoqh22WWq/dXpzg+3jwV8gdIPc8PSSLB1HH0YE0KAA==");
+const Tilde = createIcon("tilde", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2gAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGALBgABNgIkAwgEIAUGBywbtQLIHgd2i89Ru9jEHD4NY/Hw/drruW9fgFBHRYdtJoqxJDsVqr61INz3RbXjS0L+qSXQm8ywLAlSlO0GBwA5BJxoIBxpNsniC9iwMRaNZji+gRwvIg2kZwmefGh8NeIxSS4ARDcAVnc3N5T1qEe8r14S760jINbAtECBAuMCLCgExmXTyLKgHlW1H4gAohFtCWQUGMQYIIMkcu5sa+jIO20NrUXbwHZbtGkd3GnVOlvrrn2fccPK02qf7XP3gEDwvFqJ066F/81tCXx59/N3bjDKVEOzBIJirspRlBClAACkeGQ2SgSSTglsFDQvErNIDQ/vPri6BgA=");
 
 export default Tilde;

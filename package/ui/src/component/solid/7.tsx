@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/7?s=solid 7}
  * @preview ![7](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/7.svg)
  */
-const $7 = createIcon("7", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTgAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBAgsGAAE2AiQDCAQgBYMtBygbegTIngl2TGRKmGYgOjdEUKyVPbv7GKYNIKFjmbgoQuHJpiKjL1lqbTPkHb+8+Y049TznoQDlniSKY2F0gYwFNud5BCIyrcsbLXjBKordnU0aTfBKS6wlr0OO1wuymJ+eUERyN/mBy+lL4696TpAoSwFEVQAMnT19oje/4lfE90LEd+MREENBLpAiRUMBBkgFGsrkyGSCX1Eo4H9gTgBRrFyZgAwpWqMDIAOJyLImFYoqZbPotvL0aJ2I2xUqxeNaN2vOiRs1b9S+5QN15kd5nMuXRbMXVV/882PVD0cqn+FMZao+Onz452H7X75s7ee/n+yLMYtvQyDYveHOlMVVBvwvrZCAP6+b+UhBjEheoFQCgrRDgQWxi8IYIQAACdDNYghINJGkkFnRrVU3lNOQKFaOVANVkSnXHkUa68kq16dLRVYm1LQQkKhoK1K9HESmplcoMsBnq1jNSF8Kf8/8Py1lFCdGLuVdO3XJ++XTSBUunw3T/rlabbPLVdrCqVU222SHlVZYawejtpno7rTRKIkc6YdyXXXSRa6ffDm9359lpW22W2uzTXFOf/l+s41dcntbEA/I3C0MicRqSfQGAAA=");
+const $7 = createIcon("7", false, "data:font/woff2;base64,d09GMgABAAAAAAFsAAoAAAAAA4gAAAElAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHQLBgABNgIkAwgEIAUGBygbxQLIHoVxs1NFqGLZrsmKI/hRh1IT1O+H7r3/AkgqUUAFdshGxxYQHEtARTIVGm2nsgptef/QXRZoeQJdooPZRKc05elsyYy8p5MT4IN9B6PPk6gIslATsGDjMNu8KjQKyLG3OKKEdDN9wvkPjR86HCGpKABEPQBW7ty63ruv/Bqx8P9ALFiLgFgJ+gUKFOgWYIlCoFvWjywLvsb/7x/oEECUojOBjAL9GAFkkETO7VVSk3fUVxYH265X1dxvudq860rzldZrYdveylPKDz6pf/IzLA7UnjhRq/7e/v1lf0+fvng5Njo+bhx1IBBsH+zf05b80qoEvr+9b2eI/5+5Jj1BuQSCYux/Yl/M8/8P1wgAQIp5g1EIJO0SVkslwDiQTJFiBg==");
 
 export default $7;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/window-minimize?s=sharp-regular window-minimize}
  * @preview ![window-minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/window-minimize.svg)
  */
-const WindowMinimize = createIcon("window-minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAHoAAoAAAAABRAAAAGgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFULBgABNgIkAwgEIAWDLQc2G1sEyJ4FduNLEQ6ISBEMsS2PhRoaH6OXxfP/XP67z53yS6neGnX+mCYcoljT4AMMaETeCnUMj9+zzX8wsxDvkeaSoZEmSdTbYlv0ps38AAk+32tD/v7m+T//9AGf0UdpbFsayALb8zyBxLq888ACCSxQjqm9acamUvYmE03Scc06rk5oc8101JeCD+2h+WPLmdI1AMgiAHh+l1XxGtM4+Q+T715AIM8ADhEaNNhF4I4o2KVxCFqtMM4w0D+QIUB6yJUFWjRYAmsAWlDSaoxmrVVTyLebGrYFG7JAJI0WR//SZgjn4BwgCHNfj35Wuvs/aRYAP74B/OjhpUaYVCA0x8OxYoEiAIDKGlJBUKYUAACAWR8FxDQCSm9aQGOHA4HWtCMEOvtiCPSmvSJKa0SsKg0os95D49YJWqsu0LnzdnqraUJCcKjwI0tVNJK3OOQPcpqXiS56mSvLDG/rzjU3XHCItomxpZamnqUic6q/MqJYWPYiFuIXxNL4OH/eL2iZW+iZGNc1GXzfdlrb/S6wBEK9FChFyh5Jmu8dMcnYtwA=");
+const WindowMinimize = createIcon("window-minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA2AAAADoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKREsLBgABNgIkAwgEIAUGBzYbqgLIHoVxMz3SRXOUj8L+EQ/f75eee//bAFtgHdasM1FMLhZ1fBxU2BWy7GPMTm2nsvoncy1khbw75YA1DjMOBDNsOxz1AnbYGING0Anf6BQo8S3SIL8kvLY0/hr0QmpUAGIAAOt7W5t+t6IV8VlPfNpAQKyDCYEKFUYEWFIJjCgmUBRBK+raP3CCAKINExIUVOjBAKCAFKWU7kZv2e1udF316Z9qDjT/cUvdbx4QCB7f1u/O+pf+d3Qn+PN1usK6lbKJDgmCarqedpwgCQBAxr2phEDqkFhtk4BFWEoi+xfnzN0QPd8AAA==");
 
 export default WindowMinimize;

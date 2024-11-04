@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/align-right?s=sharp-thin align-right}
  * @preview ![align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/align-right.svg)
  */
-const AlignRight = createIcon("align-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABVgAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBHQsGAAE2AiQDCAQgBYMtBzIbnwTInoWpyJrLjKgyM2aeyN2FD39Qu3ie/3vf9rnvprSmhWrjYBWOSIKxMqAfZApQE/lrNGtw+Fmxtj3EDoYP8YbkWqGRLIlJEyuNEgnlG1rv9ylYiz91KudyHgrgcwiCNhbOqQtozY7FvQoUsNarb6pQrWAhqYh3d7Ydk0T7xFpiSY5LcjyuUPNAl57yRfPHa/rSfFpwh6JpAJBxAHD9WCxA7aab/Nogf9yAQK4BrCM0aLCMwBmtYJnOOqiq0E3b0n+gQID0gn+7gIpe7IBjABUUteqYzcx6m67CesuALYwMWom4VfeCtKcdnfHOv41//+/rSz8GCtO8l8dOAn3Tv54UbO68DwTh53MNe/Z/P2sAf3/4zK9rj1o6gH4FhGa73VaNCoQNEJbs4TAmFhSbdMCfOuwNgRhEQNFrUEBjiYJANWgLgR6rYgj0GnRLK9WMmFYTUAx7Ao0DB1BNe4IeZ15hr+lorw116NSvLT6v4dwxCfmDkpZhpdA3gQi7GZkWnHs344KL6FuY2+rpGtkqdK2Q7MzkLSRnQiLEL0ikyXJ7e76iZ21jZGEeD8mQ/Y7T3l7uAlmDcXekikIKvxjq1QE=");
+const AlignRight = createIcon("align-right", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA4QAAADwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbGkLBgABNgIkAwgEIAUGBzIbxALIHge5ifVOmEz1+QNaxMP3a79z3z5MokkmkcUTQ3INjZAskhlC+yGi2/khY5VM3ob4+2ifte/4OjlwucHBr3KDliYJZqEmYHmMGTIMudYTkOPRmQbSQ6rjPkPjT69rkqIAEN0AmNtcXVF+x3fER4X4sIyAmAMjAgUKDAgwqRAYkI0gy4LvqCr9wBECiEbtSCCjET0YBmSQZLCtoSNv2LZeao9jJsdqah+tX9S93xmxlN3vrQ4Egs+lqZbDrsn/5rYEfp/60xmqjjLV0CyBoBivxu1FCVEKAECKK2NRIpB0y7raKAEmQJJEpLYT4YgA");
 
 export default AlignRight;

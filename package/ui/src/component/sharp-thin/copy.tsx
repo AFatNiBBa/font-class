@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/copy?s=sharp-thin copy}
  * @preview ![copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/copy.svg)
  */
-const Copy = createIcon("copy", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABWgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBPQsGAAE2AiQDCAQgBYMtBysbuATIjsO44TuyxVKG+BIRfL9U9/07aeyTPL60fjFK75WFm6UC1AoLEksjxBOaCQxWMte+T1zz/M+f/jxL/JEisfRBCuSpcnE+gYnOo4RnA5tJCtjeNkSoEZgvoiRKRBovx2sPebxySo30IkEvPWj8NcwTkiwDECUAlu/duVmrL/oifrcjftuIgFgOKoEMGUYKsEgmMFKuQi4X9EW7nf4DKwKIOn61CeSoYTk2AnKQZHne6DeqUevK9zRqxclmVzOLRuyOdHDP7j1FIVKIRldEdqxozJmIIkQzjArd0POmfPNvrDN83IpjXtuzR2d391GUfipLx5RKWPlxTGlJb5tK55hrSg6I0+6vXd17tHvR/45GAn++/Vf7FbVb0Upv0CGBIJvUnuRQtCBaAgCQ4o6eaCGQzJfBe216KkAoECCpKwTIjFAKkCtMFKBmtNkC1BV2ykTeKQx0eOBJ03U8M8djPDfQV7xmke9R3cDIwkgPAv0Xl7NGAqu3VdOnTKsWVMdcNyJDLesLK7M77k7ujYedzrjqiltOO+W8WwK6YXN622VrNHC1J6pMN8U0lQUqd/Xq7MHohpvO7y3/JgtV98Nx7ujT4yFIWHaGTJKIlD9iAAAA");
+const Copy = createIcon("copy", false, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA4QAAAELAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHALBgABNgIkAwgEIAUGBysbxALIHoPj7mDelr9df1CINjQ1QqXz8N9+/9tnZu4X0/rTz54d10wiJDqZRUh4MrkJLeUtqiaol2h4V0ShZdOXEZTMD+oecLMvps2IMk6uiVMcW0MGDkNCifu+inSv4e5D46dJd0hyBhADANg+dWxP3apWxPfmOfHdDgJiGywIZGTMCLAmC8woFlAUQSuaZh+4QADRhjyBggozWAYUkORSqqqru+otJ7urrms9ufvE+Mmu1Hs19UYXPWLp4cDD34tu8mxdfnDy/U/qW/jY3FweOHT51gAQCK59ymntX0d3Aj/e/P2pFTZ11OkhOiQQ5JVmxfmoIWoBAEhx21LUCCQjMtU2CbAKJIlIpRIAAA==");
 
 export default Copy;

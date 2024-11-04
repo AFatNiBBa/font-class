@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/burst?s=sharp-solid burst}
  * @preview ![burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burst.svg)
  */
-const Burst = createIcon("burst", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTgAAAG+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBFwsGAAE2AiQDCAQgBYMtBywbkwTIjsJxr4SiCUswxABcWPHQ/715Z97btG61U23AVTi8ArEKGIIusicage/3jM1/mFfaQXKtoklMJtbWaIk60zQvYaHwlpaZuOb5n3+DlNEjVVDpg0QCZZ6/wMCjeL4RDGygPKZNzXuqceJ1hrYn1Hgoay3yNX/Ao/vQ+Ke3JvUWAMQIAODqvpDH6290Ir6bK+JXFgTEFYA5hIKCKQROCQWmiMyBqgo61DTsP5AhgOhCeGeCioJ1cAGgghRVZFCK1aKyOqJolMqlChWpRNAyFdEKlZUSfmDc6DZbw8/4x+7l8MzE2lZY2zyrWahoKuhzODdGnH14O3sdEAhW3lSeznDsv0cpAPzd/23FH928pnxHjwRB2drZNBOQBAAg4wzGBAJpngAAAMCAJwFCHwKkLn0CFJN0CFR9NhFomeFHoEufa0JR5QgTWpVOAx7oYt85XU24oFtOvbtdJkL4zQhPXPhlS020gfghdjtcHOHJTBY/A05vo7zaMJ3xjhnexdi+PSdGhmZOWviRfHBqJTEHxn0Rc3NwYRG8u7x/vWzkyLGZfXt2TxSf75iczY+boS0QGLfpeQnSKe6fHh2fAA==");
+const Burst = createIcon("burst", false, "data:font/woff2;base64,d09GMgABAAAAAAFQAAoAAAAAA3gAAAEJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaHILBgABNgIkAwgEIAUGBywbxwLILg94sqnw98ShlBmTw8onYseXK8Xx8P1+7dz7HybRpEJSy9rwRAkb0nYyoRIinvASdqhk8u89HDvjuWKn2iAsX8zcwVrbbW2LOB+yPQQizWrfdXKgF71yBnFkcSAUNM8SSTEBy3P4SUSOZ9cKSjxUTW3kbf7gpkvjz7AmqasCEIMA2DsNx2srWhHfdcS3fQTEHmBKoEKFMQE2VQJjiikURdCKusYPhACi3ToTFFQYwiyggBSlDPa09ZUTue5LdYqoRFdKdns/6pfVkIWBeof6WwMIBMcdS3UDm/+dPQl+78dXWL+mvEOnBEE1V+sqQRIAgIwGZhICaVAa2yUi8yx9IbLt+mcP");
 
 export default Burst;

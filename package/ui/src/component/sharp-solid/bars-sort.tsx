@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/bars-sort?s=sharp-solid bars-sort}
  * @preview ![bars-sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bars-sort.svg)
  */
-const BarsSort = createIcon("bars-sort", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTAAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHsLBgABNgIkAwgEIAWDLQcwG3sEyC4KbGPa4EW4QA6DoSwLR34YMt7NIp7ar+w3M38PGNUFFOtINJp1hIsj0GtMwJ4xV7HR0ev//+bu49MhxHtIbNfK0EiONNZoNmOzmX6zVJsZgFBptodApFnt+9TN8z9/CnAShzamLQ1kgURznifwYl02hbMssAdKjLN2dgpF/K+SyCcZJmFYXNDyuV5H+VjgbXxp/lnxhmKkAsg0ALj/tJ1B/3OVXA4ilx6AQO4DtgkqKtYJuEUJ1pm2QdOEKxkMzD+QECA9fGMBDR32wBGABora2sjIyFg30Z6MdaN1YnxCxhO07TExmmRst1/f8EaDfS+Nez/uadDGz+/K1BqfgSD8WY4j69b/4bEC/n7nNudX6WNYAaGeD871SRSQAuyWvOYAs6BYowBPHfcOATGKgKJnVEC1xiagGXVGQGdThYCeUQ8paSNi3iCTxbhnZHXTi2zmfcjOLT+3Zz7qlIh7LH7S0tISJCgW4jyb7EaStPG8n7Y4bLhPW/GwiqWTo7uFuY17QVxlwcNBKsEERlQQy6MmTqfXyz0LVzcbJ8cwp4XrHddTbvdgG5jzQqgopIw8LD26PQA=");
+const BarsSort = createIcon("bars-sort", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2wAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWF0LBgABNgIkAwgEIAUGBzAbtgLIjsR0a4f8ocK21ImH7/dLz33vBwh1WLMKK2KjopOWVXWnwq2Qxe+zRuxUkqzC/jKrfecGB+4BBZiug9Aw0MLbQosvYLuNiYjDId3Wq4Qi3uVn6khvUxVv2jS+G/KMpCkDiE4AbJwc7CtrUYt4/B/xaBcBsQEmBTIyRgVYlgVGFSZRKAS1+P/fP3CSAKLelCRQoA69GAQUIMkF1FLXVhzHNOc2rRQ60hzTlc7Kz6mqVfflenm7Tn5hffeAQPD62+ZvOpZ/NbYk8PX9P32DUaYKGiUQ5Jn/My6jhCgFACDFnekoEUhaZRytlwBL4JJEpKazw+xrAQA=");
 
 export default BarsSort;

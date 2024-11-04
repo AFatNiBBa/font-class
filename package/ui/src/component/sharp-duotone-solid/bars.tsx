@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/bars?s=sharp-duotone-solid bars}
  * @preview ![bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bars.svg)
  */
-const Bars = createIcon("bars", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTgAAAG4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGoLCAABNgIkAwoEIAWDLQdEG4AEyK4KbGNa0BcTtEQNlCyuXrxnPjuZIqr2/nr27gdSUGQPKiqysFFINErhkrKoXx4jHlggqjHd+w+RjbuJAgSVqIJqHYMDUr7jW4muDE64lRimdJHzCqK9vt4rRH3stHjjpQIeiHSOeEGWTpozXoHGJy1vvCIVeqAXfwP73dmWcqjdxBJLy681js8NPY/2ASf1Zf7AG/0PYP6JeoAy1wDIKgC4fV6Y8zHINX8+Q36YQSB3gAOChoYdAi5YwQ6HA+i6MJTCEFUIkDH0cANjdGzBHkAHpejd6/U7g45l2vNtBoIBsiRi8nZs1t/GH+/XH2jp86F/A98DBOH35f9FuP0evwH+vg+/osw6MFUgtCPTrOQDyAwBAFQuiOUDEDTrDHzroncExDwCyti8gGZbhIBu3iEBI3sqBIzNu2ele4lNqxWURa+gOXcJuk1PYOTCpza2GeseuHHxz1nMlEOTMS1k89rUqa8QFkdTv6XLSvwi5hJwyYZDB86sW7PtjCEn5ua5fVMJnvggVZCVp5pUHd0zy0w7cWp7TOmHtOh+Ne5Crk7ANAZwfLCeRkps4EkJGS/jQg11mQA=");
+const Bars = createIcon("bars", true, "data:font/woff2;base64,d09GMgABAAAAAAEwAAoAAAAAA2gAAADoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFQLBgABNgIkAwgEIAUGBzMbsALIjtRG+UVWEsH3y1q/N/9CijpEeVnfqQjZgXDY7NEUwq1E5ik/5ZFbyCTRW7TvbnAqkaWc+LoOgPMgiy8y+QK2p0wwQUBr3wtKfKze6SI/ZIP3GRp/zHlH6qsAxCgAzu6uLtXtaEc0HUTjAgFxDlYFKlRYFOBQJbCoWEVRBO3odPQDVwkguq0lQUHBKCYBBaQssIGuoXJr1/980FAyXW+Ntv6tNc8aP17WpzUAiJWDT5M/n44c/u8dSPDr89+9oaizhV4Jgmqjs+FR1BC1AABkvLAeNQKpVxrQLdE9ISWRgx+nzSMAAA==");
 
 export default Bars;

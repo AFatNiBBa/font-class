@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/volume-off?s=sharp-duotone-solid volume-off}
  * @preview ![volume-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/volume-off.svg)
  */
-const VolumeOff = createIcon("volume-off", true, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABTgAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKWGgLCAABNgIkAwoEIAWDLQdQG4oEyB4FbtMzorjW0UQTNvVQxL8RT+2H7ru7AKFNFKqwkEnBaDY2riRkdVl1fIz4U8mq+vsf23wfuC7z9m/JtUIaaZLEpIm1RF3VtvpiHjk13nip/kHkPGy8IC9+zotXoPFz93zx2YAmNNMZ2HZnG+WQ3aRRluTX2o7TE1pu6sMA5W0J7uh/APOLywOKkQog0wDg6nHJwK+jruS+/0DuFUEg14BthIqKdQROiYJ1km3QNKErfQ9d+p4hQAbRaysYRMUK2ATQQBFamxkbmGiPSDeayFgeB7hkNI9Wd99Pm392Dmp9x52Lu7OIn0h9xwUgCJ9e75qpwv/hsQJ+fPv3E/F31He5LCaGFRDqfr+vlgOQSwQAKHnJnUtAUM0Q4KeOe4WAGEVAMWhUQLVGRqAZtYfAgE1JBAaNuiVKGxHz6p0oxj0hqhNHopn3JAac+suD5lOtg9Yt/TdL0DmgDXE0FOEcLz2NUTiZu3neFj2HlPHCQwwsLez09YztGLRhaHtzugRqvohFhUSwHD4On29X9W1sjS0tSp88vi95HORyL4wjAA7e1VJJSZ31PC24HAyCdpa1jpxHAQA=");
+const VolumeOff = createIcon("volume-off", true, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2wAAADxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAUGBzkbtgLIjsO44TuyxVL+4+H/92u/z30XMc14xjMk8zSVRhWrZBahTSaRZnVKmPWjp59fMLvBCVJggWCQFcE26gK2x5hShiFvIchxVjxrIL0nvGVo/DLimaSlABDdANg62ttVq0c94rv8JL7tICC2wbRAgQLjAqwqBMZl08iyoB5lqR84TQDRqM0EMgp0YwCQQRI5N7c1dORDO60RbUdtqfVwttpd/TNTcV27f7tbqi0hBwLB69+P86uu1f/NbQn8+Pr3k2eorMdmqqJZAkExV845j1uITQEASHFrNjYRSJolXW2UACtASSJS7zSYv6lU5n8A");
 
 export default VolumeOff;

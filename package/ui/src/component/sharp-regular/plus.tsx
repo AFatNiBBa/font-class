@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/plus?s=sharp-regular plus}
  * @preview ![plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plus.svg)
  */
-const Plus = createIcon("plus", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABSgAAAG4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcIEFCwYAATYCJAMIBCAFgy0HKxuABMieA27TPF4ifbzz0zRJiOJHNtLRdEVQrWXP3j5Q2AE5YsXCEBsBZGwcgfMxJhUbI2LB2ppFkseDtJBcq2iyJGZJ3lIgf/JO+5ZMIsmsCtkB4Lr/p07VjPPQPH8Az9iW84CMCTS3RyDn8eHxeMq1Yq2iWN0me+yIwi9CREgi4g/r+Logx2tESnpOAPf1Q+MPGjeQlAoA0QEA2DjKZXFK5Pv8DPGNNAiIDcAQQoECfQgsEwv0kRgCWRb8+Ok/kCGAKONnEsgoMAomAWSQRM7DMmkrHzak9bNA1AOgOt1oCC3AiBr2IEZu1b/qdPjfChx2QHB0bNDXXKDvAwSCzXPtoaqK/FZlCfzu/R2vU/9/uEuDqgSCYuJsUYoT1NRxhwAAKe7onS8iJMNE+F2bHhAIdQRIyuoCFHqpEcjqxhEoGeBFoKxuj1jkmtCjLCBpugSFJTuQ9XgEJctezLKeED8VIdDCTy01ptHoGjttDg7xMNLF6HN5GuZp3bBJFSNO0TE1sdLW0rdS+ELWWRuLeVjUDzEnGwcWwsvpdr+obWGpb2pSloTxfsNg47cbsY0IMHfIoUSkfM8AAAAA");
+const Plus = createIcon("plus", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2AAAADvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKUFsLBgABNgIkAwgEIAUGBysbrwLIHoex82RJFZrQXnBhjFDpPHwt3ft7G0prOgrdNYNq1SgQCh9NkShUJIPCY0wG26q8ZlbFhZwwZrU6OT7zHU5+IL43z6MwYStq4DFMKz45foEcVzEV0kWCWpfGs1HnJJUCQPQAYHVnY91DIxoRj+XEozUExCqYEShQYEKABYXAhGwGWRY0oiz9A2cIIJpsTgIZBQYwAsggiZw72iudebu90nbQpk279miPtrnbnl5nxX/N71IHAsHp9Y2T7oXflvYEnu7f3+nrKT+inkKLBIKiWlYdxoMePVEXAIAUZ+bOwUDSIUFNYvNgiUjZDwAA");
 
 export default Plus;

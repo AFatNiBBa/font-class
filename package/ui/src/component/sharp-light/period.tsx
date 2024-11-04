@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/period?s=sharp-light period}
  * @preview ![period](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/period.svg)
  */
-const Period = createIcon("period", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABSgAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbHwLBgABNgIkAwgEIAWDLQctG3kEyJ4FTpk9GtFx8wjDjaZDnPwdPcjHeJ5aK9/v6aWeA3IEYYUKwaJNhGRj40jYFTJCnxFbsanI6PF75na3jQyV9h9J3JO4NbHYCIVGMte+V0j81M3zP396wBZxaGPh0kAWZnueJ5BY954n0GWBZZqAZe28MzCIfpU+5ZMMy8cwOqBmO1fIKL8K5Ft9aP5S+lDUDkDWEID7b4sF+i14kZwNkTM5JJAHCAcYHTrsYHCLKNghOUCqKiwyDPEfCBQgY3KNAioqTpALCFRQlFpnm/1oub7pR+0t1pL0L1rfRKTvA0w7mq/N/zHhfjcMBoWFB/gpDPAunEcQhPNP3le78lv/p30Bf34fnxGGBV8tc0wVELorwxWtfAXIVQwAKPlK5QcYxQ4B77rku4BoCCjGmoDONgUGVXMZg5E9DgzGmpdEqTOxpd2JYskHonPTlai2fImRW/722Fa6ayI4WfikpSY1SGzBYjTDi2miiZ7n8tKHZU19SQ0NsTSxtXEyNjJ3Uuig4J2tJS2Y8CKwMDIDL2znj/sVYwdHc1ubssYH5y21i92voSkQ1qsCRSFl/NoA");
+const Period = createIcon("period", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2AAAADtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAUGBy0bqgLIHoex22RJF81QxHgXHxHUL9v3vH2EkBckdeo02VKokI3GhmTRCHtCoiiPEVe4FP7X28xfte/Ly0wnB3qBox1ELhAIBHlLPMUELA84RghcKcgxFTUtpPsEd1kabyZck+QCQPQDYH1/e8tjM5oRT9WIJ5sIiA1QChQoMC3AkkJgWlYiy4JmVJV+YEkA0WojCWRk9GMYkEGSMtzV0pP3nOzc1xmLumKh0d/4mJez1TWiOu8DgeB2/EV9S//buxJ4fvhPz7CsmlFPDbRLIChqVc1JnCqVURcAgBSnFjwqBZJ2CdkqkXUhSURqvQE=");
 
 export default Period;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/video?s=sharp-duotone-solid video}
  * @preview ![video](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/video.svg)
  */
-const Video = createIcon("video", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABVQAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHULCAABNgIkAwoEIAWDLQdGG40EyIagfr+y572/GwD6AUaVUwEGd0A6joQ9G0JHINxWJKs4mrp53nkU4BuFtocGssDnPE8g8CiPZCzwNJDEON2mEtQRhG/EiJKQjks7vmYo4k9uUyHdSu9wrd04vhmijaRLBhC9AbB626Y6L2pRS/Hu/x3inY0IiDWgFMjIGC7AMllguEKJQiGopf//qUX++ZUEEFVk6RlUUWAkxgMKkIQoii49ulV6FFu7VbpeSjltjYhtuUf3HkKI7pHHdPTu+DH63dF3VjY2NTU9b3PV8zZN8qF2V7Vr0gQEgocTP5/f12vZ787dEvjy6NfX9Mm0KnWgswSCPO3/NLvTKkirBPxSKa4ak1ZFEwJZDwkdtbvrAoSuCJBUdRUgG6a3AIWupgpQMdJ8Aaq62iSLoovQ354Bku4ugGyBelDo7zaoWOalVdU/8hshPEx80WI3ILR+qJw9Y1a5pNx6Oul2rHaXlsfqpKslM5knHXXOWZcdcdgJlwG5qM694owNGrzeg0qzzTBLaYnSHD6zW8G66JITa9reZ6nyvjnJVb18MhuJoM4xkmUiRe4RN+L0WBN6AR1T");
+const Video = createIcon("video", true, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA5AAAAD8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYFgLCAABNgIkAwoEIAUGB0YbyQLIHoVxs/O01UVzFHHIrk6Lh/r9Xs/ufSFQhDqswzpRCEKzg7a+usJ+XaLxMeJPJck6Smaz9/wHD3CDA8ekxAPxQZdx4oUW38AGDxnTH5rSTEIVf8ozDeSLhOf8AYwf+j0jtRQA0Q2A1d3NDV/rnT3+f0k8WkdArIExgYKCIQEWFIEhlTFUKkE9oR6MEUA0oqmARlToRg+gAilEJbc1dFQ7VFovcidKR7ZP1Lprv8bF8t39l2fX7r0HBIJ3L2/PT7sWfje3Jfj2/u+5wlzJGpolCMrk/0lHuQK5IgAAGdcmciXuESiaJY82SsA8BUUhMkrHqpp6gl2FxQEA");
 
 export default Video;

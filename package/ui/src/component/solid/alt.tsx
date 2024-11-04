@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/alt?s=solid alt}
  * @preview ![alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/alt.svg)
  */
-const Alt = createIcon("alt", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABXAAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMgsGAAE2AiQDCAQgBYMtByobrATIHoVxLGxl46ZLqdMiqF/793vO7qN7w7CJAmYFTA6Y9LOp6MSxEUgqH7ADwHX/x8P8X05vPD86wG90aGPhmjqWH67V5gQCztKxwALJwiygxLjdaa22Q7RySWiW5HjkeJUz5PF3dlgF6UZ6iXPxTeOrlg6T1GQAogEARs+ZMd3jFF78/5B4YSoCYjQoBDJkaCPAMJlAG7kCuVzwyk//gQUBRCV5UgI5cozAOEAOkpTnRbNyRd18drmitOZkk7lKAXsv29/0Srkcp5ov4DLX4kCzq6VSUvUIZpVjO9Y2qP3e4eXqlx7tu/WrrwvqHT9eL228r+FHBZUCYelnIBDc/DDp5pJhv6rLCbzZzz/owbQ/1aJaAkHW7f9uFqb9gBuCxCl262h8UCAZIIFXreOqAKGEAEmlkgCZ1hoIkCvpKkCFdvoLUKlkhkzkNUITiwpI6tgGMgPsAbkmHoAKwzyJKjWJ7AbR50+/3xIm1Oj4XUXvHr2KIcUwl5lLQfrVocW02Gk39zrDQattsdlOq6y0zs4K3256ussmEyxsvC8q9NZDL4UhiuXqXpiN8XY7rNPZ9W2GKva7ney2pzuDkghhH16SfCRsLdu4Ew==");
+const Alt = createIcon("alt", false, "data:font/woff2;base64,d09GMgABAAAAAAFkAAoAAAAAA7wAAAEYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBHwsGAAE2AiQDCAQgBQYHKhvyAsgeB7kp81Y0V/lYiXj4fr/03PtfmMt6VVpXtqQAWHZqAVmvkGWfGrETm6kkqAfmqn3XyQFA6gdti6CAUwy0JZBAmEhinN5QI6d2eqTlexWU+F2d10Q+yc+4VUNjxpjzpLYKQPQCYOWmdWt9akQjYuo/YspqBMRKME+gQoVZAixRCcxSzENRBI34/z9/4DwCiGZsSVBQsAiLAQWkLGW8v6Opq2zsaGo/dHVwc7sH950eetDRcW1km9lHcWb4YftmgZVbUO+tf5n/YB9PefZ14Z3uy5e74V8PfrVcoe+AQDC5anpmlyVfWzsSTL/5I5rydNbRKkFQ1f7XbM/TkKcFACDjpAXYh0CqSWTNBzWpSOnXruw5fgIAAAA=");
 
 export default Alt;

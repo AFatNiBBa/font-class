@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/grip-lines?s=thin grip-lines}
  * @preview ![grip-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/grip-lines.svg)
  */
-const GripLines = createIcon("grip-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABUAAAAG1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQB4CwYAATYCJAMIBCAFgy0HMRt5BMieA+7OYkF581AP0pZxEeKHE1Y8VHvd271LQulNVUX3qGokg1K4piyK8RiRwaLR3/8YV28BtT+bzAomJcDXoBCh0DYd8207pnpzyRyi3wGq4P/OTuMffyrgGRVtLFxakAU+Z7wCD97tH69IrSDNA1WMa95yRlGWfVMTTdLjM/V4RqHGgw4O+ZnAa3lo/DG4gFQKAGIEAFw/FfLYdyn4bd6A+JEFAXEDYAUDBQULGOAMS2AB2wqoqqAbH/6BBAQQbcilCSoq1sAWgApSVrZEIuJI2OX0Rti+1ooZlxNXGgnjZhodhXEn3/2lB+8Nt/GIRpsqJ/gOIBA833amdVnsny9iAn6//ue5+E5Bj8RzlIPGhkrsGUQMEDfjAEYwFkhzmIC7DnjDAKEPAVJbnwDFPDkGqPrsY4CWJX4M0NbnDktUAcKEaoM04AWKU4dQTXiBljMfbttEsC6J5GLpi5ae0ChOIrfDRRGahqrsdyGPo7RsmA5iyYxT9MzNbHR1DG0Ut5IPtqYSFo5jiLg5uJAI2k4e98u6VtaG5mY8JYrOOyYHdrMZNpPwHppPSaSwvxou7M8KAAA=");
+const GripLines = createIcon("grip-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAFMAAoAAAAAA5AAAAEEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeG0LBgABNgIkAwgEIAUGBzEbxwLILgpstzRLTYVGUmiLJzw6L8bD136v5+7bAKEO67DNRAE7KDjA8fWEsu6r6vL4GPGnlkC/ZK6tKQuwCtEvhC83OAAIAAL00sQDmWTxBWy3sSeCIA6Pu7EL5HjlVA3pRYJ7HhpfDbhLUhQAoh0Aa3tbmz5XoxpxXk6c20BArINxgQIFhgVYVAgMy8aRZUE1yhI/cJwAolaKCWRkDGMCkEGScm5sbKppybtNNY0nTzU/7n7S0/JsZ3qy0l75zgU+lbXfrC3d0R4QCD6+7te2xf+aEvjy9mfeWHxOFdRLICimyinH8RniswAApLhlMj4jkHRLQrUHWnAkiUiNF69dvjL9fQA=");
 
 export default GripLines;

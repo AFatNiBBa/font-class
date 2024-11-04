@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/pager?s=sharp-solid pager}
  * @preview ![pager](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pager.svg)
  */
-const Pager = createIcon("pager", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABUgAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBFgsGAAE2AiQDCAQgBYMtBywbkgTILgqTIZuFd/hCSCLTGtvLyznn914iiPb7ze4dYhJVkjeiWMmkRLNMe6lSyodKJj8rxtYe5hHaDcktqydoLk0sNqI3eGmhr9p32R4C0QG63eAmzsW7nY8GWORDi7TSxgIZZZ5PYALtI/myB3ugF38B+71pRouo0ZVMajIdT9ZxdkGNW7kQk5/5D17zm8YfgwukvgKAGAUAV8+VHN5HJ+KvDeJbBgTEFWAVoaBgEYFTQoFFIqugqoIObRv+AxkCiG7wbSWo6MYeOAJQQapVJJcrlUqxWlQf6FIItRqtgDQkLCFDQaSq9Q8oEANKosLRsrGp8X/n3wGq1B4Q7+Aw8pq1XdDfAI3A9fcAAsFPX6g9/e9VCgC/Lv6GUjagV4KgbLVbGgmSAABkbBgTAmmNCL7qoDcEQj8CpG79AhQLdAhU/TYR6LLMj0C3fveEosoRJjU7kga9IMWJLVJNuiJdTn2cbpNRfIa+cfrHlhCXYGyO3Q4XR3gZaowbkGkc5W3JtKGSGU7RMTWx0tbStxLwQs5fG4trUMwHMTcHFxbB5uRRqKOzsNSfc/YpUXxeM9nozWZQBZjwQCAlkeJnJS4AAAA=");
+const Pager = createIcon("pager", false, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA3gAAAD3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGcLBgABNgIkAwgEIAUGBywbvALIjsO44TuyxVKG+BIjVDoP3++Xnnv/C4Ek0GHNOhPFrFEnRVldYVfIso8xO7WdyOptZsLa9045cI8o4EA4wASzI327gL0UNZgcRuycDCW+V2kivyZ8eWn80+8Dqa0CEL0AWN3ZWPenHvWI18aIV2sIiFUwJlChwpAACyqBIcUYiiKoR6OxHzhGANGsRIKCZvRhGFBAKrCjqatsW6a96snuA11xqiM6dMRErbf2Nu6aZ8+Wl5+fnz//nr2dHZs9nQUCwcPl+7WTnoX/rR0J/n77mzeYsoZWCYJqsjHpMEESAICMJxMJgdSraLRZAuYhKYlsusYdAAA=");
 
 export default Pager;

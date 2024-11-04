@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/bolt?s=sharp-duotone-solid bolt}
  * @preview ![bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bolt.svg)
  */
-const Bolt = createIcon("bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTAAAAG7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXGcLCAABNgIkAwoEIAWDLQdEG30EyJ4FdmvHMYmnYyzpr0g9C4s2xcN/9+Z9M7O10W4aJ1QpHbR6wLporFEwwAFfgT3RcPjbw9z+3gYVVkmThFuFBEncGo2WluCLJdMSzPs/ABx2Iyygv7s49TznoQA+iGSO84BkA855HoGIZVuo+7xirdUUuzfNpEizN2uiSTqutePrhBLf7BpK0ifzCF7pfwDjj8YaSFoZQAwBwPltLIrTp55aVntALEVAQFwA2ETIyFggcIQVWFDYBEURrBiAFSEAAUQdvTaDOjJmYAtAAQlRSq9T65Ubuqh926q34pSgOqUoKcmc/C8+Nh+h/rLwxeO/gqwBikhPAwLBz/txJXXwHxP4PfkH3sdVp42RAU0JBHmnMiIfp2AYGxAAIMULJOObELKehI+63kAgtBFI6tqQzXFQtG1DzTrXcV3bJVaUljBVEEi67iE7tIJiahdqjtwYddNgg4N0Lfk3iwtrJDQm2MxWwS8sfZ3yN177AWFb0y5zTgeLaBoZmmuo65grbCpqLwyELTTkhwQ2ZlYCP+E4ep5Oapia6RgZtiEBwn1da2lX6+CDDGAXH2WZSJG7d6P+3BRjgmpg3hIA");
+const Bolt = createIcon("bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA2gAAAD5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKTFQLBgABNgIkAwgEIAUGBzUbsgLIHgdu7BqIgvk34+G/tdf7ZicEjkiHdVgnCqFMQsVXl/1X0eXjV1eVLarqTR3a4gwxUdfJ8ZnvcMIIYshbXh5o4pbbGCgoOKTxG41VQY5nxak60pNU4nGPxi89TkmaCgDRCYClrbVVH7+n7ynKKqK0goBYBsMCBQr0CzCrEOiXDSPLgu+pqvQDhyoBRL2ZTCCjQDu6ABkkkXN9S11b3ky+eevy+saFrdFaZ+2P8lKp49XkkGs96AOB4M3nPh11zP5vbEng5+t/e6+z+hhnqYZGCQTFWDVmPz7q1BlnAgCQ4pHRxQLp5KPqwWYgSkRqP3f7xoPxLwM=");
 
 export default Bolt;

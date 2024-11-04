@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/desktop?s=sharp-solid desktop}
  * @preview ![desktop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/desktop.svg)
  */
-const Desktop = createIcon("desktop", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABTwAAAHSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBCAsGAAE2AiQDCAQgBYMtBy4bhgTIngNu0zyio5qTG03TxEt8yEfi/ShGUK1lz94+cRyQJFTAQqHRUSqOyseYsI8xqVgW7v1/7lf3TTUGvTNUlbsUFbY2BMMbCfJtC7BFln8zs9S+b4gQoHZTp2rGeSiAzyEI2li4NCDL9257XoECj2VjA/V6XitYRLHmLbdYkrJvMtEkPT5Tj2dXyPFZTJRIdwm4qj8aXywmJLUCANEFAOxfjDoQPuIv6GM4iHctEBD7gCmEAgXGENgiFRgjMwWyLPgIUeT/QIYAogz5eAIZGbNgEUAGScoyi7oh18tmG3LNadtokJCWzFTXIBp6Ish6NEn7SDOI9LYrrtYG5F7Dsql/946n8uBkO773bzr8w7ve/BEAAsH94ji7aEz/q7QSwOfDF14eCpJ8ukJVAkExL2Yu5QEmEqCnuGAzRhZIZkhAvrXpWoBQR4CkrC5AYZQJgaxuDoGSCREEyupOSEVWI4yY7yBpugSFTZcgG/EMSra86GUjUVwWxtXMVy2xqtHKIg54/Zzkaayx/qfybIqXJftFrDlwEBsOHTizbs22M4Wf6Fjn9lUtrGJELMDLjyXxdva4e9a6E6e2HToo86Twec3uwu52QJUQ0lWBJBFJ+RYB");
+const Desktop = createIcon("desktop", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3gAAAD7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGULBgABNgIkAwgEIAUGBy4bvALIHgd2w9cRNkyKMvoZwfdr6L53PwSSQEdF04VIJQVW6XgUKr66rpoVkY+QRZbVl8xB7wEPDjlhOohl2BaEmoDFGGPQaIbvJSjxpjrUQt5IuD7T+GPQIamjAhD9AFg8sbfr9cf4GHHUPCCObCMgFsGEQIUKIwLMqgRGFBMoiuBjNE0/cIIAopXsBAUFAxgFFJCylO7S1dJTjne1dF7uza6BTj3ROdR1WndM3eq/9W/SRRZe1TfvH9R1fXB/4cLH1x+BQHDpx1oX+mb/t3cl+Pz0f7LC5nXWeQvtEgTVdDPtbNaQtQAAZFwzlTUCqV9SbZWAGZCSyLabAAAA");
 
 export default Desktop;

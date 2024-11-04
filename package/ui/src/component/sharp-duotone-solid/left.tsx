@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/left?s=sharp-duotone-solid left}
  * @preview ![left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/left.svg)
  */
-const Left = createIcon("left", true, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABUgAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHoLCAABNgIkAwoEIAWDLQdEG5AEyBZKy8Pza9/OfW/+yvxFfdiEmCc2IS5NrNO8a4WENw99JaKJPFM3zzuPAnwQaQ7bIAskmvM8gc6zKJvniSSUUEacuatbfmpfCYml5a+1PZ7q0LmgiGf5rgbpUfqBe/wfwPhllLsk7RlADATA6m2bunzqiZ4UP+rXxA8bERBrQCWQkTFWgGWywFiFCoVC0JPqmp6o64oAogXfnEELClSYBChAEqIoBrQ3G/2KrbxU7iqb5ebYEs0AvW3Y0hRlROfLgS//TPxx9IfuGxW0jx8xKjeT2l330Edu6nETCAR/njx9vG/Asv9tzQT63vz7WT4Zn9JLtEkgyNPqaXbHJ4hPAtgpruoUXtcjkA2QAE/tcF+AUCJA0qIUIBtjoACF0lQBGsabL0CL0iZZFO3CUHsaSDpcANkC10BhqFegYZnPdouhkd0ENzL+SYvZMLR+qpo9Y1a1pNoGKmF5NA+XVsfKpKsKk7HqqHPOuuyIw064HHJRl3fFGRskeL0XVWabYZbKEpU6fma2Zl90yYk1pR+zVHXfmuSqXD8Z8yTAnAf2ZSJF7ggdYbq3cf07KqgA");
+const Left = createIcon("left", true, "data:font/woff2;base64,d09GMgABAAAAAAFAAAoAAAAAA4gAAAD4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKXFwLCAABNgIkAwoEIAUGB0QbywLIjtRW94qVioevNfT93Q2RJJJhDSgTRWhcLPvoCkW6qjz+hA+qoqq+Mvt3yoFj0FKL6cCRHPhEGfHBIddBAsoDaStQ4m2+00B6kyrc+w9g/NLrjqQlA4huAKzub2/58RiPKar6I1HZRECsgRGBjIwBARZkgQHFCIoieEx1HqM+QgDRyGsyaERBD3oBBSQhSmkobQ0dZa+tofW4dWe3bb9N69iH7g9/RiuVh8uR76oZ8VA/Xj0CgeB1YmPrvGvhf3NbAs+f/v2kMX6kD2iWQJAn60kn8QPih0AgxYWx+IFHgdx5nDZKgHkaskykyO3DauoKdgYmBwA=");
 
 export default Left;

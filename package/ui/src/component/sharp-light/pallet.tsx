@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/pallet?s=sharp-light pallet}
  * @preview ![pallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pallet.svg)
  */
-const Pallet = createIcon("pallet", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUwAAAHGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBIAsGAAE2AiQDCAQgBYMtBy0bnQTIjsJxrwSfmGwGEQet4qFa+3zdO7t1f+aAHCcWgIRFecIEWJ+NiqPyLGSERuHIEij0/3+b9yEZKu0eElPPosmSmLS1xbazTlv9E5fTH/T09L75CR5tTFv6ujb+t8d5AgFmXb4pz7MwSxR721DBhhTeEAmSiMYJxwo6Q4nfsZlJ3s/n4Hb70PjA8SGVDkBMA4AT5zpt+G/lbcTz/z/iuSYIiJOAVYIOHRYJOEwXWGRYBUURvI3///k/kBBADPSVCQp67AEHARSQulIWRqPWT5Szra/naquiNVERmQogwFY532oTTpLDG59OP/204fnqOWttmsqEvX0iTtOXDZ9aea2Uq0y+0vMAgeDBreubtanDv8ZagvfPvnzDx/33cz2fYkyCoNv8f7NBrgOzA4gybnKDLwqkLXT6ruPuCBAqAqRBFaCzwCagqDYR0FuWIWBQnaKLMhLmDY1J464wnb3eTDHvy/QO+4eD+egSR7x28duWVvFweR8T0TiLnHZ1KRd42S5x2fBeZSoAJ7FydvKwtLD1cNhNO3k6qkRo2Q9RQlQcFXF78Hi8b+nmbuvsVHcp4XnH84oXB8DWKOdO9ZREDpef0PQH");
+const Pallet = createIcon("pallet", false, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA3wAAAEKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaG4LBgABNgIkAwgEIAUGBy0bxALIHoex26Sw4kU0wzsV8fD9fum5778AoV4VHbaZKGIVRaCpvppU5QpZlfErVNVOLYHCBhAIqN0PH8zQ3ODAPbM4AEzzefBt1AVscI6BimA5q+2BHL+jpIb0ogqe39D4YMAzklwAiHYALGysLHuqRjWi8v9ExRICYhGMCxQoMCzAtEJgWDaOLAuq8f9/f+A4AUQt+hPIqMEwJgAZJEXOzTk31bTk9aaaxtCkUVs0RlMcN2ncsJ8st5c/TXSUw/H5w/nxO/GYH/7lIHUgELx+0/PugOlf9U0JvH/75dvO0P+ndFcZ9RIIitL/kt10B+nOAAApbk12h0DSrcBqrQSYgiaJSLXnXyVcAwAAAA==");
 
 export default Pallet;

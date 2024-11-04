@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/arrow-left?s=sharp-solid arrow-left}
  * @preview ![arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-left.svg)
  */
-const ArrowLeft = createIcon("arrow-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTwAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEFCwYAATYCJAMIBCAFgy0HMRuGBMiO1Eb5RVYSD/+/Zt73ZxaAp0SkgFHVrY8rWmBVVxVXNCKntmdldar2ffqbf955FOADkdrYeZQt8D04gc6zNi5cwNM+fvui+Hdne6YIO0mLLMnj05LjsUAer7JxNaQX6Q9K4UPjnwHjJA0ZgGgHwKbD+/cpV6IS8buK+G0PAmITKAQyZBgWYK1MYFiuQC4XVKJaxf/AggCiFp04gRwZZmABIAdJ5PlYU01LfqippvHw7Fmz58ThmBPrYmYciJYm0dh8MGbF2pgdhyZ/bP84MenPpT/63x+iMUolF/1xyNEjphQbFVOScMgfF9uHQSB4vf/Wl9Nta//XNyXw99sJuy4jyukj6iUQZHOrc52IcswUW/HxyGT4okAyJqG3NnsqQGhEgKRWowCZIe0C5BrNEaDGqGUC1Gq0XybyBqHbyQKSZndBZrknINftK6ix1nehVndkVwVXNP5Ti9nOoW1FxaL5C4vVRVeRCe2jLrmmGGZnPjKOWTDokttueeCiC656wJB79skP3bRdgrf5ocIi8y1UWK2Y1q+7D7nonvuuuu2Wz7NGsZ6b6ZHsPwvKSYDFh1yViNR49t69248fEQ==");
+const ArrowLeft = createIcon("arrow-left", false, "data:font/woff2;base64,d09GMgABAAAAAAFEAAoAAAAAA3wAAAD7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKZGQLBgABNgIkAwgEIAUGBzEbvgLIhofv90vPff+FwDGraCCZiUIoWUBh4ld3KkxnfVGtzxeybFFVrxscx5xDoDDg45AtMi5se8qYTRBM6C/pBTleFzcaSK9SiUqXxi99bkhaCgDRDYCNw90dte/xPeK2/pa4tY2A2ACjAgUKDAqwrBAYlI0iy4LvUa/7B44SQDSaM4GMAj0YBmSQRM5dbQ0d+SC21sP5hcOFldm9Du37c8vz49Xu6p+x8kGp983BQaVyvzw4Ptpa38LIQXkfCAQT3w4/X3Yt/29uS+Dnp39/1CuIWqqiWQJBsVhfdBa1IykAACleGMfBQNIlkRrJliBKRGq9fvLk4csHAwAA");
 
 export default ArrowLeft;

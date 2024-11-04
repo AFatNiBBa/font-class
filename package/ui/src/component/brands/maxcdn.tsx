@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/maxcdn?s=brands maxcdn}
  * @preview ![maxcdn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/maxcdn.svg)
  */
-const Maxcdn = createIcon("maxcdn", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABUQAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBEAsGAAE2AiQDCAQgBYMtBy0bjQTIHgnZGeZ9EUudaoqhtDz8/5p5359Jzu6kDFMiUkTg6ltFwq6tQ47QJUugk7Xv9xWy//c39Y/zKMAHIrWx80AWSDTneQKd5923lnD2hRIKPAFLt8l8ZeIrHkES0R/h8VaHzgV53I8bKqQ7qY7rxlV81d01kkoGINoBYN761as8+RSfIuoNRN0KBMR8UApkYPQSYKZM+IJciVwu+BSNBv+BJQFEld+eQI4MIzAZkIMk8nxArdI6X1erFLuLWrE+bnW5WRSxIYrYHNy4LlrHy1kPyzX9W9q1fFffV1fPd+LChD/GXLzQbpwZne00vbPVRDNeNXK7M56smHV/zAcgEIza93nV9rYz/zfVEvhyr/INpebUgiYJBNnIxkhbEhqnZgEASHFO/wSBZIBEeG3lpgChQICkqhAg01M7AXKFEQJU9DFJgKrCapnIm4VOtiYkrZyEzGRXIdfJXaiY6bVT1SmyhlGeW/muZS6eLporx40eW04vp6FQe0DS8Yxy2Rp6TmkYmPY57pgz9trjoDOJp6zyzzpqcSUs8qDSOKONVZqu3E4e19fZ65TTDjruGKfMUJ63hzpXNw/DMgkw/qpRCkaqHt15YfeeYw==");
+const Maxcdn = createIcon("maxcdn", false, "data:font/woff2;base64,d09GMgABAAAAAAFcAAoAAAAAA4gAAAESAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHMLBgABNgIkAwgEIAUGBy0byQLIHolxrMRGiFcZSsvD/6/9b58z96siZk20/kVya5C80yFZqNpU25TwFtU0Tgl1Vsi+GxywBpppjgMv2wTboIMkxMPGQbZ512CUUOJ5XNdG3s4a1zY0PpviKqmtAhCDANi2d+cOb1rRiqibh0RtAgGxHcwWqFBhugAbVQLTFbNRFEErmkY/cDYBRLt3JiioMAOLAAWkKGWsp62v7EnYfbJ7783xG93d+7oPUt7T93HTy9lz7wze+ao+U6vL8XW/Vl25PLhmw9jx9WM7wTbLj55/M7HpORAIXj3o6MDGv509CT49+76W2ZV30ClBUC1vljuUaP5nlyAnZlw0NyGQxiRW2yVgrTNNI9vPHr988tQ5AAAA");
 
 export default Maxcdn;

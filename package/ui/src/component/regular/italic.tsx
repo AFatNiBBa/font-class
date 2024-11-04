@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/italic?s=regular italic}
  * @preview ![italic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/italic.svg)
  */
-const Italic = createIcon("italic", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABUQAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBBwsGAAE2AiQDCAQgBYMtBy0bhATInoNxQ19C0YQpJhf12rCY8Tz9vXnu+29TWsHWqQNX4Ta+Fox1xIjsRCOw9rFf21Op196JSXXHRKdDg+leGTpNPBWGBJFfFScZoAv+9zfP/3kU4AOR2tj3QMYC2eM8gc7zLpseWJYFlmkC1tuGp4YknoaERUlE/JDGa3RAzVZOtChf5Q3wRg/NP1SOoWg1AMgYAOD6oZrHwzqsvDL3kF9kQSDXgDUsNGiwhAXOcARLuNZAVYWOLhP+gQQESA/4ygIqGmyAPQAVFKlctYQn4zYGeeKunxLWxfyZTsxqRfDlQgd3BRZobpW33+q30TfsvSp/oTydbXGc9qGJwdV5AIJwPP5/3qeI/QolbMBfP3/0GaG7drlFnwJCs83Y0J19SFsAACWrNNlHUKxj47sOeUdADCCg6DEgoLFIiQWqAVtYoGWFHwv0GHCDI1WEmNJToBjyCI1TO1BNuYOWM49Kj6lw7grjaeaplpjQKD5EboeLIjT0COt+CrtRmpZMqzFjhlmMmjNr2YhhE5YVuSivr5iRsIi4FxE3BxcSQcvh7XTDiEVLJsyZTX2iaL9ssmqXm2EcNuDwlB2FFP7Ey2+9AAA=");
+const Italic = createIcon("italic", false, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA5AAAAEKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHULBgABNgIkAwgEIAUGBy0bywLIHge5yfKmXD6KhYiH/9/v2z733T/inqaOZ0Mt092iNMseIok+P2S8sYhQXxVBp1ntu04OXK8HO2kurXkeSIBZqAlYoB7qU6pM/LPzW0KOm/FchfQqVfFshsYf/R6RVAoA0QaArRNHdn35Ht8j9suIfdsIiC0wJlCgwJAAqwqBIdkYsiz4HmXpHzhGAFGDtgQyCoxhBpBBEjn3NVaa8/HGSsOZN7ONb/tfTjWcLN8NHJxRPPGp7dPf8aqqu0+7Dz3UbXlx4UTMqgOB4OtK+ftC6+q/usYEfn7+v85Q+T3upU+ok0BQLJVLzsY9iHsCAJDiiom4h0DSJ2G1RgIsw0kSkWouXnpoCwAAAA==");
 
 export default Italic;

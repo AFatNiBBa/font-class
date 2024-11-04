@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/flag?s=sharp-solid flag}
  * @preview ![flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/flag.svg)
  */
-const Flag = createIcon("flag", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBHAsGAAE2AiQDCAQgBYMtBysblwTILgps9xRLmAmDV8ZvC2RvjIf/9vvfPnMHER/ctYlVFk28WxJLr2Gl/EUlU7nJrEjYECAh7XqJirlaE5nVvp/+5p93HgX4OILQxsKlgSyQaM7zBAJv+7ZEsvHPv35B+9ZNf0NRPr8mL3pJw5Ib1mbI8axKM9KTBA/aTeOvXu6RtKoAREcALNy+ea1GUzRF/K5H/LYaAbEQFIEKFfoKMEcl0FdWkGVBU9R1+g+UAKI5OzOBjAqTMQuQQRI5j27TrF3eVhpb7w7ROoRIENoEPm55fF/5dqKKFfGl9bN+MWLQa16fMv+VpSxQFBNcUCxQ3FL7/0Yreh2xwC4Thw0bePIddAQCwf166Pr9Heb8a9kmgT/fPj1cN6KRXqOlBIJqTD3GnmgA0AH8pBTXDIoGAsloCa7a1kMBQmsESJprLUClj44CZK2NFqCZ/qYK0Fxrm1UitxK62jtA0tZFUJnmOsi6eg+ameO70lzXqGhDPjr5aYtb5qGldWXiuAllVlmaOsUEvJZnl21+xLUcGimTjjnvnCuOOuKkKw65ZK1+1VnLInipLyomGmeCYpZy7DwPb3PUJZeddN45rTJbuS+PcC1OHilSYpiTGJJEpExOAAAA");
+const Flag = createIcon("flag", false, "data:font/woff2;base64,d09GMgABAAAAAAFUAAoAAAAAA4AAAAEMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcG4LBgABNgIkAwgEIAUGBysbwgLIjoTcROs/BMWVFQ//v9+3fe67I6ZIwpN4wpOIhEJIk3DPFk1eQyv9r6lYovKb6N9MoVOOKKQAoS0QzrAtlQvYwWPYUk65XpdAjrvFlBrS7fQdF1MaPw2YImkoAEQ7ANbs2LJZWYlKxLfqc+KbjQiINWBcoECBYQGWKwSGZePIsqAS1fwDxwkgalUTyBNHmQHIIImcu5tqWvL2pprGPY25KdZ+Wv9jx8Zi3audWfrV1snH7Y9/T3z/d6s+rrb6Uf+fmFg3cHT17oWzZ0+ceqYdCATXFl+ZPtC2/F99UwLTb/7+piOtllGmx6iXQFDMqc6xN0qIUgAAUpw2GSUCSbcEaiW+yJJEpPwYAA==");
 
 export default Flag;

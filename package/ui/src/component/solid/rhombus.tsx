@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/rhombus?s=solid rhombus}
  * @preview ![rhombus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rhombus.svg)
  */
-const Rhombus = createIcon("rhombus", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABTAAAAHGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHcLBgABNgIkAwgEIAWDLQcuG3UEyK4KbGPSeME46yCaoimb716KNQcfRQTVfp89u3tA5FChYn0S0CjWJxyHhYuLjXr+jPkV+3WA/Z7N3QcyqCHdI7lHhkZy7LZHGytpalQ1rraT2ewrIW7bS+I6/Xrfr26N3/jRAS6I3P1YHsiH+fuOJ9B43uT5Ix5YoBxTuk18FLSit2MESUT8IR1fVweU+JAPGkjv0h935aFRN+JA0pIBRDcCsHOUNuhZQy3i5f+VeLGLBMQOwjQgI2McwDpRYJxkGimKoBb///M/kFEA0ahemUBBxjQyi0ABSZQy3NbQUQ719taz163H/gye3Q5k8artNJTHm9gO5lST+Yz5+ym2W33olD9IHM4DgaBev0hZ/9rclsCXz/+wr/a/QpU+olkCQV78v6gSFUQlAAApbqhRIZAMEwAAALR7LUBoRYCkUasA2RgLgKLVAoAGkyIAGrXaI4rSIvSrJkjanUO2ZglFvzM0WPdyG/VHviM8wvyJltERaUsc8Po5ycNIE2GnNk3xtGVfSMVBu9QwNDBTV9M2AzJhBHN9uoc1L2IBXn4siZfT++2cuomptqFBnpPC+x27hd/uoHUEwNLphhORmi4+jLDnUwAA");
+const Rhombus = createIcon("rhombus", false, "data:font/woff2;base64,d09GMgABAAAAAAFYAAoAAAAAA4AAAAEOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKbG4LBgABNgIkAwgEIAUGBy4bxQLIrgrshnuPEGnFiYTh/Z6V4RPj4Wu/13P3bYDYRkWzzkQBG4UaFZRYuLgCKla/Rvyp7VQSJDBPQan2lhlzSVynw9e7G5yAZx6I5ZFkoQQL2LAxNoRm+Js/QY4HxYkK0r30EVcaGp/1OCGpKQBEMwDmVhcXvC5HOaL0/ylRMo+AmAPDAgUK9AswqRDolw0jy4Jy/P+fHzhMAFHJYQlkFOjHGCCDJHJur6shr9RVu3m79rR96aaDjuVbdWddq3fisHNU88WXkfr7sNbPP9D44Pn5QCDY/VB6WtNfq+sS+PTqH5yh/+J1ukC1BIJi/P+4rQDxWgAAUuwbDQgk7RKrlRJggpwkIlVtHytgbwcAAAA=");
 
 export default Rhombus;
