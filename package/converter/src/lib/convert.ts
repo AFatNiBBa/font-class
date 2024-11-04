@@ -44,7 +44,7 @@ export async function fontToComponentFile(name: string, nameSpace: string, icon:
     await woff2.init();
     const buffer = <Buffer>font.write({ type: "woff2" });
     const url = `data:font/woff2;base64,${buffer.toString("base64")}`;
-    const comp = fontToComponent(name, nameSpace, !!icon.secondary, url);
+    const comp = fontToComponent(name, nameSpace, !!icon.secondary?.contours.length, url); // If the glyph has an empty secondary part, it's not considered to have one, because it would be rendered as the ".notdef"
     await writeFile(join(dest, `${name}.tsx`), comp);
 }
 

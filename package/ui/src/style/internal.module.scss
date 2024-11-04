@@ -2,10 +2,12 @@
 @use "./util.scss" as *;
 
 .icon {
-    position: relative;
-    display: inline-block;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
     letter-spacing: normal;
     text-rendering: auto;
     font-variant: normal;
