@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/square?s=sharp-thin square}
  * @preview ![square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square.svg)
  */
-const Square = createIcon("square", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2gAAADrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFQLBgABNgIkAwgEIAUGBy0bqgLIHoexY/pINpJlqelHpXio3/vz7L5LaVWj0F0zqNJl010oPJpBuJaorp4nRvyJZSKjfzObor7Pf9AvnRzoRfACB4HDvSWehZqA5QHHCIErgRLPzrSQTwmPGRqfJjyQqgpA9ANg82BnW92IRsRH8xvxYQsBsQnmBSpUmBZgRSUwrZhHUQSNaNIPnCeAaLWWBAUF/RgGFJCygF0tPWXfZudldlej2VMtvvS//FtwwdfHCXUdCAR/rlZ9K//buxL8/f3PnqFmI+p8QbsEQbXUXHIaNUQtAAAZ9xajRiC1S1xtlYBlkJREtl4AAAA=");
+const Square = createIcon("_sharp-thin_square_8e55bdf3", false, "data:font/woff2;base64,d09GMgABAAAAAAE0AAoAAAAAA2gAAADrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKVFQLBgABNgIkAwgEIAUGBy0bqgLIHoexY/pINpJlqelHpXio3/vz7L5LaVWj0F0zqNJl010oPJpBuJaorp4nRvyJZSKjfzObor7Pf9AvnRzoRfACB4HDvSWehZqA5QHHCIErgRLPzrSQTwmPGRqfJjyQqgpA9ANg82BnW92IRsRH8xvxYQsBsQnmBSpUmBZgRSUwrZhHUQSNaNIPnCeAaLWWBAUF/RgGFJCygF0tPWXfZudldlej2VMtvvS//FtwwdfHCXUdCAR/rlZ9K//buxL8/f3PnqFmI+p8QbsEQbXUXHIaNUQtAAAZ9xajRiC1S1xtlYBlkJREtl4AAAA=");
 
 export default Square;

@@ -6,6 +6,6 @@ import { createIcon } from "../../index";
  * @see {@link https://fontawesome.com/icons/caret-down?s=sharp-solid caret-down}
  * @preview ![caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/caret-down.svg)
  */
-const CaretDown = createIcon("caret-down", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2AAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKSE8LBgABNgIkAwgEIAUGBzEbqQLIHgd2w9cRNmFo2TLgwzBCpfPw/X7t3PffYprEM57XyOqNUBlCopOZ7iGS6BrqDlUTeZO5FrBhvsw+ucEJeIaBcAIJZIEOkhCfhdqtIQOHoSDHSXGpRLpOcPXQ+DLkkqS9ABB9AFg+2Fnz3IhGxEtz4sUKAmIZTAoUKDAqQFkhMCqbRJYFjWg29wMnCSBa8CeQUaAbg4AMksi51FnqzvudpY6z3f3onn7se/yZErWPryxQBwLBTVub9pb/2zoT+Hz6+2ky6ukRbRIIipnmjNO4gKgLnJjiwnTUEUjaJKotEmAJShKROrbgfLYoAAAA");
+const CaretDown = createIcon("_sharp-solid_caret-down_b4b84c1a", false, "data:font/woff2;base64,d09GMgABAAAAAAE4AAoAAAAAA2AAAADuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKSE8LBgABNgIkAwgEIAUGBzEbqQLIHgd2w9cRNmFo2TLgwzBCpfPw/X7t3PffYprEM57XyOqNUBlCopOZ7iGS6BrqDlUTeZO5FrBhvsw+ucEJeIaBcAIJZIEOkhCfhdqtIQOHoSDHSXGpRLpOcPXQ+DLkkqS9ABB9AFg+2Fnz3IhGxEtz4sUKAmIZTAoUKDAqQFkhMCqbRJYFjWg29wMnCSBa8CeQUaAbg4AMksi51FnqzvudpY6z3f3onn7se/yZErWPryxQBwLBTVub9pb/2zoT+Hz6+2ky6ukRbRIIipnmjNO4gKgLnJjiwnTUEUjaJKotEmAJShKROrbgfLYoAAAA");
 
 export default CaretDown;
