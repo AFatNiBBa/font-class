@@ -14,9 +14,9 @@ await rm(dest, { recursive: true });
 
 // Converts the fonts SYNCHRONOUSLY, it would be too intensive to do it in parallel
 for (const elm of await readdir(source)) {
-    const name = basename(elm, extname(elm));
-    await fontToComponentDir(name, join(source, elm), join(dest, name));
-    console.log("-", name);
+	const name = basename(elm, extname(elm));
+	await fontToComponentDir(name, join(source, elm), join(dest, name));
+	console.log("-", name);
 }
 
 // Done

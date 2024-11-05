@@ -20,16 +20,16 @@ enum Part { primary = "primary", secondary = "secondary" }
  * @param parent The font that contains the icon
  */
 export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
-    const out = new Font(), ttf = new TTFEditor(out.get()), old = parent.get();
-    const { primary, secondary } = icon;
-    var codePoint = 0xe001;
-    ttf.ttf.name = {} as any; // Completely removes the name table to make the font lighter
-    ttf.setHead(old.head);
-    ttf.setOS2(old["OS/2"]);
-    ttf.addGlyf({ ...primary, unicode: [ codePoint++ ] });
-    if (secondary) ttf.addGlyf({ ...secondary, unicode: [ codePoint++ ] });
-    ttf.optimize();
-    return out;
+	const out = new Font(), ttf = new TTFEditor(out.get()), old = parent.get();
+	const { primary, secondary } = icon;
+	var codePoint = 0xe001;
+	ttf.ttf.name = {} as any; // Completely removes the name table to make the font lighter
+	ttf.setHead(old.head);
+	ttf.setOS2(old["OS/2"]);
+	ttf.addGlyf({ ...primary, unicode: [ codePoint++ ] });
+	if (secondary) ttf.addGlyf({ ...secondary, unicode: [ codePoint++ ] });
+	ttf.optimize();
+	return out;
 }
 
 /**
@@ -37,10 +37,10 @@ export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
  * @param font The font from which to extract the icons
  */
 export function getIconsFromFont(font: FontEditor.Font) {
-    const meta = Iterator.from(font.get().glyf).drop(1).map(getMetaFromGlyph); // Skips the ".notdef" glyph, which is always the first glyph of the font
-    const icon = Object.groupBy(meta, x => x.icon);
-    const groupByPart = (x: Meta[] | undefined) => x!.reduce((map, x) => (map[x.part] = x.glyph, map), {} as Icon);
-    return mapObject(icon, groupByPart);
+	const meta = Iterator.from(font.get().glyf).drop(1).map(getMetaFromGlyph); // Skips the ".notdef" glyph, which is always the first glyph of the font
+	const icon = Object.groupBy(meta, x => x.icon);
+	const groupByPart = (x: Meta[] | undefined) => x!.reduce((map, x) => (map[x.part] = x.glyph, map), {} as Icon);
+	return mapObject(icon, groupByPart);
 }
 
 /**
@@ -48,10 +48,10 @@ export function getIconsFromFont(font: FontEditor.Font) {
  * @param glyph The glyph from which to extract the icon information
  */
 function getMetaFromGlyph(glyph: TTF.Glyph): Meta {
-    const match = glyph.name.match(REGEX_GET_PART);
-    if (!match) return { glyph, icon: glyph.name, part: Part.primary };
-    const [ , name, part ] = match;
-    return { glyph, icon: name, part: part as Part };
+	const match = glyph.name.match(REGEX_GET_PART);
+	if (!match) return { glyph, icon: glyph.name, part: Part.primary };
+	const [ , name, part ] = match;
+	return { glyph, icon: name, part: part as Part };
 }
 
 /**
@@ -60,8 +60,8 @@ function getMetaFromGlyph(glyph: TTF.Glyph): Meta {
  * @param f The transformation function
  */
 function mapObject<T, R>(obj: T, f: (x: T[keyof T]) => R) {
-    const out = {} as { [k in keyof T]: R };
-    for (const k in obj) 
-        out[k] = f(obj[k]);
-    return out;
+	const out = {} as { [k in keyof T]: R };
+	for (const k in obj) 
+		out[k] = f(obj[k]);
+	return out;
 }

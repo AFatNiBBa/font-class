@@ -17,11 +17,11 @@ import CircleXmark from "solid-fa6-pro/duotone/circle-xmark";
 //                                             ↑ Name
 
 function CancelButton() {
-    return <>
-        <button style={{ display: "flex", "justify-content": "center", "align-items": "center" }}>
-            <CircleXmark fill="red" />&nbsp;Cancel
-        </button>
-    </>
+	return <>
+		<button style={{ display: "flex", "justify-content": "center", "align-items": "center" }}>
+			<CircleXmark fill="red" />&nbsp;Cancel
+		</button>
+	</>
 }
 ```
 
@@ -70,21 +70,21 @@ import SpinnerThird from "solid-fa6-pro/duotone/spinner-third";
 import { anim, custom } from "solid-fa6-pro";
 
 function App() {
-    return <>
-        <SpinnerThird
-            fill="#ffc107"
-            class={anim.spin}
-            style={custom({ animationDuration: "2s" })}
-        />
-    </>
+	return <>
+		<SpinnerThird
+			fill="#ffc107"
+			class={anim.spin}
+			style={custom({ animationDuration: "2s" })}
+		/>
+	</>
 }
 ```
 The values of customization variables are inherited and can be combined with normal CSS
 ```tsx
 // ...
 <div style={{ color: "red", ...custom({ animationDuration: "2s" }) }}>
-    Text
-    <SpinnerThird fill="#ffc107" class={anim.spin} />
+	Text
+	<SpinnerThird fill="#ffc107" class={anim.spin} />
 </div>
 // ...
 ```

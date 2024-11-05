@@ -15,8 +15,8 @@ const REGEX_STARTS_WITH_DIGIT = /^\d/;
  * @param name The name of the component
  */
 function sanitize(name: string) {
-    const out = pascalCase(name);
-    return out.match(REGEX_STARTS_WITH_DIGIT) ? "$" + out : out;
+	const out = pascalCase(name);
+	return out.match(REGEX_STARTS_WITH_DIGIT) ? "$" + out : out;
 }
 
 /**
@@ -26,10 +26,10 @@ function sanitize(name: string) {
  * @param dest The path to the output directory
  */
 export async function fontToComponentDir(nameSpace: string, source: string, dest: string) {
-    await mkdir(dest, { recursive: true });
-    const font = Font.create(await readFile(source), { type: "ttf" });
-    const items = getIconsFromFont(font);
-    await Promise.all(Object.entries(items).map(([ k, v ]) => fontToComponentFile(k, nameSpace, v, font, dest)));
+	await mkdir(dest, { recursive: true });
+	const font = Font.create(await readFile(source), { type: "ttf" });
+	const items = getIconsFromFont(font);
+	await Promise.all(Object.entries(items).map(([ k, v ]) => fontToComponentFile(k, nameSpace, v, font, dest)));
 }
 
 /**
@@ -41,13 +41,13 @@ export async function fontToComponentDir(nameSpace: string, source: string, dest
  * @param dest The path to the output directory
  */
 export async function fontToComponentFile(name: string, nameSpace: string, icon: Icon, parent: FontEditor.Font, dest: string) {
-    const font = getFontFromIcon(icon, parent);
-    await woff2.init();
-    const buffer = <Buffer>font.write({ type: "woff2" });
-    const hash = createHash("sha256").update(buffer).digest("hex").substring(0, 8);
-    const url = `data:font/woff2;base64,${buffer.toString("base64")}`;
-    const comp = fontToComponent(name, nameSpace, hash, !!icon.secondary?.contours.length, url); // If the glyph has an empty secondary part, it's not considered to have one, because it would be rendered as the ".notdef"
-    await writeFile(join(dest, `${name}.tsx`), comp);
+	const font = getFontFromIcon(icon, parent);
+	await woff2.init();
+	const buffer = <Buffer>font.write({ type: "woff2" });
+	const hash = createHash("sha256").update(buffer).digest("hex").substring(0, 8);
+	const url = `data:font/woff2;base64,${buffer.toString("base64")}`;
+	const comp = fontToComponent(name, nameSpace, hash, !!icon.secondary?.contours.length, url); // If the glyph has an empty secondary part, it's not considered to have one, because it would be rendered as the ".notdef"
+	await writeFile(join(dest, `${name}.tsx`), comp);
 }
 
 /**
@@ -59,18 +59,18 @@ export async function fontToComponentFile(name: string, nameSpace: string, icon:
  * @param fontUrl The URL of the WOFF2 font file containing the glyphs
  */
 export function fontToComponent(name: string, nameSpace: string, hash: string, hasSecondary: boolean, fontUrl: string) {
-    const id = sanitize(name);
-    return dedent`
+	const id = sanitize(name);
+	return dedent`
 
-        import { createIcon } from "../../index";
+		import { createIcon } from "../../index";
 
-        /**
-         * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6.6 Pro
-         * @see {@link https://fontawesome.com/icons/${name}?s=${nameSpace} ${name}}
-         * @preview ![${name}](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/${nameSpace}/${name}.svg)
-         */
-        const ${id} = createIcon(${JSON.stringify(`_${nameSpace}_${name}_${hash}`)}, ${JSON.stringify(hasSecondary)}, ${JSON.stringify(fontUrl)});
+		/**
+		 * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6.6 Pro
+		 * @see {@link https://fontawesome.com/icons/${name}?s=${nameSpace} ${name}}
+		 * @preview ![${name}](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/${nameSpace}/${name}.svg)
+		 */
+		const ${id} = createIcon(${JSON.stringify(`_${nameSpace}_${name}_${hash}`)}, ${JSON.stringify(hasSecondary)}, ${JSON.stringify(fontUrl)});
 
-        export default ${id};
-    `;
+		export default ${id};
+	`;
 }
