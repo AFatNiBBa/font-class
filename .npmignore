@@ -1,0 +1,8 @@
+
+.vscode/
+bun.lockb
+vite.config.mts
+
+src/include/generator.ts
+src/tool/*
+!src/tool/dist/

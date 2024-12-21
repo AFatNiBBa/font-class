@@ -1,0 +1,28 @@
+
+@use "./util.scss" as *;
+
+.icon {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+	position: relative;
+	display: inline-block;
+	letter-spacing: normal;
+	text-rendering: auto;
+	font-variant: normal;
+	font-style: normal;
+	line-height: 1;
+
+	&::before {
+		// Secondary
+		position: absolute;
+		color: custom(secondaryColor, inherit);
+		opacity: custom(secondaryOpacity, .4);
+	}
+
+	&::after {
+		// Primary
+		color: custom(primaryColor, inherit);
+		opacity: custom(primaryOpacity, 1);
+	}
+}

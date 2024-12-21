@@ -1,0 +1,10 @@
+{
+	"include": [ "src/**/*.ts" ],
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"noImplicitThis": true,
+		"strict": true
+	}
+}

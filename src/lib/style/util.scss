@@ -1,0 +1,21 @@
+
+@function prefix($k) { @return --font-class-#{$k}; }
+
+@function custom($k, $v) { @return var(prefix($k), $v); }
+
+%default {
+	animation-delay: custom(animationDelay, 0);
+	animation-direction: custom(animationDirection, normal);
+	animation-duration: custom(animationDuration, 1s);
+	animation-iteration-count: custom(animationIterationCount, infinite);
+	animation-timing-function: custom(animationTimingFunction, ease-in-out);
+
+	@media (prefers-reduced-motion: reduce) {
+		transition-delay: 0s;
+		transition-duration: 0s;
+
+		animation-delay: -1ms;
+		animation-duration: 1ms;
+		animation-iteration-count: 1;
+	}
+}
