@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 import { transformAsync, type TransformOptions } from "@babel/core";
 import { createFontPlugin } from "./helper/plugin";
