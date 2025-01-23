@@ -1,29 +1,21 @@
 
-import { NodePath, type PluginObj, types } from "@babel/core";
-import { FontInput, getFont } from "./font";
+import MagicString from "magic-string";
+import { NodePath, types, Visitor } from "@babel/core";
+import { getFont, FontInput } from "./font";
 import { type createFont } from "../../lib";
 
-/**
- * Creates a Babel plugin that automatically passes the right parameters to the {@link createFont} function
- * @param fontDirPath The path to the directory containing the font files
- * @param moduleName The name of the module by which the {@link createFont} function is exported
- * @param funcName The name by which the {@link createFont} function is exported
- */
-export function createFontPlugin(fontDirPath: string, moduleName: string, funcName: string): PluginObj {
-	return {
-		visitor: {
-			VariableDeclarator(path) {
-				const declarator = getDeclarator(path, moduleName, funcName);
-				if (!declarator) return;
-				const icons = getIcons(declarator.id);
-				const font = getFont(fontDirPath, icons);
-				const composite = types.arrayExpression(font.info.map(([ k, v ]) => types.arrayExpression([ types.stringLiteral(k), types.booleanLiteral(v) ])));
-				const args = [ types.stringLiteral(font.url), types.stringLiteral(font.id), composite ];
-				declarator.init.node.arguments = args;
-			}
-		}
-	};
-}
+/** Babel visitor that automatically passes the right parameters to the {@link createFont} function */
+export const VISITOR: Visitor<State> = {
+	VariableDeclarator(path, state) {
+		const declarator = getDeclarator(path, state.moduleName, state.funcName);
+		if (!declarator) return;
+		const icons = getIcons(declarator.id);
+		const font = getFont(state.fontDirPath, icons);
+		const args = `(${JSON.stringify(font.url)},${JSON.stringify(font.id)},${JSON.stringify(font.info)})`;
+		const { node } = declarator.init;
+		state.source.update((node.typeParameters ?? node.callee).end!, node.end!, args);
+	}
+};
 
 /**
  * Gets informations about the font declaration.
@@ -81,4 +73,23 @@ function getIcons(path: NodePath<types.ObjectPattern>) {
 	}
 
 	return out;
+}
+
+/** Object containing both the inputs and the outputs of {@link VISITOR} */
+export interface State {
+
+	/** The path to the directory containing the font files */
+	fontDirPath: string;
+
+	/** The name of the module by which the {@link createFont} function is exported */
+	moduleName: string;
+
+	/** The name by which the {@link createFont} function is exported */
+	funcName: string;
+
+	/**
+	 * The source code of the file.
+	 * It will be changed a bit at a time by {@link VISITOR}
+	 */
+	source: MagicString;
 }

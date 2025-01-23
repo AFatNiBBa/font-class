@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { transformAsync, type TransformOptions } from "@babel/core";
-import { createFontPlugin } from "./helper/plugin";
+import MagicString from "magic-string";
+import { State, VISITOR } from "./helper/visitor";
 import { readFile, writeFile } from "fs/promises";
+import { parse, traverse } from "@babel/core";
 import { name } from "../../package.json";
 import { join } from "path";
 
@@ -10,14 +11,9 @@ import { join } from "path";
 const [ path, fontDirPath = join(import.meta.dirname, "../../font") ] = process.argv.slice(2);
 if (!path) throw new Error("No input file specified");
 
-const config: TransformOptions = {
-	filename: path,
-	plugins: [
-		"@babel/plugin-syntax-typescript",
-		createFontPlugin(fontDirPath, name, "createFont")
-	]
-};
-
 const input = await readFile(path, "utf-8");
-const output = await transformAsync(input, config).then(x => x!.code!);
-await writeFile(path, output);
+const source = new MagicString(input);
+const state: State = { source, fontDirPath, moduleName: name, funcName: "createFont" };
+const ast = parse(input, { filename: path, plugins: [ "@babel/plugin-syntax-typescript" ] });
+traverse(ast!, VISITOR, undefined, state);
+await writeFile(path, source.toString());
