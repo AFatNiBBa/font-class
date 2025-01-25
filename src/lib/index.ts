@@ -20,9 +20,9 @@ const IDENTITY_HANDLER: ProxyHandler<object> = { get: x => x };
 
 /** Handler that removes the first element of its target and returns it each time the {@link ProxyHandler.get} trap is called */
 const ICON_HANDLER: ProxyHandler<string[]> = {
-	get(t) {
+	get(t, k) {
 		const current = t.shift();
-		if (current == null) throw new Error("No more icons available");
+		if (current == null) throw new Error(`No more icons left while trying to get ${JSON.stringify(k)}, try running the font generator script again`);
 		return `${current} ${internal.icon}`;
 	}
 };
