@@ -1,7 +1,7 @@
 {
 	"name": "font-class",
 	"description": "Tree-shaker for Font Awesome 6.6 Pro",
-	"version": "1.1.2",
+	"version": "1.1.4",
 	"author": "AFatNiBBa",
 	"license": "ISC",
 	"bin": "./src/tool/dist/index.mjs",

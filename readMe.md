@@ -28,7 +28,8 @@ Once you've done that run the following command to do the tree-shaking
 ```sh
 npx font-class path/to/your/file
 ```
-The script will pass the right arguments to the `createFont()` call according to your configuration
+The script will pass the right arguments to the `createFont()` call according to your configuration.
+The file will be parsed as [TSX](https://www.typescriptlang.org/docs/handbook/jsx.html)
 > Always remember to run the command again when you add/remove or even move one of the icons inside of that object destructuring
 
 I suggest you to put your icons inside a `namespace` as follows

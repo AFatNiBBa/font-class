@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import MagicString from "magic-string";
+import { parse, PluginItem, traverse } from "@babel/core";
 import { State, VISITOR } from "./helper/visitor";
 import { readFile, writeFile } from "fs/promises";
-import { parse, traverse } from "@babel/core";
 import { name } from "../../package.json";
 import { join } from "path";
 
@@ -14,6 +14,7 @@ if (!path) throw new Error("No input file specified");
 const input = await readFile(path, "utf-8");
 const source = new MagicString(input);
 const state: State = { source, fontDirPath, moduleName: name, funcName: "createFont" };
-const ast = parse(input, { filename: path, plugins: [ "@babel/plugin-syntax-typescript" ] });
+const plugin: PluginItem = [ "@babel/plugin-syntax-typescript", { isTSX: true } ] as const;
+const ast = parse(input, { filename: path, plugins: [ plugin ] });
 traverse(ast!, VISITOR, undefined, state);
 await writeFile(path, source.toString());
