@@ -1,6 +1,7 @@
 
 import type anim from "./style/anim.module.scss";
 import type generic from "./style/generic.module.scss";
+import type positioning from "./style/positioning.module.scss";
 
 import { Property } from "csstype";
 
@@ -35,6 +36,12 @@ export interface IconOpts {
 
 	/** Custom angle for the {@link generic.rotateBy} class */
 	rotateAngle?: Property.Rotate;
+
+	/** Custom margin for the {@link positioning.ul} class */
+	liMargin?: Property.Margin;
+
+	/** Custom width for the {@link positioning.li} class */
+	liWidth?: Property.Width;
 
 	/** Custom override of the {@link CSSStyleDeclaration.animationDelay} property of icons */
 	animationDelay?: Property.AnimationDelay;

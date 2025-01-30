@@ -1,0 +1,61 @@
+
+@use "./util.scss" as *;
+
+.xs2 {
+	font-size: 0.625em;
+	line-height: 0.1em;
+	vertical-align: 0.225em;
+}
+
+.xs {
+	font-size: 0.75em;
+	line-height: 0.08333em;
+	vertical-align: 0.125em;
+}
+
+.sm {
+	font-size: 0.875em;
+	line-height: 0.07143em;
+	vertical-align: 0.05357em;
+}
+
+.lg {
+	font-size: 1.25em;
+	line-height: 0.05em;
+	vertical-align: -0.075em;
+}
+
+.xl {
+	font-size: 1.5em;
+	line-height: 0.04167em;
+	vertical-align: -0.125em;
+}
+
+.xl2 {
+	font-size: 2em;
+	line-height: 0.03125em;
+	vertical-align: -0.1875em;
+}
+
+.fixedWidth {
+	text-align: center;
+	width: 1.25em;
+}
+
+.ul {
+	list-style-type: none;
+	margin-left: custom(liMargin, 2.5em);
+	padding-left: 0;
+
+	> li { position: relative; }
+}
+
+.li {
+	$w: custom(liWidth, 2em);
+
+	left: calc($w * -1);
+	position: absolute;
+	text-align: center;
+	width: $w;
+	line-height: inherit;
+}
