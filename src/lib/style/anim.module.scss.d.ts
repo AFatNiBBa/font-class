@@ -1,11 +1,11 @@
-declare const classNames: {
-  readonly beat: "beat";
-  readonly fade: "fade";
-  readonly beatFade: "beatFade";
-  readonly bounce: "bounce";
-  readonly flip: "flip";
-  readonly shake: "shake";
-  readonly spin: "spin";
-  readonly pulse: "pulse";
+declare const anim: {
+  readonly beat: string;
+  readonly fade: string;
+  readonly beatFade: string;
+  readonly bounce: string;
+  readonly flip: string;
+  readonly shake: string;
+  readonly spin: string;
+  readonly pulse: string;
 };
-export default classNames;
+export default anim;

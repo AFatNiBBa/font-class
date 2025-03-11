@@ -2,7 +2,8 @@
 import { defineConfig } from "vite";
 import { join } from "path";
 
-const REGEX_PATH = /^(?:\.|\w:)/;
+/** Matches paths that start with ".", a Windows drive letter or the Linux root */
+const REGEX_PATH = /^(?:\.|\w:|\/)/;
 
 const { dirname } = import.meta;
 

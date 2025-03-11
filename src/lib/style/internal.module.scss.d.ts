@@ -1,4 +1,4 @@
-declare const classNames: {
-  readonly icon: "icon";
+declare const internal: {
+  readonly icon: string;
 };
-export default classNames;
+export default internal;

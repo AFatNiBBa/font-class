@@ -1,12 +1,12 @@
-declare const classNames: {
-  readonly xs2: "xs2";
-  readonly xs: "xs";
-  readonly sm: "sm";
-  readonly lg: "lg";
-  readonly xl: "xl";
-  readonly xl2: "xl2";
-  readonly fixedWidth: "fixedWidth";
-  readonly ul: "ul";
-  readonly li: "li";
+declare const positioning: {
+  readonly xs2: string;
+  readonly xs: string;
+  readonly sm: string;
+  readonly lg: string;
+  readonly xl: string;
+  readonly xl2: string;
+  readonly fixedWidth: string;
+  readonly ul: string;
+  readonly li: string;
 };
-export default classNames;
+export default positioning;
