@@ -5,7 +5,7 @@ import type generic from "./style/generic.module.scss";
 import { Property } from "csstype";
 
 /** The prefix of the customization CSS variables */
-export const CSS_VARIABLE_PREFIX = "--font-class-pro-";
+export const CSS_VARIABLE_PREFIX = "--font-class-";
 
 /**
  * Applies the {@link CSS_VARIABLE_PREFIX} to each property of {@link opts}
