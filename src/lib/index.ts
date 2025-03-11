@@ -2,12 +2,13 @@
 import anim from "./style/anim.module.scss";
 import generic from "./style/generic.module.scss";
 import internal from "./style/internal.module.scss";
+import positioning from "./style/positioning.module.scss";
 
 import { FontInfo, STARTING_CODE_POINT } from "../common";
 import { FontOutput } from "../include/output";
 
 export * from "./custom";
-export { anim, generic };
+export { anim, generic, positioning };
 
 /** Creates the CSS code for an icon */
 const createIconClass = (icon: Icon, family: string) => `.${icon.class} { ${family}; ${createIconPseudo("after", icon.primary)} ${createIconPseudo("before", icon.secondary)} }`;

@@ -11,7 +11,7 @@ This package aims to provide a customizable component for each icon in Font Awes
 - **Typed**: TypeScript is aware of every icon shipped with this package and, for each icon, provides a property containing its CSS class
 - **Non compiled**: The package is not compiled, it ships directly in TypeScript and SCSS
 
-## <span id="tool">Usage</span>
+## Usage
 Choose a file to store your configuration in and start importing your icons as follows
 ```tsx
 import { createFont } from "font-class";
@@ -51,7 +51,7 @@ return <span class={icon.dollarSign} />
 
 ## Styles
 The library also provides a couple of style sheets, each containing some classes.
-> Each class can also be applied to non-icons except [`generic.reverse`](#generic-reverse)
+> Each class can also be applied to non-icons except [`generic.reverse`](#generic-reverse) and the ones from [`positioning`](#positioning)
 
 ### `anim`
 Style sheet that contains animations
@@ -75,21 +75,33 @@ Style sheets that contains generic functionalities
 - `flipVertical` (**fa-flip-vertical**): Flips the element vertically
 - `flipBoth` (**fa-flip-both**): Flips the element horizontally and vertically
 
+### `positioning`
+Style sheets that contains positioning and sizing utilities
+- `xs2` (**fa-2xs**): One of the t-shirt based sizes
+- `xs` (**fa-xs**): One of the t-shirt based sizes
+- `sm` (**fa-sm**): One of the t-shirt based sizes
+- `lg` (**fa-lg**): One of the t-shirt based sizes
+- `xl` (**fa-xl**): One of the t-shirt based sizes
+- `xl2` (**fa-2xl**): One of the t-shirt based sizes
+- `fixedWidth` (**fa-fw**): Forces all the icons with this class to have the same width
+- <span id="positioning-ul">`ul`</span> (**fa-ul**): Allows to use icons as markers of an unordered list (To use with [`positioning.li`](#positioning-li))
+- <span id="positioning-li">`li`</span> (**fa-li**): Uses an icon as the marker for the current list item (To use with [`positioning.ul`](#positioning-ul))
+
 ## Utility
 Utilities for customization and primitives
 
-### <span id="prefix">`CSS_VARIABLE_PREFIX`</span>
+### `CSS_VARIABLE_PREFIX`
 The prefix each customization CSS variable has
 
-### <span id="iconopts">`IconOpts`</span>
+### `IconOpts`
 Type that lists the available customization CSS variables
 
 ### `createFont()`
 Creates a new font and outputs the classes of its icons
-> It also triggers the tree-shaker [tool](#tool)
+> It also triggers the tree-shaker [tool](#usage)
 
 ### `custom()`
-Takes an [`IconOpts`](#iconopts) as argument and prefixes each of its properties with [`CSS_VARIABLE_PREFIX`](#prefix)
+Takes an [`IconOpts`](#iconopts) as argument and prefixes each of its properties with [`CSS_VARIABLE_PREFIX`](#css_variable_prefix)
 ```tsx
 import { anim, custom } from "font-class";
 import { icon } from "some/file";
