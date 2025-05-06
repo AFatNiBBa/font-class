@@ -21,6 +21,12 @@ declare class TTF {
 	setHead(head: Partial<TTF.Head>): void;
 
 	/**
+	 * Clones the {@link TTF.TTFObject.hhea} part of another font into the current one
+	 * @param hhea The informations to clone
+	 */
+	setHhea(hhea: Partial<TTF.Hhea>): void;
+
+	/**
 	 * Clones the {@link TTF.TTFObject["OS/2"]} part of another font into the current one
 	 * @param os2 The informations to clone
 	 */

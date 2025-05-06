@@ -4,8 +4,8 @@ import { TTF } from "fonteditor-core";
 /** The {@link TTF.Head} of the generated fonts */
 export const HEAD: Partial<TTF.Head> = {
 	version: 1,
-	fontRevision: 774.00391,
-	checkSumAdjustment: 2639765193,
+	fontRevision: 775.01954,
+	checkSumAdjustment: 3037188006,
 	magickNumber: 1594834165,
 	flags: 11,
 	unitsPerEm: 512,
@@ -18,6 +18,27 @@ export const HEAD: Partial<TTF.Head> = {
 	fontDirectionHint: 2,
 	indexToLocFormat: 1,
 	glyphDataFormat: 0
+};
+
+/** The {@link TTF.Hhea} of the generated fonts */
+export const HHEA: Partial<TTF.Hhea> = {
+	version: 1,
+	ascent: 459,
+	descent: -75,
+	lineGap: 0,
+	advanceWidthMax: 640,
+	minLeftSideBearing: -13,
+	minRightSideBearing: -12,
+	xMaxExtent: 651,
+	caretSlopeRise: 1,
+	caretSlopeRun: 0,
+	caretOffset: 0,
+	reserved0: 0,
+	reserved1: 0,
+	reserved2: 0,
+	reserved3: 0,
+	metricDataFormat: 0,
+	numOfLongHorMetrics: 3324
 };
 
 /** The {@link TTF.OS2} of the generated fonts */
@@ -59,7 +80,7 @@ export const OS2: TTF.OS2 = {
 	ulUnicodeRange2: 268435456,
 	ulUnicodeRange3: 0,
 	ulUnicodeRange4: 0,
-	achVendID: 'AWSM',
+	achVendID: "AWSM",
 	fsSelection: 128,
 	usFirstCharIndex: 33,
 	usLastCharIndex: 65535,

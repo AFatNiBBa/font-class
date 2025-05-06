@@ -2,8 +2,8 @@
 import { camelToFontAwesome, FontInfo, STARTING_CODE_POINT } from "../../common";
 import { Font, woff2, type TTF } from "fonteditor-core";
 import { existsSync, readFileSync } from "fs";
+import { HEAD, HHEA, OS2 } from "./meta";
 import { createHash } from "crypto";
-import { HEAD, OS2 } from "./meta";
 import { TTFEditor } from "./ttf";
 import { join } from "path";
 
@@ -64,6 +64,7 @@ function createNewFont() {
 	const font = new Font(), ttf = new TTFEditor(font.get());
 	ttf.ttf.name = {} as any; // Completely removes the name table to make the font lighter 
 	ttf.setHead(HEAD);
+	ttf.setHhea(HHEA);
 	ttf.setOS2(OS2);
 	return { font, ttf };
 }
