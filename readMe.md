@@ -1,10 +1,10 @@
 
 # font-class
-Tree-shaker for Font Awesome 6.6 Pro.
+Tree-shaker for Font Awesome 6.7.2 Pro.
 > The [fonts](./src/font/) are taken from [here](https://weadown.com/res/font-awesome-pro/)
 
 ## Objective
-This package aims to provide a customizable component for each icon in Font Awesome 6.6 Pro for free, but with some peculiarities:
+This package aims to provide a customizable component for each icon in Font Awesome 6.7.2 Pro for free, but with some peculiarities:
 - **Non global**: There are no global clas1s like "fad", "fa-circle-xmark", etc...
 - **Single font**: Every icon is in one single font
 - **Completely tree shakable**: The font contains only the specific icons you need
