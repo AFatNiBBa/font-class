@@ -22,6 +22,7 @@
 
 	&::after {
 		// Primary
+		position: relative; // Makes the primary part stay on top, it's needed because statically positioned elements have a lower stacking precedence (And `z-index` doesn't work on them) regardless of the order of appearence of the (Pseudo) element
 		color: custom(primaryColor, inherit);
 		opacity: custom(primaryOpacity, 1);
 	}
